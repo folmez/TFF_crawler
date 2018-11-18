@@ -1,6 +1,10 @@
+#!/usr/bin/#!/usr/bin/env python3
+
+
 from urllib.request import urlopen
 from queue import Queue
 import match_info_extractor as mie
+import TFF_match
 
 # url = 'http://www.tff.org/Default.aspx?pageID=29&macId=' + str(i)
 def single_TFF_match_url_crawler(url, output_queue):
@@ -15,24 +19,18 @@ def single_TFF_match_url_crawler(url, output_queue):
     if html_output_is_invalid(match_site_str):
         print('This URL does not correspond to a match.')
     else:
-        # Get data
-        hakem_ids, hakem_names = mie.find_hakemler(match_site_str)
-        stad_id, stad_name = mie.find_stad(match_site_str)
-        # Pring extracted data from the url
-        TFF_match_id_str = f"[TFF Match #{TFF_match_id_int}] "
-        for name in hakem_names:
-            print(TFF_match_id_str, 'Hakem:', name)
-        print(TFF_match_id_str, 'Stad:', stad_name)
-        match_output = str(TFF_match_id_int) + ',' + hakem_names[0] +\
-                            ',' + stad_name
-        output_queue.put(match_output)
+        # Get data and put it into the output queue
+        this_match = TFF_match.match(match_site_str)
+        this_match.print_summary()
+        output_queue.put(this_match.all_info_in_one_line())
 
 def crawl_url(url):
     response = urlopen(url)
     # Get website in bytes
     htmlbytes = response.read()
     # Replace Turkish characters with question mark (?)
-    html_output_str = htmlbytes.decode('utf-8', errors='replace')
+    # html_output_str = htmlbytes.decode('utf-8', errors='replace')
+    html_output_str = htmlbytes.decode('windows-1254')
     return html_output_str
 
 def html_output_is_invalid(html_output_str):

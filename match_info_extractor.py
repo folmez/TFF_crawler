@@ -1,59 +1,143 @@
-def find_stad(html_output_str):
-    # stadId=11">ANKARA 19 MAYIS<
-    search_max = get_max_str_search_length()
-    search_str = 'stadId='
-    find_count = 0
-    while True:
-        idx = html_output_str.find(search_str, find_count)
-        if idx==-1:
-            break
-        start_idx = idx + len(search_str)
-        end_idx = idx + len(search_str) + search_max
-        stad_id, stad_name = break_down_patter(search_str,\
-                        html_output_str[start_idx:end_idx])
-        find_count = idx + 1
-    return stad_id, stad_name
+import datetime
 
-def find_hakemler(html_output_str):
-    # The string 'hakemId=' seems to appear four times
-    search_max = get_max_str_search_length()
-    search_str = 'hakemId='
-    hakem_ids = []
-    hakem_names = []
-    find_count = 0
-    while True:
-        idx = html_output_str.find(search_str, find_count)
-        if idx==-1:
-            break
-        start_idx = idx + len(search_str)
-        end_idx = idx + len(search_str) + search_max
-        i, n = break_down_patter(search_str,\
-                        html_output_str[start_idx:end_idx])
-        hakem_ids.append(i)
-        hakem_names.append(n)
-        find_count = idx + 1
-    return hakem_ids, hakem_names
+SEARCH_MAX = 100
 
-def break_down_patter(init_subtring, long_string):
-    # 18486">BAK TUNCAY AKKIN(1. Yardmc Hakem)</a></div>\r\n
+##############################################################################
+
+def break_down_pattern_one(html_output_str, search_str, end_character):
+    # 18486">BAK TUNCAY AKKIN(1. Yardmc Hakem)<
     # This pattern is very common, break this apart as:
     #       'hakemId='', '18486', 'BAK TUNCAY AKKIN(1. Yardmc Hakem)'
-    count = 0
-    id_str = ''
-    name = ''
-    while long_string[count] is not '"':
-        id_str = id_str + long_string[count]
-        count = count+1
-    # Next charachter is '"', the second next must be '>'
-    count = count + 1
-    if long_string[count] is not '>':
-        raise Exception('Something is wrong')
-    # Start reading the stad name until '<'
-    count = count + 1
-    while long_string[count] is not '<':
-        name = name + long_string[count]
-        count = count + 1
-    return int(id_str), name
 
-def get_max_str_search_length():
-    return 50
+    idx = html_output_str.find(search_str)
+    if idx == -1:
+        # If the search_str is not contained in the html file, return empty
+        return [], ''
+    else:
+        # Reduce the html to a long substring the contains the information
+        start_idx = idx + len(search_str)
+        end_idx = idx + len(search_str) + SEARCH_MAX
+        long_string = html_output_str[start_idx:end_idx]
+
+        # Now, find the information in this long substring
+        count = 0
+        id_str = ''
+        name = ''
+        while long_string[count] is not '"':
+            id_str = id_str + long_string[count]
+            count = count+1
+        # Next charachter is '"', the second next must be '>'
+        count = count + 1
+        if long_string[count] is not '>':
+            raise Exception('Something is wrong')
+        # Start reading the stad name until '<'
+        count = count + 1
+        while long_string[count] is not end_character:
+            name = name + long_string[count]
+            count = count + 1
+        return int(id_str), name
+
+def find_dort(html_output_str):
+    # 03_lnkHakem" href="Default.aspx?pageId=72&amp;hakemId=19089">TOLGA �ZKALFA(D�rd�nc� Hakem)<
+    search_str = '03_lnkHakem" href="Default.aspx?pageId=72&amp;hakemId='
+    end_char = '('
+    return break_down_pattern_one(html_output_str, search_str, end_char)
+
+def find_ar2(html_output_str):
+    # 02_lnkHakem" href="Default.aspx?pageId=72&amp;hakemId=20658">MUSTAFA HELVACIO�LU(2. Yard�mc� Hakem)<
+    search_str = '02_lnkHakem" href="Default.aspx?pageId=72&amp;hakemId='
+    end_char = '('
+    return break_down_pattern_one(html_output_str, search_str, end_char)
+
+def find_ar1(html_output_str):
+    # 01_lnkHakem" href="Default.aspx?pageId=72&amp;hakemId=18549">TOLGA KADAZ(1. Yard�mc� Hakem)<
+    search_str = '01_lnkHakem" href="Default.aspx?pageId=72&amp;hakemId='
+    end_char = '('
+    return break_down_pattern_one(html_output_str, search_str, end_char)
+
+def find_hakem(html_output_str):
+    # 00_lnkHakem" href="Default.aspx?pageId=72&amp;hakemId=19553">CUMHUR ALTAY(Hakem)<
+    search_str = '00_lnkHakem" href="Default.aspx?pageId=72&amp;hakemId='
+    end_char = '('
+    return break_down_pattern_one(html_output_str, search_str, end_char)
+
+def find_away_team(html_output_str):
+    # Takim2" href="Default.aspx?pageId=28&amp;kulupId=3590">BE��KTA� A.�.<
+    search_str = 'Takim2" href="Default.aspx?pageId=28&amp;kulupId='
+    end_char = '<'
+    return break_down_pattern_one(html_output_str, search_str, end_char)
+
+def find_home_team(html_output_str):
+    # Takim1" href="Default.aspx?pageId=28&amp;kulupId=110">VESTEL MAN�SASPOR<
+    search_str = 'Takim1" href="Default.aspx?pageId=28&amp;kulupId='
+    end_char = '<'
+    return break_down_pattern_one(html_output_str, search_str, end_char)
+
+def find_stad(html_output_str):
+    # stadId=11">ANKARA 19 MAYIS<
+    # 'stadId=' should appear only once
+    search_str = 'stadId='
+    end_char = '<'
+    return break_down_pattern_one(html_output_str, search_str, end_char)
+
+###############################################################################
+
+def break_down_pattern_two(html_output_str, search_str, end_character):
+    # MacBilgisi_lblOrganizasyonAdi">Paf Ligi (PAF Tak�m�) <
+    # MacBilgisi_lblTarih">6.08.2006 - 17:00<
+    # Goal: Get the part in between >< as a string
+    idx = html_output_str.find(search_str)
+    # Get a substring that is long enough
+    start_idx = idx + len(search_str)
+    end_idx = idx + len(search_str) + SEARCH_MAX
+    long_string = html_output_str[start_idx:end_idx]
+    # Reurn from beginning to the point where '<' is
+    return long_string[0:long_string.find(end_character)]
+
+def find_mac_id(html_output_str):
+    # ;macId=15"
+    search_str = ';macId='
+    end_char = '"'
+    return int(break_down_pattern_two(html_output_str, search_str, end_char))
+
+def find_organizasyon_name(html_output_str):
+    # MacBilgisi_lblOrganizasyonAdi">Paf Ligi (PAF Tak�m�) <
+    search_str, end_char = 'MacBilgisi_lblOrganizasyonAdi">', '<'
+    organizasyon_name = \
+                break_down_pattern_two(html_output_str, search_str, end_char)
+    if organizasyon_name[-1] == ' ':
+        return organizasyon_name[0:-1]
+    else:
+        return organizasyon_name
+
+def find_datetime(html_output_str):
+    # MacBilgisi_lblTarih">6.08.2006 - 17:00<
+    search_str, end_char = 'MacBilgisi_lblTarih">', '<'
+    datetime_str = break_down_pattern_two(html_output_str, search_str, end_char)
+    # Split using '.' to get day and month
+    x = datetime_str.split('.')
+    day_str, month_str = x[0], x[1]
+    # Split the last part using ' - ' to get year
+    y = x[-1].split(' - ')
+    year_str = y[0]
+    # Split the last part using ':' to get hour and minute
+    hour_str, minute_str = y[-1].split(':')
+    return datetime.datetime(int(year_str), int(month_str), int(day_str),\
+                                            int(hour_str), int(minute_str))
+
+def find_home_team_skor(html_output_str):
+    # Takim1Skor">1<
+    search_str, end_char = 'Takim1Skor">', '<'
+    return int(break_down_pattern_two(html_output_str, search_str, end_char))
+
+###############################################################################
+###############################################################################
+###############################################################################
+#### THIS ONE IS STRANGE, TEST THIS AGAINST RANDOM MATCHES
+def find_away_team_skor(html_output_str):
+    # Label12">1<
+    search_str, end_char = 'Label12">', '<'
+    return int(break_down_pattern_two(html_output_str, search_str, end_char))
+###############################################################################
+###############################################################################
+###############################################################################
