@@ -25,7 +25,7 @@ def threaded_crawler(start, stop, num_worker_threads):
     match_queue.join()
 
     # Create a CSV file
-    match_output_filename = f"matches_{start}_{stop}.csv"
+    match_output_filename = 'matches_'+ str(start) + '_' + str(stop) + '.csv'
     with open(match_output_filename, 'w') as f:
         file_writer = csv.writer(f, delimiter=',', quoting=csv.QUOTE_MINIMAL)
         file_writer.writerow(['TFF Match ID', 'Tarih', 'Organizasyon', \
@@ -34,7 +34,11 @@ def threaded_crawler(start, stop, num_worker_threads):
                                 'Stad', 'Ev', 'Ev ID', \
                                 'Deplasman', 'Deplasman ID', \
                                 'Ev skor', 'Deplasman skor'])
+        print('Saving...')
+        count = 0
         while not output_queue.empty():
+            count = count + 1
+            print(count)
             match_output = output_queue.get()
             file_writer.writerow([match_output])
             output_queue.task_done()

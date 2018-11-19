@@ -1,6 +1,5 @@
 #!/usr/bin/#!/usr/bin/env python3
 
-
 from urllib.request import urlopen
 from queue import Queue
 import match_info_extractor as mie
@@ -17,7 +16,7 @@ def single_TFF_match_url_crawler(url, output_queue):
     match_site_str = crawl_url(url)
 
     if html_output_is_invalid(match_site_str):
-        print('This URL does not correspond to a match.')
+        print('This URL does not correspond to a match: ', url)
     else:
         # Get data and put it into the output queue
         this_match = TFF_match.match(match_site_str)
@@ -35,4 +34,7 @@ def crawl_url(url):
 
 def html_output_is_invalid(html_output_str):
     # 'Images/TFF/Error/tff.hatalogosu' seems to be the a unique error identifier
-    return 'Images/TFF/Error/tff.hatalogosu' in html_output_str
+    return 'Images/TFF/Error/tff.hatalogosu' in html_output_str or \
+            'Esame Bilgileri Kulüpler Tarafından Girilmektedir' in html_output_str or \
+            'ÖZEL MAÇ' in html_output_str or \
+            not mie.this_is_a_good_html(html_output_str)

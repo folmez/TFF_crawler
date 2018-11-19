@@ -1,6 +1,36 @@
 import datetime
+import sys
 
 SEARCH_MAX = 100
+
+# These search strings are assumed to appear at least once, and have identical
+# information no matter how many times they appear
+DORT_SEARCH_STR = '03_lnkHakem" href="Default.aspx?pageId=72&amp;hakemId='
+AR2_SEARCH_STR = '02_lnkHakem" href="Default.aspx?pageId=72&amp;hakemId='
+AR1_SEARCH_STR = '01_lnkHakem" href="Default.aspx?pageId=72&amp;hakemId='
+HAKEM_SEARCH_STR = '00_lnkHakem" href="Default.aspx?pageId=72&amp;hakemId='
+AWAY_TEAM_SEARCH_STR = 'Takim2" href="Default.aspx?pageId=28&amp;kulupId='
+HOME_TEAM_SEARCH_STR = 'Takim1" href="Default.aspx?pageId=28&amp;kulupId='
+STAD_SEARCH_STR = 'stadId='
+MAC_ID_SEARCH_STR = ';macId='
+ORGANIZASYON_NAME_SEARCH_STR = 'MacBilgisi_lblOrganizasyonAdi">'
+DATETIME_SEARCH_STR = 'MacBilgisi_lblTarih">'
+HOME_TEAM_SKOR_SEARCH_STR = 'Takim1Skor">'
+AWAY_TEAM_SKOR_SEARCH_STR = 'Label12">'
+##############################################################################
+def this_is_a_good_html(html_output_str):
+    return DORT_SEARCH_STR in html_output_str \
+            and AR2_SEARCH_STR in html_output_str \
+            and AR1_SEARCH_STR in html_output_str \
+            and HAKEM_SEARCH_STR in html_output_str \
+            and AWAY_TEAM_SEARCH_STR in html_output_str \
+            and HOME_TEAM_SEARCH_STR in html_output_str \
+            and STAD_SEARCH_STR in html_output_str \
+            and MAC_ID_SEARCH_STR in html_output_str \
+            and ORGANIZASYON_NAME_SEARCH_STR in html_output_str \
+            and DATETIME_SEARCH_STR in html_output_str \
+            and HOME_TEAM_SKOR_SEARCH_STR in html_output_str \
+            and AWAY_TEAM_SKOR_SEARCH_STR in html_output_str
 
 ##############################################################################
 
@@ -39,46 +69,40 @@ def break_down_pattern_one(html_output_str, search_str, end_character):
 
 def find_dort(html_output_str):
     # 03_lnkHakem" href="Default.aspx?pageId=72&amp;hakemId=19089">TOLGA �ZKALFA(D�rd�nc� Hakem)<
-    search_str = '03_lnkHakem" href="Default.aspx?pageId=72&amp;hakemId='
     end_char = '('
-    return break_down_pattern_one(html_output_str, search_str, end_char)
+    return break_down_pattern_one(html_output_str, DORT_SEARCH_STR, end_char)
 
 def find_ar2(html_output_str):
     # 02_lnkHakem" href="Default.aspx?pageId=72&amp;hakemId=20658">MUSTAFA HELVACIO�LU(2. Yard�mc� Hakem)<
-    search_str = '02_lnkHakem" href="Default.aspx?pageId=72&amp;hakemId='
     end_char = '('
-    return break_down_pattern_one(html_output_str, search_str, end_char)
+    return break_down_pattern_one(html_output_str, AR2_SEARCH_STR, end_char)
 
 def find_ar1(html_output_str):
     # 01_lnkHakem" href="Default.aspx?pageId=72&amp;hakemId=18549">TOLGA KADAZ(1. Yard�mc� Hakem)<
-    search_str = '01_lnkHakem" href="Default.aspx?pageId=72&amp;hakemId='
     end_char = '('
-    return break_down_pattern_one(html_output_str, search_str, end_char)
+    return break_down_pattern_one(html_output_str, AR1_SEARCH_STR, end_char)
 
 def find_hakem(html_output_str):
     # 00_lnkHakem" href="Default.aspx?pageId=72&amp;hakemId=19553">CUMHUR ALTAY(Hakem)<
-    search_str = '00_lnkHakem" href="Default.aspx?pageId=72&amp;hakemId='
     end_char = '('
-    return break_down_pattern_one(html_output_str, search_str, end_char)
+    return break_down_pattern_one(html_output_str, HAKEM_SEARCH_STR, end_char)
 
 def find_away_team(html_output_str):
     # Takim2" href="Default.aspx?pageId=28&amp;kulupId=3590">BE��KTA� A.�.<
-    search_str = 'Takim2" href="Default.aspx?pageId=28&amp;kulupId='
     end_char = '<'
-    return break_down_pattern_one(html_output_str, search_str, end_char)
+    return break_down_pattern_one(html_output_str, \
+                                                AWAY_TEAM_SEARCH_STR, end_char)
 
 def find_home_team(html_output_str):
     # Takim1" href="Default.aspx?pageId=28&amp;kulupId=110">VESTEL MAN�SASPOR<
-    search_str = 'Takim1" href="Default.aspx?pageId=28&amp;kulupId='
     end_char = '<'
-    return break_down_pattern_one(html_output_str, search_str, end_char)
+    return break_down_pattern_one(html_output_str, \
+                                                HOME_TEAM_SEARCH_STR, end_char)
 
 def find_stad(html_output_str):
     # stadId=11">ANKARA 19 MAYIS<
-    # 'stadId=' should appear only once
-    search_str = 'stadId='
     end_char = '<'
-    return break_down_pattern_one(html_output_str, search_str, end_char)
+    return break_down_pattern_one(html_output_str, STAD_SEARCH_STR, end_char)
 
 ###############################################################################
 
@@ -96,15 +120,15 @@ def break_down_pattern_two(html_output_str, search_str, end_character):
 
 def find_mac_id(html_output_str):
     # ;macId=15"
-    search_str = ';macId='
     end_char = '"'
-    return int(break_down_pattern_two(html_output_str, search_str, end_char))
+    return int(break_down_pattern_two(html_output_str, \
+                                                MAC_ID_SEARCH_STR, end_char))
 
 def find_organizasyon_name(html_output_str):
     # MacBilgisi_lblOrganizasyonAdi">Paf Ligi (PAF Tak�m�) <
-    search_str, end_char = 'MacBilgisi_lblOrganizasyonAdi">', '<'
-    organizasyon_name = \
-                break_down_pattern_two(html_output_str, search_str, end_char)
+    end_char = '<'
+    organizasyon_name = break_down_pattern_two(html_output_str, \
+                                        ORGANIZASYON_NAME_SEARCH_STR, end_char)
     if organizasyon_name[-1] == ' ':
         return organizasyon_name[0:-1]
     else:
@@ -112,8 +136,9 @@ def find_organizasyon_name(html_output_str):
 
 def find_datetime(html_output_str):
     # MacBilgisi_lblTarih">6.08.2006 - 17:00<
-    search_str, end_char = 'MacBilgisi_lblTarih">', '<'
-    datetime_str = break_down_pattern_two(html_output_str, search_str, end_char)
+    end_char = '<'
+    datetime_str = break_down_pattern_two(html_output_str, \
+                                                DATETIME_SEARCH_STR, end_char)
     # Split using '.' to get day and month
     x = datetime_str.split('.')
     day_str, month_str = x[0], x[1]
@@ -128,7 +153,11 @@ def find_datetime(html_output_str):
 def find_home_team_skor(html_output_str):
     # Takim1Skor">1<
     search_str, end_char = 'Takim1Skor">', '<'
-    return int(break_down_pattern_two(html_output_str, search_str, end_char))
+    # Exception: No score, such as Takim1Skor"><
+    if break_down_pattern_two(html_output_str, search_str, end_char) == '':
+        return -1
+    else:
+        return int(break_down_pattern_two(html_output_str, search_str, end_char))
 
 ###############################################################################
 ###############################################################################
@@ -136,8 +165,11 @@ def find_home_team_skor(html_output_str):
 #### THIS ONE IS STRANGE, TEST THIS AGAINST RANDOM MATCHES
 def find_away_team_skor(html_output_str):
     # Label12">1<
-    search_str, end_char = 'Label12">', '<'
-    return int(break_down_pattern_two(html_output_str, search_str, end_char))
+    end_char = '<'
+    # Exception: No score, such as Takim1Skor"><
+    skor_str = break_down_pattern_two(html_output_str, \
+                                            AWAY_TEAM_SKOR_SEARCH_STR, end_char)
+    return int(skor_str) if skor_str is not '' else -1
 ###############################################################################
 ###############################################################################
 ###############################################################################
