@@ -6,7 +6,7 @@ import match_info_extractor as mie
 import TFF_match
 
 # url = 'http://www.tff.org/Default.aspx?pageID=29&macId=' + str(i)
-def single_TFF_match_url_crawler(url, output_queue):
+def single_TFF_match_url_crawler(url, successful_output_queue, failed_output_queue):
     # There are certain patterns in the website, this code will try to capture
     # the information we need based on observed patterns
     # 'stadId=11">ANKARA 19 MAYIS<' ('stadId' occurs only once)
@@ -16,12 +16,14 @@ def single_TFF_match_url_crawler(url, output_queue):
     match_site_str = crawl_url(url)
 
     if html_output_is_invalid(match_site_str):
+        # Put mac id into the failed queue
+        failed_output_queue.put(TFF_match_id_int)
         print('This URL does not correspond to a match: ', url)
     else:
         # Get data and put it into the output queue
         this_match = TFF_match.match(match_site_str)
         this_match.print_summary()
-        output_queue.put(this_match.all_info_in_one_line())
+        successful_output_queue.put(this_match.all_info_in_one_line())
 
 def crawl_url(url):
     response = urlopen(url)

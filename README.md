@@ -9,3 +9,6 @@ Exceptions
 1) In rare cases, there is no score. In these cases, score is considered -1
 2) tff.org/Default.aspx?pageID=29&macId=5049 - International Match
 3) Think about how to deal with exceptions
+
+TO-DO
+1) 

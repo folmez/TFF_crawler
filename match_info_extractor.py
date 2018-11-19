@@ -152,17 +152,12 @@ def find_datetime(html_output_str):
 
 def find_home_team_skor(html_output_str):
     # Takim1Skor">1<
-    search_str, end_char = 'Takim1Skor">', '<'
+    end_char = '<'
     # Exception: No score, such as Takim1Skor"><
-    if break_down_pattern_two(html_output_str, search_str, end_char) == '':
-        return -1
-    else:
-        return int(break_down_pattern_two(html_output_str, search_str, end_char))
+    skor = break_down_pattern_two(html_output_str, \
+                                            HOME_TEAM_SKOR_SEARCH_STR, end_char)
+    return int(skor) if skor is not '' else -1
 
-###############################################################################
-###############################################################################
-###############################################################################
-#### THIS ONE IS STRANGE, TEST THIS AGAINST RANDOM MATCHES
 def find_away_team_skor(html_output_str):
     # Label12">1<
     end_char = '<'
@@ -170,6 +165,3 @@ def find_away_team_skor(html_output_str):
     skor_str = break_down_pattern_two(html_output_str, \
                                             AWAY_TEAM_SKOR_SEARCH_STR, end_char)
     return int(skor_str) if skor_str is not '' else -1
-###############################################################################
-###############################################################################
-###############################################################################
