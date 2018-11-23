@@ -5,33 +5,34 @@ import TFF_match
 import datetime
 
 ### ADD A TEST FOR DORDUNCU HAKEM
+FOLDERNAME = 'sample_html_txt_files/'
+FILENAMES = ['sample_TFF_match_html_output_1.txt', \
+                        'sample_TFF_match_html_output_2.txt', \
+                        'sample_TFF_match_html_output_7559.txt']
+SAMPLE_MATCH_OUTPUT = [FOLDERNAME + filename for filename in FILENAMES]
 
-SAMPLE_MATCH_OUTPUT = ['sample_TFF_match_html_output_1.txt', \
-                       'sample_TFF_match_html_output_2.txt', \
-                       'sample_TFF_match_html_output_2.txt']
-
-mac_id = [2, 15, 15]
-stad_id = [11, 141, 141]
-stad_name = ['ANKARA 19 MAYIS', '8 EYL�L SUN� ��M', '8 EYL�L SUN� ��M']
-hakem_id = [18626, 19553, 19553]
-hakem_name = ['C�NEYT �AKIR', 'CUMHUR ALTAY', 'CUMHUR ALTAY']
-ar1_id = [18486, 18549, 18549]
-ar1_name = ['BAK� TUNCAY AKKIN', 'TOLGA KADAZ', 'TOLGA KADAZ']
-ar2_id = [18638, 20658, 20658]
-ar2_name = ['ALPASLAN DEDE�', 'MUSTAFA HELVACIO�LU', 'MUSTAFA HELVACIO�LU']
-dort_id = [19089,[],[]]
-dort_name = ['TOLGA �ZKALFA', '', '']
+mac_id = [2, 15, 7559]
+stad_id = [11, 141, []]
+stad_name = ['ANKARA 19 MAYIS', '8 EYL�L SUN� ��M', '']
+hakem_id = [18626, 19553, 18889]
+hakem_name = ['C�NEYT �AKIR', 'CUMHUR ALTAY', 'TURGAY ŞAŞMAZ']
+ar1_id = [18486, 18549, 19329]
+ar1_name = ['BAK� TUNCAY AKKIN', 'TOLGA KADAZ', 'MEHMET SAYDAM']
+ar2_id = [18638, 20658, 19550]
+ar2_name = ['ALPASLAN DEDE�', 'MUSTAFA HELVACIO�LU', 'SEDAT ETİK']
+dort_id = [19089,[], 20408]
+dort_name = ['TOLGA �ZKALFA', '', 'BARIŞ KEZER']
 mac_datetime = [datetime.datetime(2006, 8, 4, 21, 0), \
                 datetime.datetime(2006, 8, 6, 17, 0), \
-                datetime.datetime(2006, 8, 6, 17, 0)]
+                datetime.datetime(2006, 4, 9, 14, 30)]
 mac_organizasyon_name = ['Turkcell S�per Lig (Profesyonel Tak�m)', \
                         'Paf Ligi (PAF Tak�m�)', \
-                        'Paf Ligi (PAF Tak�m�)']
-home_team_id = [4355, 110, 110]
-home_team_name = ['ANKARASPOR A.�.', 'VESTEL MAN�SASPOR', 'VESTEL MAN�SASPOR']
-home_team_skor = [1, 1, 1]
-away_team_id = [3604, 3590, 3590]
-away_team_name = ['GALATASARAY A.�.', 'BE��KTA� A.�.', 'BE��KTA� A.�.']
+                        'Lig B (Profesyonel Takım)']
+home_team_id = [4355, 110, 3618]
+home_team_name = ['ANKARASPOR A.�.', 'VESTEL MAN�SASPOR', 'GÜNGÖREN BELEDİYESPOR']
+home_team_skor = [1, 1, 0]
+away_team_id = [3604, 3590, 3621]
+away_team_name = ['GALATASARAY A.�.', 'BE��KTA� A.�.', 'MALTEPESPOR']
 away_team_skor = [1, 1, 1]
 
 def read_and_assert(sample_match_outputs, func_handle, manual_input_data):

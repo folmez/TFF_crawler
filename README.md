@@ -6,9 +6,9 @@ November 16, 2018: Crawling is now threaded. > python3 -c 'import threaded_crawl
 
 
 Exceptions
-1) In rare cases, there is no score. In these cases, score is considered -1
-2) tff.org/Default.aspx?pageID=29&macId=5049 - International Match
-3) Think about how to deal with exceptions
+1)  Exception: No match time.
+    e.g. http://www.tff.org/Default.aspx?pageID=29&macId=49400
+    Solution: Assume it is played at noon.
 
 TO-DO
-1) 
+1)

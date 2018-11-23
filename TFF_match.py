@@ -34,10 +34,11 @@ class match:
                 str(self.away_team_id) + ',' + self.away_team_name + ',' + \
                 str(self.home_team_skor) + ',' + str(self.away_team_skor)
 
-    def print_summary(self):
+    def print_summary(self, silent):
         header = '[' + 'TFF match #' + str(self.mac_id) + ']'
-        print(header, self.datetime)
-        print(header, self.hakem_name, ',', \
-                        self.ar1_name, ',', self.ar2_name, ',', self.dort_name)
-        print(header, self.home_team_name, self.home_team_skor, '-', \
-                        self.away_team_skor, self.away_team_name)
+        if not silent:
+            print(header, self.datetime)
+            print(header, self.hakem_name, ',', \
+                            self.ar1_name, ',', self.ar2_name, ',', self.dort_name)
+            print(header, self.home_team_name, self.home_team_skor, '-', \
+                            self.away_team_skor, self.away_team_name)

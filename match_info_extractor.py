@@ -5,13 +5,14 @@ SEARCH_MAX = 100
 
 # These search strings are assumed to appear at least once, and have identical
 # information no matter how many times they appear
-DORT_SEARCH_STR = '03_lnkHakem" href="Default.aspx?pageId=72&amp;hakemId='
-AR2_SEARCH_STR = '02_lnkHakem" href="Default.aspx?pageId=72&amp;hakemId='
-AR1_SEARCH_STR = '01_lnkHakem" href="Default.aspx?pageId=72&amp;hakemId='
-HAKEM_SEARCH_STR = '00_lnkHakem" href="Default.aspx?pageId=72&amp;hakemId='
-AWAY_TEAM_SEARCH_STR = 'Takim2" href="Default.aspx?pageId=28&amp;kulupId='
-HOME_TEAM_SEARCH_STR = 'Takim1" href="Default.aspx?pageId=28&amp;kulupId='
-STAD_SEARCH_STR = 'stadId='
+DORT_SEARCH_STR = ['03_lnkHakem', 'hakemId=']
+AR2_SEARCH_STR = ['02_lnkHakem', 'hakemId=']
+AR1_SEARCH_STR = ['01_lnkHakem', 'hakemId=']
+HAKEM_SEARCH_STR = ['00_lnkHakem', 'hakemId=']
+AWAY_TEAM_SEARCH_STR = ['Takim2"', 'kulupId=']
+HOME_TEAM_SEARCH_STR = ['Takim1"', 'kulupId=']
+STAD_SEARCH_STR = ['lnkStad', 'stadId=']
+
 MAC_ID_SEARCH_STR = ';macId='
 ORGANIZASYON_NAME_SEARCH_STR = 'MacBilgisi_lblOrganizasyonAdi">'
 DATETIME_SEARCH_STR = 'MacBilgisi_lblTarih">'
@@ -19,13 +20,13 @@ HOME_TEAM_SKOR_SEARCH_STR = 'Takim1Skor">'
 AWAY_TEAM_SKOR_SEARCH_STR = 'Label12">'
 ##############################################################################
 def this_is_a_good_html(html_output_str):
-    return DORT_SEARCH_STR in html_output_str \
-            and AR2_SEARCH_STR in html_output_str \
-            and AR1_SEARCH_STR in html_output_str \
-            and HAKEM_SEARCH_STR in html_output_str \
-            and AWAY_TEAM_SEARCH_STR in html_output_str \
-            and HOME_TEAM_SEARCH_STR in html_output_str \
-            and STAD_SEARCH_STR in html_output_str \
+    return DORT_SEARCH_STR[0] in html_output_str \
+            and AR2_SEARCH_STR[0] in html_output_str \
+            and AR1_SEARCH_STR[0] in html_output_str \
+            and HAKEM_SEARCH_STR[0] in html_output_str \
+            and AWAY_TEAM_SEARCH_STR[0] in html_output_str \
+            and HOME_TEAM_SEARCH_STR[0] in html_output_str \
+            and STAD_SEARCH_STR[0] in html_output_str \
             and MAC_ID_SEARCH_STR in html_output_str \
             and ORGANIZASYON_NAME_SEARCH_STR in html_output_str \
             and DATETIME_SEARCH_STR in html_output_str \
@@ -35,18 +36,22 @@ def this_is_a_good_html(html_output_str):
 ##############################################################################
 
 def break_down_pattern_one(html_output_str, search_str, end_character):
+    # Format: search_str[0] + blablablabla + search_str[1] + ID + "> + NAME + <
     # 18486">BAK TUNCAY AKKIN(1. Yardmc Hakem)<
     # This pattern is very common, break this apart as:
     #       'hakemId='', '18486', 'BAK TUNCAY AKKIN(1. Yardmc Hakem)'
 
-    idx = html_output_str.find(search_str)
-    if idx == -1:
+    # Find the first string index
+    idx1 = html_output_str.find(search_str[0])
+    if idx1 == -1:
         # If the search_str is not contained in the html file, return empty
         return [], ''
     else:
+        # Find the second string index after the first one
+        idx2 = html_output_str.find(search_str[1], idx1)
         # Reduce the html to a long substring the contains the information
-        start_idx = idx + len(search_str)
-        end_idx = idx + len(search_str) + SEARCH_MAX
+        start_idx = idx2 + len(search_str[1])
+        end_idx = idx2 + len(search_str[1]) + SEARCH_MAX
         long_string = html_output_str[start_idx:end_idx]
 
         # Now, find the information in this long substring
@@ -65,7 +70,9 @@ def break_down_pattern_one(html_output_str, search_str, end_character):
         while long_string[count] is not end_character:
             name = name + long_string[count]
             count = count + 1
-        return int(id_str), name
+        # Cleanup extra spaces in the name
+        name = ' '.join(name.split())
+        return ([], '') if id_str=='' else (int(id_str), name)
 
 def find_dort(html_output_str):
     # 03_lnkHakem" href="Default.aspx?pageId=72&amp;hakemId=19089">TOLGA �ZKALFA(D�rd�nc� Hakem)<
@@ -115,8 +122,11 @@ def break_down_pattern_two(html_output_str, search_str, end_character):
     start_idx = idx + len(search_str)
     end_idx = idx + len(search_str) + SEARCH_MAX
     long_string = html_output_str[start_idx:end_idx]
-    # Reurn from beginning to the point where '<' is
-    return long_string[0:long_string.find(end_character)]
+    # Return from beginning to the point where '<' is
+    desired_part = long_string[0:long_string.find(end_character)]
+    # Remove extra whitespace from the desired part
+    desired_part = ' '.join(desired_part.split())
+    return desired_part
 
 def find_mac_id(html_output_str):
     # ;macId=15"
@@ -139,14 +149,23 @@ def find_datetime(html_output_str):
     end_char = '<'
     datetime_str = break_down_pattern_two(html_output_str, \
                                                 DATETIME_SEARCH_STR, end_char)
-    # Split using '.' to get day and month
-    x = datetime_str.split('.')
-    day_str, month_str = x[0], x[1]
-    # Split the last part using ' - ' to get year
-    y = x[-1].split(' - ')
-    year_str = y[0]
-    # Split the last part using ':' to get hour and minute
-    hour_str, minute_str = y[-1].split(':')
+    if ':' in datetime_str:
+        # Note: Applies to almost all matches
+        # Split using '.' to get day and month
+        x = datetime_str.split('.')
+        day_str, month_str = x[0], x[1]
+        # Split the last part using ' - ' to get year
+        y = x[-1].split(' - ')
+        year_str = y[0]
+        # Split the last part using ':' to get hour and minute
+        hour_str, minute_str = y[-1].split(':')
+    else:
+        # EXCEPTION
+        # NO TIME: http://www.tff.org/Default.aspx?pageID=29&macId=49400
+        x = datetime_str.split('.')
+        day_str, month_str, year_str = x[0], x[1], x[2]
+        hour_str, minute_str = 12, 0 # Assume match is at noon
+
     return datetime.datetime(int(year_str), int(month_str), int(day_str),\
                                             int(hour_str), int(minute_str))
 
