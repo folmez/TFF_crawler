@@ -2,16 +2,20 @@ from queue import Queue
 import threading
 import csv
 import match_info_extractor as mie
-from urllib.request import urlopen
+from urllib.request import urlopen, Request
 import TFF_match
 import time
 
+from selenium import webdriver
+from selenium.common.exceptions import WebDriverException
+
 MATCH_URL_BASE = 'http://www.tff.org/Default.aspx?pageID=29&macId='
 UNCRAWLED_MATCH_ID_FILE = 'uncrawled_match_id_1_200000.csv'
-MATCH_OUTPUT_TEST = 'matches_Nov23_2018.csv'
+MATCH_OUTPUT_TEST = 'matches_Nov29_2018.csv'
 lock = threading.Lock()
 
-def threaded_crawler(start, stop, num_worker_threads, silent=False):
+def threaded_crawler(start, stop, num_worker_threads, silent=False, \
+                                                        use_selenium=False):
     # Create match ID queue and fill it
     match_id_queue = Queue()
     for match_id in range(start, stop+1):
@@ -26,7 +30,8 @@ def threaded_crawler(start, stop, num_worker_threads, silent=False):
     # Create crawler workers
     crawler_threads = []
     for i in range(num_worker_threads):
-        t = threading.Thread(target=crawler_worker, args=(match_id_queue, silent, ))
+        t = threading.Thread(target=crawler_worker, args=(match_id_queue, \
+                                                        silent, use_selenium))
         t.daemon = True
         t.start()
         crawler_threads.append(t)
@@ -42,11 +47,12 @@ def threaded_crawler(start, stop, num_worker_threads, silent=False):
     print('All crawlers stopped.')
 
 # Single crawler worker, to be used in the threaded module
-def crawler_worker(match_id_queue, silent):
+def crawler_worker(match_id_queue, silent, use_selenium=False):
     while not match_id_queue.empty():
         match_id = match_id_queue.get()
         match_url = get_match_url_string_from_int(match_id)
-        match_output = single_TFF_match_url_crawler(match_url, silent)
+        match_output = single_TFF_match_url_crawler(match_url, silent, \
+                                                                use_selenium)
         match_id_queue.task_done()
 
         # Write match output to a new file with thread lock
@@ -59,7 +65,7 @@ def crawler_worker(match_id_queue, silent):
             lock.release()
 
 # url = 'http://www.tff.org/Default.aspx?pageID=29&macId=' + str(i)
-def single_TFF_match_url_crawler(url, silent=False):
+def single_TFF_match_url_crawler(url, silent=False, use_selenium=False):
     # There are certain patterns in the website, this code will try to capture
     # the information we need based on observed patterns
     # 'stadId=11">ANKARA 19 MAYIS<' ('stadId' occurs only once)
@@ -67,13 +73,16 @@ def single_TFF_match_url_crawler(url, silent=False):
     print('Getting #' + str(TFF_match_id_int) + ':', url)
 
     # Download website
-    match_site_str = crawl_url(url)
+    match_site_str = crawl_url(url, use_selenium)
 
     # Crunch the website html
     if html_output_is_invalid(match_site_str):
         # Put mac id into the failed queue
         if not silent:
-            print('This URL does not correspond to a match: ', url)
+            if mie.access_blocked(match_site_str):
+                print('ACCESS BLOCKED BY TFF.ORG!')
+            else:
+                print('This URL does not correspond to a match: ', url)
         return None #'Invalid URL'
     else:
         # Get data and put it into the output queue
@@ -81,14 +90,25 @@ def single_TFF_match_url_crawler(url, silent=False):
         this_match.print_summary(silent)
         return this_match.all_info_in_one_line()
 
-def crawl_url(url):
-    response = urlopen(url)
-    # Get website in bytes
-    htmlbytes = response.read()
-    # Replace Turkish characters with question mark (?)
-    # html_output_str = htmlbytes.decode('utf-8', errors='replace')
-    html_output_str = htmlbytes.decode('windows-1254')
-    return html_output_str
+def crawl_url(url, use_selenium=False):
+    if use_selenium:
+        driver_path = '/usr/lib/chromium-browser/chromedriver'
+        browser = webdriver.Chrome(driver_path)
+        browser.get(url)
+        time.sleep(15)
+        inner_HTML = browser.execute_script("return document.body.innerHTML")
+        browser.close()
+
+        return inner_HTML
+    else:
+        response = urlopen(url)
+
+        # Get website in bytes
+        htmlbytes = response.read()
+        # Replace Turkish characters with question mark (?)
+        # html_output_str = htmlbytes.decode('utf-8', errors='replace')
+        html_output_str = htmlbytes.decode('windows-1254')
+        return html_output_str
 
 def html_output_is_invalid(html_output_str):
     # 'Images/TFF/Error/tff.hatalogosu' seems to be the a unique error identifier

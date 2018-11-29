@@ -18,7 +18,12 @@ ORGANIZASYON_NAME_SEARCH_STR = 'MacBilgisi_lblOrganizasyonAdi">'
 DATETIME_SEARCH_STR = 'MacBilgisi_lblTarih">'
 HOME_TEAM_SKOR_SEARCH_STR = 'Takim1Skor">'
 AWAY_TEAM_SKOR_SEARCH_STR = 'Label12">'
+
+ACCESS_BLOCK_SEARCH_STR = 'Your support ID is'
 ##############################################################################
+def access_blocked(html_output_str):
+    return ACCESS_BLOCK_SEARCH_STR in html_output_str
+
 def this_is_a_good_html(html_output_str):
     return DORT_SEARCH_STR[0] in html_output_str \
             and AR2_SEARCH_STR[0] in html_output_str \
