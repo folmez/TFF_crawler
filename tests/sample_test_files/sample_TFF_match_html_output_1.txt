@@ -1,0 +1,1185 @@
+
+<html>
+<head id="ctl00_Head"><title>
+	ANKARASPOR A.�. GALATASARAY A.�. -  Ma� Detaylar� TFF
+</title><link rel="ICON" href="App_Themes/TFF_Default/Images/tff16x.ico" /><link rel="SHORTCUT ICON" href="App_Themes/TFF_Default/Images/tff32x.ico" /><script type="text/javascript" src="App_Themes/TFF_Default/popupImg.js"></script>
+<link href="App_Themes/TFF_Gri/Admin.css" type="text/css" rel="stylesheet" /><link href="App_Themes/TFF_Gri/CommonModules.css" type="text/css" rel="stylesheet" /><link href="App_Themes/TFF_Gri/Containers.css" type="text/css" rel="stylesheet" /><link href="App_Themes/TFF_Gri/CustomModules.css" type="text/css" rel="stylesheet" /><link href="App_Themes/TFF_Gri/Style.css" type="text/css" rel="stylesheet" /><script src="/Javascript/jquery-1.3.2.min.js" type="text/javascript"></script><meta name="keywords" content="T�rkiye Futbol Federasyonu,S�per Lig puan cetveli,TFF,Futbol,Ziraat T�rkiye Kupas�,S�per Lig,TFF 1. Lig, TFF 2. lig, TFF 3. Lig,A Milli Tak�m,Milli Tak�mlar,Fikst�r,Puan Cetveli,Teknik Adamlar,Kupalar,Kupa,Kupas�,Ligler,Projeler,Statlar,Stadlar,Kul�pler,Hakemler,Milli Tak�mlar,Milli Ma�lar,Ma�lar,Ma�,Milli,Oyuncular,Futbolcular,Futbolcu,Futbolcu Temsilcileri,Hafta Bilgileri,Haftan�n Ma�lar�,Cezalar,PFDK,AFDK,MHK,G�zlemciler,Temsilciler,Haberler,T�rkiye,T�rk,ANKARASPOR A.�.,GALATASARAY A.�." /><meta name="description" content="ANKARASPOR A.�. GALATASARAY A.�. - T�rkiye Futbol Federasyonu Resmi �nternet Sitesi - Milli Tak�mlar, S�per Lig, Puan cetveli, Fikst�r,TFF 1. Lig, TFF 2. Lig, TFF 3. Lig, Ligler, Ziraat T�rkiye Kupas�, Futbol, Bilgi Bankas�, Haberler, Futbolcular, Teknik Adamlar,  Oyuncular, Hakemler, Ma�lar, Statlar, Cezalar, M�sabaka programlar�" /><META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=windows-1254" > <META http-equiv="content-language" content="TR"><META NAME="revisit-after" CONTENT="1 days"><META NAME="ROBOTS" CONTENT="INDEX, FOLLOW"><META NAME="ROBOTS" CONTENT="INDEX, ALL"><link type="text/css" rel="stylesheet" href="/WebResource.axd?d=XpL-CFpfCmD9W9qCJEdzgTEiGb2aPLRWhYMUxVmxbq_xTL-KroJIw0von0yXidepTed4GNSp5lofRJkCvfnh0rGEEc2fWdFgEVXtvFaIsbWbPtj-klafjTXBjXKRjZpgN0C4RNSlx2J7ti1PomCs2l2_GbOH-MD_R2UBM8_JgW9Emrob0&amp;amp;t=636559471900000000" /><link type="text/css" rel="stylesheet" href="/RadControlsSkin/TFF/Panelbar/TFF_SolMenuKlasik/styles.css" /><link type="text/css" rel="stylesheet" href="/RadControls/ComboBox/Skins/TFF_Ana/Styles.css" /></head>
+
+<meta name="apple-itunes-app" content="app-id=552867813">
+<meta name="google-play-app" content="app-id=org.tffmain">
+
+
+
+<link rel="stylesheet" type="text/css" href="/Css/smart-app-banner.css">
+<link rel="apple-touch-icon" href="/Images/TFF/TFF-Logo.png">
+<link rel="android-touch-icon" href="/Images/TFF/TFF-Logo.png" />
+
+<style type="text/css">
+	* {
+		box-sizing: border-box;
+	}
+</style>
+
+<script type="text/javascript" src="/JavaScript/smart-app-banner.js"></script>
+
+
+<script>
+	banner = undefined;
+	function run(force) {
+		var n = document.querySelector('.smartbanner');
+		if (n) {
+			n.parentNode.removeChild(n);
+		}
+		new SmartBanner({
+				daysHidden: 15, // days to hide banner after close button is clicked (defaults to 15)
+				daysReminder: 90, // days to hide banner after "VIEW" button is clicked (defaults to 90)
+				appStoreLanguage: 'tr', // language code for the App Store (defaults to user's browser language)
+//				title: 'TFF',
+//				author: 'T�rkiye Futbol Federasyonu',
+//				button: 'A�',
+				force: force
+		});
+	};
+</script>
+
+<body>
+    <form method="post" action="./Default.aspx?pageID=29&amp;macId=2" id="aspnetForm">
+<input type="hidden" name="DialogResultCommand" id="DialogResultCommand" value="" />
+<input type="hidden" name="DialogResultParameter" id="DialogResultParameter" value="" />
+<input type="hidden" name="DialogResultIsReceived" id="DialogResultIsReceived" value="0" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUENTM4MQ9kFgJmD2QWBAIBD2QWBAIKDxYCHgdjb250ZW50BYQEVMO8cmtpeWUgRnV0Ym9sIEZlZGVyYXN5b251LFPDvHBlciBMaWcgcHVhbiBjZXR2ZWxpLFRGRixGdXRib2wsWmlyYWF0IFTDvHJraXllIEt1cGFzxLEsU8O8cGVyIExpZyxURkYgMS4gTGlnLCBURkYgMi4gbGlnLCBURkYgMy4gTGlnLEEgTWlsbGkgVGFrxLFtLE1pbGxpIFRha8SxbWxhcixGaWtzdMO8cixQdWFuIENldHZlbGksVGVrbmlrIEFkYW1sYXIsS3VwYWxhcixLdXBhLEt1cGFzxLEsTGlnbGVyLFByb2plbGVyLFN0YXRsYXIsU3RhZGxhcixLdWzDvHBsZXIsSGFrZW1sZXIsTWlsbGkgVGFrxLFtbGFyLE1pbGxpIE1hw6dsYXIsTWHDp2xhcixNYcOnLE1pbGxpLE95dW5jdWxhcixGdXRib2xjdWxhcixGdXRib2xjdSxGdXRib2xjdSBUZW1zaWxjaWxlcmksSGFmdGEgQmlsZ2lsZXJpLEhhZnRhbsSxbiBNYcOnbGFyxLEsQ2V6YWxhcixQRkRLLEFGREssTUhLLEfDtnpsZW1jaWxlcixUZW1zaWxjaWxlcixIYWJlcmxlcixUw7xya2l5ZSxUw7xyayxBTktBUkFTUE9SIEEuxZ4uLEdBTEFUQVNBUkFZIEEuxZ4uZAILDxYCHwAF2QJBTktBUkFTUE9SIEEuxZ4uIEdBTEFUQVNBUkFZIEEuxZ4uIC0gVMO8cmtpeWUgRnV0Ym9sIEZlZGVyYXN5b251IFJlc21pIMSwbnRlcm5ldCBTaXRlc2kgLSBNaWxsaSBUYWvEsW1sYXIsIFPDvHBlciBMaWcsIFB1YW4gY2V0dmVsaSwgRmlrc3TDvHIsVEZGIDEuIExpZywgVEZGIDIuIExpZywgVEZGIDMuIExpZywgTGlnbGVyLCBaaXJhYXQgVMO8cmtpeWUgS3VwYXPEsSwgRnV0Ym9sLCBCaWxnaSBCYW5rYXPEsSwgSGFiZXJsZXIsIEZ1dGJvbGN1bGFyLCBUZWtuaWsgQWRhbWxhciwgIE95dW5jdWxhciwgSGFrZW1sZXIsIE1hw6dsYXIsIFN0YXRsYXIsIENlemFsYXIsIE3DvHNhYmFrYSBwcm9ncmFtbGFyxLFkAgMPZBYEAgwPZBYCZg9kFgJmD2QWAgIDD2QWAmYPZBYKAgEPZBYCZg88KwAKAQAPFgQeC18hRGF0YUJvdW5kZx4LXyFJdGVtQ291bnQCAWQWAmYPZBYGZg8PFgIeB1Zpc2libGVoZGQCAQ9kFgJmD2QWFAIBDw8WBB4ISW1hZ2VVcmwFRGh0dHBzOi8vZnlzLnRmZi5vcmcvVEZGVXBsb2FkRm9sZGVyL0t1bHVwTG9nb2xhcmlcMDEwNzc5XzEyMHgxMjAuanBnHgtOYXZpZ2F0ZVVybAUlfi9EZWZhdWx0LmFzcHg/cGFnZUlkPTI4Jmt1bHVwSWQ9NDM1NWRkAgMPDxYEHgRUZXh0BRBBTktBUkFTUE9SIEEuxZ4uHwUFJX4vRGVmYXVsdC5hc3B4P3BhZ2VJZD0yOCZrdWx1cElkPTQzNTVkZAIFDw8WAh8DaGQWAgIBDw8WAh8GZWRkAgcPDxYCHwYFATFkZAIJDw8WAh8DaGQWAgIBDw8WAh8GBQlVemF0bWFsYXJkZAIPDw8WBB8EBURodHRwczovL2Z5cy50ZmYub3JnL1RGRlVwbG9hZEZvbGRlci9LdWx1cExvZ29sYXJpXDAwMDE2Ml8xMjB4MTIwLmpwZx8FBSV+L0RlZmF1bHQuYXNweD9wYWdlSWQ9Mjgma3VsdXBJZD0zNjA0ZGQCEQ8PFgQfBgURR0FMQVRBU0FSQVkgQS7Fni4fBQUlfi9EZWZhdWx0LmFzcHg/cGFnZUlkPTI4Jmt1bHVwSWQ9MzYwNGRkAhMPDxYCHwNoZBYCAgEPDxYCHwZlZGQCFQ8PFgIfBgUBMWRkAhcPDxYCHwNoZBYCAgEPDxYCHwYFCVV6YXRtYWxhcmRkAgIPDxYCHwNoZGQCAw8PFgQeC0VzYW1lR29zdGVyZx4NVXphdG1heWFHaXR0aWhkFg5mDxYCHwICCxYWAgEPZBYEAgEPDxYCHwYFAzg0LmRkAgMPDxYEHwYFDEhBS0FOIEFSSUtBTh8FBSZ+L0RlZmF1bHQuYXNweD9wYWdlSWQ9MzAma2lzaUlkPTMzNjk4M2RkAgIPZBYEAgEPDxYCHwYFAjIuZGQCAw8PFgQfBgUMQURBTSBQRVRST1VTHwUFJn4vRGVmYXVsdC5hc3B4P3BhZ2VJZD0zMCZraXNpSWQ9OTUwMzczZGQCAw9kFgQCAQ8PFgIfBgUCNC5kZAIDDw8WBB8GBRlNVUhBTU1FVCBIQU7EsEbEsCBZT0xEQcWeHwUFJX4vRGVmYXVsdC5hc3B4P3BhZ2VJZD0zMCZraXNpSWQ9MzAxMDFkZAIED2QWBAIBDw8WAh8GBQI1LmRkAgMPDxYEHwYFDVJBTUFaQU4gVFVOw4cfBQUlfi9EZWZhdWx0LmFzcHg/cGFnZUlkPTMwJmtpc2lJZD0yNjEwM2RkAgUPZBYEAgEPDxYCHwYFAjYuZGQCAw8PFgQfBgURR8OWS8OHRUsgVkVERVJTT04fBQUlfi9EZWZhdWx0LmFzcHg/cGFnZUlkPTMwJmtpc2lJZD0zMDA5OGRkAgYPZBYEAgEPDxYCHwYFAzcyLmRkAgMPDxYEHwYFDERFVlJBTiBBWUhBTh8FBSV+L0RlZmF1bHQuYXNweD9wYWdlSWQ9MzAma2lzaUlkPTI2NjM1ZGQCBw9kFgQCAQ8PFgIfBgUDMTAuZGQCAw8PFgQfBgUaU8SwTFbEsE5PIEpPQU8gREUgQ0FSVkFMSE8fBQUlfi9EZWZhdWx0LmFzcHg/cGFnZUlkPTMwJmtpc2lJZD0zMDEwMGRkAggPZBYEAgEPDxYCHwYFAzIwLmRkAgMPDxYEHwYFDcOWWkVSIEhVUk1BQ0kfBQUmfi9EZWZhdWx0LmFzcHg/cGFnZUlkPTMwJmtpc2lJZD02NTc4ODBkZAIJD2QWBAIBDw8WAh8GBQMxOS5kZAIDDw8WBB8GBQtCxLBMQUwgS0lTQR8FBSZ+L0RlZmF1bHQuYXNweD9wYWdlSWQ9MzAma2lzaUlkPTUyNzQxM2RkAgoPZBYEAgEPDxYCHwYFAzY2LmRkAgMPDxYEHwYFC0FERU0gS0/Dh0FLHwUFJn4vRGVmYXVsdC5hc3B4P3BhZ2VJZD0zMCZraXNpSWQ9NjI3MzkzZGQCCw9kFgQCAQ8PFgIfBgUDNTAuZGQCAw8PFgQfBgURSMOcUlLEsFlFVCBHw5xDRVIfBQUmfi9EZWZhdWx0LmFzcHg/cGFnZUlkPTMwJmtpc2lJZD01NDg1NTNkZAICDxYCHwICBxYOAgEPZBYEAgEPDxYCHwYFAzc4LmRkAgMPDxYEHwYFDUZBUlVLIEfDnFJTT1kfBQUlfi9EZWZhdWx0LmFzcHg/cGFnZUlkPTMwJmtpc2lJZD0yODE4MGRkAgIPZBYEAgEPDxYCHwYFAjkuZGQCAw8PFgQfBgUMQVJESUFOIERPS0FKHwUFJn4vRGVmYXVsdC5hc3B4P3BhZ2VJZD0zMCZraXNpSWQ9OTUzNTk1ZGQCAw9kFgQCAQ8PFgIfBgUDMTMuZGQCAw8PFgQfBgUJQ0VNIFlBTklLHwUFJX4vRGVmYXVsdC5hc3B4P3BhZ2VJZD0zMCZraXNpSWQ9MjgxMzdkZAIED2QWBAIBDw8WAh8GBQMxNi5kZAIDDw8WBB8GBRRFRMSwWiBCQUhUxLBZQVJPxJ5MVR8FBSZ+L0RlZmF1bHQuYXNweD9wYWdlSWQ9MzAma2lzaUlkPTQyMjgxN2RkAgUPZBYEAgEPDxYCHwYFAzE4LmRkAgMPDxYEHwYFD0FOSUwgVEHFnkRFTcSwUh8FBSZ+L0RlZmF1bHQuYXNweD9wYWdlSWQ9MzAma2lzaUlkPTMxNjU0N2RkAgYPZBYEAgEPDxYCHwYFAzIzLmRkAgMPDxYEHwYFE01VU1RBRkEgWUFMw4dJTktBWUEfBQUlfi9EZWZhdWx0LmFzcHg/cGFnZUlkPTMwJmtpc2lJZD05ODE3OWRkAgcPZBYEAgEPDxYCHwYFAzk5LmRkAgMPDxYEHwYFC0VNUkUgQUtUQcWeHwUFJn4vRGVmYXVsdC5hc3B4P3BhZ2VJZD0zMCZraXNpSWQ9NDAzNzAyZGQCBA8WAh8DaGQCBg8WAh8CAgEWAgIBD2QWBAIBDw8WAh8EBTJ+L0FwcF9UaGVtZXMvVEZGX0RlZmF1bHQvSW1hZ2VzL2Rlc2lnbi9taW5pdG9wLmdpZmRkAgMPDxYEHwYFFkFEQU0gUEVUUk9VUywxMC5kayAoSCkfBQUmfi9EZWZhdWx0LmFzcHg/cGFnZUlkPTMwJmtpc2lJZD05NTAzNzNkZAIIDxYCHwICAhYEAgEPZBYGAgEPDxYEHg1BbHRlcm5hdGVUZXh0BQpTYXLEsSBLYXJ0HwQFOH4vQXBwX1RoZW1lcy9URkZfRGVmYXVsdC9JbWFnZXMvZGVzaWduL2ljb24uc2FyaWthcnQuZ2lmZGQCAw8PFgQfBgUURUTEsFogQkFIVMSwWUFST8SeTFUfBQUmfi9EZWZhdWx0LmFzcHg/cGFnZUlkPTMwJmtpc2lJZD00MjI4MTdkZAIFDw8WAh8GBQU4OS5ka2RkAgIPZBYGAgEPDxYEHwkFClNhcsSxIEthcnQfBAU4fi9BcHBfVGhlbWVzL1RGRl9EZWZhdWx0L0ltYWdlcy9kZXNpZ24vaWNvbi5zYXJpa2FydC5naWZkZAIDDw8WBB8GBQ3DllpFUiBIVVJNQUNJHwUFJn4vRGVmYXVsdC5hc3B4P3BhZ2VJZD0zMCZraXNpSWQ9NjU3ODgwZGQCBQ8PFgIfBgUFMjUuZGtkZAIKDxYCHwICAxYGAgEPZBYEAgMPDxYEHwYFDVJBTUFaQU4gVFVOw4cfBQUlfi9EZWZhdWx0LmFzcHg/cGFnZUlkPTMwJmtpc2lJZD0yNjEwM2RkAgUPDxYCHwYFBTc5LmRrZGQCAg9kFgQCAw8PFgQfBgUMREVWUkFOIEFZSEFOHwUFJX4vRGVmYXVsdC5hc3B4P3BhZ2VJZD0zMCZraXNpSWQ9MjY2MzVkZAIFDw8WAh8GBQU3Ni5ka2RkAgMPZBYEAgMPDxYEHwYFC0LEsExBTCBLSVNBHwUFJn4vRGVmYXVsdC5hc3B4P3BhZ2VJZD0zMCZraXNpSWQ9NTI3NDEzZGQCBQ8PFgIfBgUFNzYuZGtkZAIMDxYCHwICAxYGAgEPZBYEAgEPDxYEHwYFFEVExLBaIEJBSFTEsFlBUk/EnkxVHwUFJn4vRGVmYXVsdC5hc3B4P3BhZ2VJZD0zMCZraXNpSWQ9NDIyODE3ZGQCAw8PFgIfBgUFNzkuZGtkZAICD2QWBAIBDw8WBB8GBQlDRU0gWUFOSUsfBQUlfi9EZWZhdWx0LmFzcHg/cGFnZUlkPTMwJmtpc2lJZD0yODEzN2RkAgMPDxYCHwYFBTc2LmRrZGQCAw9kFgQCAQ8PFgQfBgUMQVJESUFOIERPS0FKHwUFJn4vRGVmYXVsdC5hc3B4P3BhZ2VJZD0zMCZraXNpSWQ9OTUzNTk1ZGQCAw8PFgIfBgUFNzYuZGtkZAIFDw8WBB8HZx8IaGQWDmYPFgIfAgILFhYCAQ9kFgQCAQ8PFgIfBgUCMS5kZAIDDw8WBB8GBRpGQVJZRCBDQU1JTE8gTU9ORFJBR09OIEFMWR8FBSV+L0RlZmF1bHQuYXNweD9wYWdlSWQ9MzAma2lzaUlkPTI5Nzk1ZGQCAg9kFgQCAQ8PFgIfBgUCMi5kZAIDDw8WBB8GBQ1TVEpFUEFOIFRPTUFTHwUFJX4vRGVmYXVsdC5hc3B4P3BhZ2VJZD0zMCZraXNpSWQ9MzAwNTVkZAIDD2QWBAIBDw8WAh8GBQI0LmRkAgMPDxYEHwYFFlLEsEdPQkVSVCBCQUhBTkFHIFNPTkcfBQUlfi9EZWZhdWx0LmFzcHg/cGFnZUlkPTMwJmtpc2lJZD0zMDExNWRkAgQPZBYEAgEPDxYCHwYFAjkuZGQCAw8PFgQfBgUOSEFLQU4gxZ7DnEvDnFIfBQUlfi9EZWZhdWx0LmFzcHg/cGFnZUlkPTMwJmtpc2lJZD0yMjQxMWRkAgUPZBYEAgEPDxYCHwYFAzEwLmRkAgMPDxYEHwYFDU5FQ0FUxLAgQVRFxZ4fBQUmfi9EZWZhdWx0LmFzcHg/cGFnZUlkPTMwJmtpc2lJZD0yNTk5NjhkZAIGD2QWBAIBDw8WAh8GBQMxMS5kZAIDDw8WBB8GBRNIQVNBTiBHw5ZLSEFOIMWeQcWeHwUFJX4vRGVmYXVsdC5hc3B4P3BhZ2VJZD0zMCZraXNpSWQ9MjYyNTJkZAIHD2QWBAIBDw8WAh8GBQMxNi5kZAIDDw8WBB8GBRdNQVJDRUxPIEFEUklBTiBDQVJSVVNDQR8FBSZ+L0RlZmF1bHQuYXNweD9wYWdlSWQ9MzAma2lzaUlkPTk4MDk1M2RkAggPZBYEAgEPDxYCHwYFAzE5LmRkAgMPDxYEHwYFEUPEsEhBTiBIQVNQT0xBVExJHwUFJn4vRGVmYXVsdC5hc3B4P3BhZ2VJZD0zMCZraXNpSWQ9MzQyNDgzZGQCCQ9kFgQCAQ8PFgIfBgUDMjIuZGQCAw8PFgQfBgUNU0HFnkEgxLBMxLDDhx8FBSZ+L0RlZmF1bHQuYXNweD9wYWdlSWQ9MzAma2lzaUlkPTkxNTc4OWRkAgoPZBYEAgEPDxYCHwYFAzI0LmRkAgMPDxYEHwYFDU1FSE1FVCBHw5xWRU4fBQUmfi9EZWZhdWx0LmFzcHg/cGFnZUlkPTMwJmtpc2lJZD02NjMxMTdkZAILD2QWBAIBDw8WAh8GBQMyNS5kZAIDDw8WBB8GBQ9GRVJIQVQgw5ZaVE9SVU4fBQUmfi9EZWZhdWx0LmFzcHg/cGFnZUlkPTMwJmtpc2lJZD02OTAzMjdkZAICDxYCHwICBxYOAgEPZBYEAgEPDxYCHwYFAzE3LmRkAgMPDxYEHwYFDEZFVlrEsCBFTE1BUx8FBSZ+L0RlZmF1bHQuYXNweD9wYWdlSWQ9MzAma2lzaUlkPTMzOTA4OWRkAgIPZBYEAgEPDxYCHwYFAjUuZGQCAw8PFgQfBgUIT1JIQU4gQUsfBQUlfi9EZWZhdWx0LmFzcHg/cGFnZUlkPTMwJmtpc2lJZD0yNzY3MWRkAgMPZBYEAgEPDxYCHwYFAzE4LmRkAgMPDxYEHwYFC0FZSEFOIEFLTUFOHwUFJX4vRGVmYXVsdC5hc3B4P3BhZ2VJZD0zMCZraXNpSWQ9MjYyNDNkZAIED2QWBAIBDw8WAh8GBQMyNy5kZAIDDw8WBB8GBRLDllpHw5xSIENBTiDDllpDQU4fBQUlfi9EZWZhdWx0LmFzcHg/cGFnZUlkPTMwJmtpc2lJZD05NzAyNGRkAgUPZBYEAgEPDxYCHwYFAzI4LmRkAgMPDxYEHwYFDFRPTEdBIFNFWUhBTh8FBSV+L0RlZmF1bHQuYXNweD9wYWdlSWQ9MzAma2lzaUlkPTI2NDkwZGQCBg9kFgQCAQ8PFgIfBgUDNTUuZGQCAw8PFgQfBgUQU0FCUsSwIFNBUklPxJ5MVR8FBSZ+L0RlZmF1bHQuYXNweD9wYWdlSWQ9MzAma2lzaUlkPTQ4MTcxOGRkAgcPZBYEAgEPDxYCHwYFAzY2LmRkAgMPDxYEHwYFCkFSREEgVFVSQU4fBQUmfi9EZWZhdWx0LmFzcHg/cGFnZUlkPTMwJmtpc2lJZD02NjQwMzZkZAIEDxYCHwNoZAIGDxYCHwICARYCAgEPZBYEAgEPDxYCHwQFMn4vQXBwX1RoZW1lcy9URkZfRGVmYXVsdC9JbWFnZXMvZGVzaWduL21pbml0b3AuZ2lmZGQCAw8PFgQfBgUXU0HFnkEgxLBMxLDDhyw4MS5kayAoRikfBQUmfi9EZWZhdWx0LmFzcHg/cGFnZUlkPTMwJmtpc2lJZD05MTU3ODlkZAIIDxYCHwNoZAIKDxYCHwICAxYGAgEPZBYEAgMPDxYEHwYFE0hBU0FOIEfDlktIQU4gxZ5BxZ4fBQUlfi9EZWZhdWx0LmFzcHg/cGFnZUlkPTMwJmtpc2lJZD0yNjI1MmRkAgUPDxYCHwYFBTQ2LmRrZGQCAg9kFgQCAw8PFgQfBgUNTkVDQVTEsCBBVEXFnh8FBSZ+L0RlZmF1bHQuYXNweD9wYWdlSWQ9MzAma2lzaUlkPTI1OTk2OGRkAgUPDxYCHwYFBTQ2LmRrZGQCAw9kFgQCAw8PFgQfBgUXTUFSQ0VMTyBBRFJJQU4gQ0FSUlVTQ0EfBQUmfi9EZWZhdWx0LmFzcHg/cGFnZUlkPTMwJmtpc2lJZD05ODA5NTNkZAIFDw8WAh8GBQU2Mi5ka2RkAgwPFgIfAgIDFgYCAQ9kFgQCAQ8PFgQfBgUKQVJEQSBUVVJBTh8FBSZ+L0RlZmF1bHQuYXNweD9wYWdlSWQ9MzAma2lzaUlkPTY2NDAzNmRkAgMPDxYCHwYFBTQ2LmRrZGQCAg9kFgQCAQ8PFgQfBgUSw5ZaR8OcUiBDQU4gw5ZaQ0FOHwUFJX4vRGVmYXVsdC5hc3B4P3BhZ2VJZD0zMCZraXNpSWQ9OTcwMjRkZAIDDw8WAh8GBQU0Ni5ka2RkAgMPZBYEAgEPDxYEHwYFEFNBQlLEsCBTQVJJT8SeTFUfBQUmfi9EZWZhdWx0LmFzcHg/cGFnZUlkPTMwJmtpc2lJZD00ODE3MThkZAIDDw8WAh8GBQU2Mi5ka2RkAgcPFgIfA2hkAgkPFgIfAgIFFgpmD2QWAgIBDw8WAh8GBQpGOkYgLSBBeWFrZGQCAQ9kFgICAQ8PFgIfBgUKSDpIIC0gS2FmYWRkAgIPZBYCAgEPDxYCHwYFFEs6SyAtIEtlbmRpIEthbGVzaW5lZGQCAw9kFgICAQ8PFgIfBgUOUDpQIC0gUGVuYWx0xLFkZAIED2QWAgIBDw8WAh8GBRNTOlMgLSBTZXJpIFBlbmFsdMSxZGQCEA9kFgICAQ9kFgJmD2QWAgIDD2QWAmYPDxYCHgpNYWNPcmdJRDFMAoQHZBYEAgIPZBYCAgEPFgQfAmYfA2hkAgYPZBYCAgMPDxYCHg5SYWRDb250cm9sc0RpcgUOfi9SYWRDb250cm9scy9kZBgCBR5fX0NvbnRyb2xzUmVxdWlyZVBvc3RCYWNrS2V5X18WAwUrY3RsMDAkTFRvcFBhbmUkbV8yOV80NTJfY3RuciRtXzI5XzQ1MiRjdGwwMAUsY3RsMDAkUlBhbmUkbV8yOV81NzUzX2N0bnIkbV8yOV81NzUzJFRGRl9BbmEFJ2N0bDAwJFJQYW5lJG1fMjlfMjA4NF9jdG5yJG1fMjlfMjA4NCRtbwVAY3RsMDAkTVBhbmUkbV8yOV8xOTRfY3RuciRtXzI5XzE5NCRNYWNCaWxnaURpc3BsYXkxJGR0TWFjQmlsZ2lzaQ8UKwAHZGRkZGQWAAIBZBM0tfKmr1Br8Neg0MjFGIanKL/k" />
+
+<script type="text/javascript" src="/Javascript/base.js" language="javascript" ></script><script type="text/javascript" src="/Javascript/common.js" language="javascript" ></script><script type="text/javascript" src="/Javascript/custom.js" language="javascript" ></script>
+<script src="JavaScript/PostBackOptions.js" type="text/javascript"></script>
+<script type="text/javascript">
+//<![CDATA[
+if (window.top !== window.self) {document.write = '';window.top.location = 'http://www.google.com'; setTimeout(function(){document.body.innerHTML='';},1);window.self.onload=function(evt){document.body.innerHTML='';};}function ctl00_RPane_m_29_5753_ctnr_m_29_5753selectedIndexChanged(sender,eventArgs){var value=sender.ComboBox.SelectedItem.Value;if(!value)return;var arr=value.split('|');if(arr.lenght < 2||arr[0]=='') return false;if(arr[1]=='true')window.open(arr[0],'_blank'); else window.location=arr[0]; }//]]>
+</script>
+
+<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="CA0B0334" />
+<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEdACUbnhczeTgIoauLoNGPmARRN7L4TJ5lMpyl9XpNd5GkGm8lkYYIlq3B4kbZYKKUaHUdL6vS2itLgITIj691PRgV0qKi1Wj1fDQ2O0oDnJTOlqmtaGUqirNf2tAs9f1ZAOs52Y7ZbeNVvW8D3ODIC11LjcMODWweci8lBVZwt9yQhbvrAqibN2LPh7pcJRVk3FRZoRt/1ICqBCXXRRoqWdJGtTkZDtxvbD1Z/RiJ9/jJji4lSFzQSo5hbj9W8X2yzpTD3bN7+eWM1JXhKYFduJtDjycnfZBpNiZDXUVQXaKdCVFyKUS7aEQPloBfmFKqeaKY4uroGy05eioRUK0TxrZyI6WPkQ5yHFBE1aBQbnvMJsU41Rne1ssAHNqo29Xp9NOeshbzHaHHqA5vV8GzfbryOni1zoxQduAgmAMYJj1m0JFgKai2x3Ue2KA8dsAGBp50aAsynfbzv4e2oBsf3iwp3C4Sy6vj6uaqO610rAWeZFYJoleHWtW+paAwdaIV4G88KqWHPQMD9UwAkmkUTToMLGC/SD3dwl9CD9GLvFi21WJaV9KenOlvt4gMWc9SWAZ0MKixyx/Uo9kEyI1hut90pLNrQoDg4aOWFvRhY+2p2HLflDpe0L1Q3hk/wbHQGigwWz9q/VGREpHl7JUwGc98S7Q+wjJ+JlVEbe+6LaLO0WPq18EhWFQxOl5oBhqjzoJLvXwSSDAU8szbSDyjjB7v4JA2qeNkhVv5exyhuAoUn0Shm8Yv+Znr68oE0A4L/4mDz57Xj3F0vlbflGPJXXFaLuiCooeiz9/35z63rGJ1yP+P+t4=" />
+        <table width="100%" height="100%" border="0" cellpadding="0" cellspacing="0" class="ayyildizBG">
+            <tr>
+                <td width="992" height="142" valign="top">
+                    <!-- Ust Bar-->
+                    <table cellspacing="0" cellpadding="0" width="100%" border="0">
+                        <tbody>
+                            <tr>
+                                <td width="502"><a href=""><img height="115" alt="TFF" src='App_Themes/TFF_Gri/Images/design/tff.logo.jpg' width="502" border="0"></a></td>
+                                <td width="229"><img src='App_Themes/TFF_Gri/Images/design/tff.compose.jpg?v=1'></td>
+                                <td valign="top">
+                                    <table height="99" cellspacing="0" cellpadding="0" width="100%" border="0">
+                                        <tbody>
+                                            <tr>
+                                                <td valign="top" align="right" colspan="3">
+
+
+<div id="ctl00_lognView_pnlNotLoggedIn" style="text-align:right;padding-left:198px;">
+
+
+
+<!-- Yukar�daki yorum sat�r�n� kald�r�nca bu sat�r� yorum sat�r� yap�n.-->
+
+<div style="float:left;background-image:url(App_Themes/TFF_Gri/Images/but/button-left.png);width:3px;height:17px"></div>
+<div style="float:left;text-align:center;background-color:#474747;width:55px;height:17px"><b><a href="/Default.aspx?pageID=449" style="color:White">English</a></b></div>
+<div style="float:left;background-image:url(App_Themes/TFF_Gri/Images/but/button-right.png);width:3px;height:17px"></div>
+
+</div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td valign="bottom" align="middle"><a href="Default.aspx?pageID=80"><img height="75" src='App_Themes/TFF_Gri/Images/design/superlig.logo.png' border="0"></a></td>
+                                                <td valign="bottom" align="middle"><a href="Default.aspx?pageID=288"><img height="75" src='App_Themes/TFF_Gri/Images/design/turkiyekupasi.logo.png' border="0"></a></td>
+                                                <td valign="bottom" align="middle"><a href="Default.aspx?pageID=95"><img height="75" src='App_Themes/TFF_Gri/Images/design/millitakim.logo.png' border="0"></a></td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <!-- Ust Bar Sonu -->
+                    <!-- Ust Linkler-->
+                    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+                        <tr>
+                            <td align="right">
+                                <table border="0" cellspacing="0" cellpadding="0" style="margin-right: 3px">
+                                    <tr>
+                                        <td>
+                                            <table border="0" cellpadding="0" cellspacing="0" class="ustMenu" style="margin-right: 3px">
+                                                <tr>
+                                                    <td width="5"><img src="App_Themes/TFF_Default/Images/design/ustmenu.sol.gif" width="5" height="27" /></td>
+                                                    <td align="center" style="padding:2 5 2 5; background: url(App_Themes/TFF_Default/Images/design/ustmenu.bg.gif) repeat-x top"><a href="default.aspx?pageID=66" id="ctl00_a1">ANA SAYFA </a></td>
+                                                    <td width="5"><img src="App_Themes/TFF_Default/Images/design/ustmenu.sag.gif" width="5" height="27" /></td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                        <td>
+                                            <table border="0" cellpadding="0" cellspacing="0" class="ustMenu" style="margin-right: 3px">
+                                                <tr>
+                                                    <td width="5"><img src="App_Themes/TFF_Default/Images/design/ustmenu.sol.gif" width="5" height="27" /></td>
+                                                    <td align="center" style="padding:2 5 2 5; background: url(App_Themes/TFF_Default/Images/design/ustmenu.bg.gif) repeat-x top"><a href="default.aspx?pageID=71" id="ctl00_a2">TFF </a></td>
+                                                    <td width="5"><img src="App_Themes/TFF_Default/Images/design/ustmenu.sag.gif" width="5" height="27" /></td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                        <td>
+                                            <table border="0" cellpadding="0" cellspacing="0" class="ustMenu" style="margin-right: 3px">
+                                                <tr>
+                                                    <td width="5"><img src="App_Themes/TFF_Default/Images/design/ustmenu.sol.gif" width="5" height="27" /></td>
+                                                    <td align="center" style="padding:2 5 2 5; background: url(App_Themes/TFF_Default/Images/design/ustmenu.bg.gif) repeat-x top"><a href="default.aspx?pageID=95" id="ctl00_a3">M�LL� TAKIMLAR </a></td>
+                                                    <td width="5"><img src="App_Themes/TFF_Default/Images/design/ustmenu.sag.gif" width="5" height="27" /></td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                        <td>
+                                            <table border="0" cellpadding="0" cellspacing="0" class="ustMenu" style="margin-right: 3px">
+                                                <tr>
+                                                    <td width="5"><img src="App_Themes/TFF_Default/Images/design/ustmenu.sol.gif" width="5" height="27" /></td>
+                                                    <td align="center" style="padding:2 5 2 5; background: url(App_Themes/TFF_Default/Images/design/ustmenu.bg.gif) repeat-x top"><a href="default.aspx?pageID=86" id="ctl00_a4">L�GLER</a></td>
+                                                    <td width="5"><img src="App_Themes/TFF_Default/Images/design/ustmenu.sag.gif" width="5" height="27" /></td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                        <td>
+                                            <table border="0" cellpadding="0" cellspacing="0" class="ustMenu" style="margin-right: 3px">
+                                                <tr>
+                                                    <td width="5"><img src="App_Themes/TFF_Default/Images/design/ustmenu.sol.gif" width="5" height="27" /></td>
+                                                    <td align="center" style="padding:2 5 2 5; background: url(App_Themes/TFF_Default/Images/design/ustmenu.bg.gif) repeat-x top"><a href="default.aspx?pageID=88" id="ctl00_a5">KUPALAR </a></td>
+                                                    <td width="5"><img src="App_Themes/TFF_Default/Images/design/ustmenu.sag.gif" width="5" height="27" /></td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                        <td>
+                                            <table border="0" cellpadding="0" cellspacing="0" class="ustMenu" style="margin-right: 3px">
+                                                <tr>
+                                                    <td width="5"><img src="App_Themes/TFF_Default/Images/design/ustmenu.sol.gif" width="5" height="27" /></td>
+                                                    <td align="center" style="padding:2 5 2 5; background: url(App_Themes/TFF_Default/Images/design/ustmenu.bg.gif) repeat-x top"><a href="default.aspx?pageID=89" id="ctl00_a6">FGD</a></td>
+                                                    <td width="5"><img src="App_Themes/TFF_Default/Images/design/ustmenu.sag.gif" width="5" height="27" /></td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                        <td>
+                                            <table border="0" cellpadding="0" cellspacing="0" class="ustMenu" style="margin-right: 3px">
+                                                <tr>
+                                                    <td width="5"><img src="App_Themes/TFF_Default/Images/design/ustmenu.sol.gif" width="5" height="27" /></td>
+                                                    <td align="center" style="padding:2 5 2 5; background: url(App_Themes/TFF_Default/Images/design/ustmenu.bg.gif) repeat-x top"><a href="default.aspx?pageID=328" id="ctl00_a7">B�LG� BANKASI</a></td>
+                                                    <td width="5"><img src="App_Themes/TFF_Default/Images/design/ustmenu.sag.gif" width="5" height="27" /></td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                    </table>
+                    <!-- Ust Linkler Sonu-->
+                </td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td align="left" valign="top" style="padding-left: 8px" width="992">
+                    <table width="100%" border="0" cellpadding="0" cellspacing="0" class="yuzdeyuzH">
+                        <tr>
+                            <td valign="top" class="solGolge" style="width: 180px; padding-right: 10px;">
+                                <table class="SolMenuBG" style="height: 290px" border="0" cellpadding="0" cellspacing="0" width="100%">
+                                    <tr><td valign="top"><div id="ctl00_LTopPane_m_29_452_ctnr_div" style="padding:0 0 15 0;vertical-align:top;text-align:center;"><div id="ctl00_LTopPane_m_29_452_ctnr_title" class="moduleTitle"></div>
+<script language="javascript" type="text/javascript">function ___BeforeClickHandler(node){ if(node.Category==''){ if(node.Expanded==true) node.Collapse(); else node.Expand(); return false; }  }</script>
+<div id="ctl00_LTopPane_m_29_452_ctnr_m_29_452_ctl00" class="panelbar RadPanelbar_TFF_SolMenuKlasik " style="width:100%;">
+	<!-- 4.0.3 --><script type="text/javascript" src="/RadControls/Panelbar/Scripts/4_0_3/RadPanelbar.js"></script><span id="ctl00_LTopPane_m_29_452_ctnr_m_29_452_ctl00StyleSheetHolder" style="display:none;"></span><ul class="rootGroup">
+		<li class="item first"><a href="/default.aspx?pageID=328" id="ctl00_LTopPane_m_29_452_ctnr_m_29_452_ctl00_p0" title="Futbol Bilgi Bankas�" class="link"><span class="text">Futbol Bilgi Bankas�</span></a><div class="slide" style="display:block;">
+			<ul class="group level1 " style="display:block;">
+				<li class="item first"><a href="/default.aspx?pageID=130" id="ctl00_LTopPane_m_29_452_ctnr_m_29_452_ctl00_p0_p0" title="Oyuncular" class="link"><span class="text">Oyuncular</span></a></li><li class="item"><a href="/default.aspx?pageID=163" id="ctl00_LTopPane_m_29_452_ctnr_m_29_452_ctl00_p0_p1" title="Teknik Adamlar" class="link"><span class="text">Teknik Adamlar</span></a></li><li class="item"><a href="/default.aspx?pageID=322" id="ctl00_LTopPane_m_29_452_ctnr_m_29_452_ctl00_p0_p2" title="Ma�lar" class="link"><span class="text">Ma�lar</span></a></li><li class="item"><a href="/default.aspx?pageID=400" id="ctl00_LTopPane_m_29_452_ctnr_m_29_452_ctl00_p0_p3" title="Milli Ma�lar" class="link"><span class="text">Milli Ma�lar</span></a></li><li class="item"><a href="/default.aspx?pageID=119" id="ctl00_LTopPane_m_29_452_ctnr_m_29_452_ctl00_p0_p4" title="Kul�pler" class="link"><span class="text">Kul�pler</span></a></li><li class="item"><a href="/default.aspx?pageID=324" id="ctl00_LTopPane_m_29_452_ctnr_m_29_452_ctl00_p0_p5" title="Stadyumlar" class="link"><span class="text">Stadyumlar</span></a></li><li class="item"><a href="/default.aspx?pageID=633" id="ctl00_LTopPane_m_29_452_ctnr_m_29_452_ctl00_p0_p6" title="Cezalar" class="link"><span class="text">Cezalar</span></a></li><li class="item"><a href="/default.aspx?pageID=161" id="ctl00_LTopPane_m_29_452_ctnr_m_29_452_ctl00_p0_p7" title="Hakemler" class="link"><span class="text">Hakemler</span></a></li><li class="item"><a href="/default.aspx?pageID=393" id="ctl00_LTopPane_m_29_452_ctnr_m_29_452_ctl00_p0_p8" title="G�zlemciler ve Temsilciler" class="link"><span class="text">G�zlemciler ve Temsilciler</span></a></li><li class="item"><a href="/default.aspx?pageID=660" id="ctl00_LTopPane_m_29_452_ctnr_m_29_452_ctl00_p0_p9" class="link"><span class="text">Futbolcu Menajerleri</span></a></li><li class="item"><a href="/default.aspx?pageID=433" id="ctl00_LTopPane_m_29_452_ctnr_m_29_452_ctl00_p0_p10" title="Hafta Bilgileri" class="link"><span class="text">Hafta Bilgileri</span></a></li><li class="item"><a href="/default.aspx?pageID=128" id="ctl00_LTopPane_m_29_452_ctnr_m_29_452_ctl00_p0_p11" title="Formlar ve S�zle�meler" class="link"><span class="text">Formlar ve S�zle�meler</span></a></li><li class="item"><a href="/default.aspx?pageID=133" id="ctl00_LTopPane_m_29_452_ctnr_m_29_452_ctl00_p0_p12" title="Stat�ler " class="link"><span class="text">Stat�ler </span></a></li><li class="item"><a href="/default.aspx?pageID=132" id="ctl00_LTopPane_m_29_452_ctnr_m_29_452_ctl00_p0_p13" title="Talimatlar " class="link"><span class="text">Talimatlar </span></a></li><li class="item"><a href="/default.aspx?pageID=131" id="ctl00_LTopPane_m_29_452_ctnr_m_29_452_ctl00_p0_p14" class="link"><span class="text">TFF Kanun ve Stat�s� </span></a></li><li class="item"><a href="/default.aspx?pageID=919" id="ctl00_LTopPane_m_29_452_ctnr_m_29_452_ctl00_p0_p15" title="Online Ba�vurular" class="link"><span class="text">Online Ba�vurular</span></a></li><li class="item last"><a href="http://www.tff.org/Default.aspx?pageId=1314" id="ctl00_LTopPane_m_29_452_ctnr_m_29_452_ctl00_p0_p16" title="TFF Logo Kullan�mlar�" class="link"><span class="text">TFF Logo Kullan�mlar�</span></a></li>
+			</ul>
+		</div></li><li id="ctl00_LTopPane_m_29_452_ctnr_m_29_452_ctl00_p1" class="item last"><span class="text" style="display:none;"></span></li>
+	</ul><input type="hidden" id="ctl00_LTopPane_m_29_452_ctnr_m_29_452_ctl00_Hidden" name="ctl00$LTopPane$m_29_452_ctnr$m_29_452$ctl00" /><script type="text/javascript">window["ctl00_LTopPane_m_29_452_ctnr_m_29_452_ctl00"] = new RadPanelbar("ctl00_LTopPane_m_29_452_ctnr_m_29_452_ctl00");window["ctl00_LTopPane_m_29_452_ctnr_m_29_452_ctl00"].Initialize({"Attributes":{"ItemHoverCollapsedCssClass":"panelbarItemHover","ItemCollapsedCssClass":"panelbarItem","CssFile":"~/App_Themes/Default/RadPanelbar/Styles/BlueMelt.css","ItemSelectedCssClass":"panelbarItem","HeaderHoverExpandedCssClass":"panelbarHeaderExpand","HeaderHoverCollapsedCssClass":"panelbarHeaderHover","ImagesBaseDir":"~/App_Themes/Default/RadPanelbar/Img/","ExpandEffect":"Fade","HeaderExpandedCssClass":"panelbarHeaderExpand","HeaderCollapsedCssClass":"panelbarHeaderCollapsed"},"CausesValidation":false,"Enabled":true,"Skin":"TFF_SolMenuKlasik","ExpandAnimation":{"Type":"None"},"CollapseAnimation":{"Type":"None"}},{"ctl00_LTopPane_m_29_452_ctnr_m_29_452_ctl00_p0":{"Expanded":true,"Value":"328","NavigateAfterClick":true},"ctl00_LTopPane_m_29_452_ctnr_m_29_452_ctl00_p0_p0":{"Value":"130","NavigateAfterClick":true},"ctl00_LTopPane_m_29_452_ctnr_m_29_452_ctl00_p0_p1":{"Value":"163","NavigateAfterClick":true},"ctl00_LTopPane_m_29_452_ctnr_m_29_452_ctl00_p0_p2":{"Value":"322","NavigateAfterClick":true},"ctl00_LTopPane_m_29_452_ctnr_m_29_452_ctl00_p0_p3":{"Value":"400","NavigateAfterClick":true},"ctl00_LTopPane_m_29_452_ctnr_m_29_452_ctl00_p0_p4":{"Value":"119","NavigateAfterClick":true},"ctl00_LTopPane_m_29_452_ctnr_m_29_452_ctl00_p0_p5":{"Value":"324","NavigateAfterClick":true},"ctl00_LTopPane_m_29_452_ctnr_m_29_452_ctl00_p0_p6":{"Value":"633","NavigateAfterClick":true},"ctl00_LTopPane_m_29_452_ctnr_m_29_452_ctl00_p0_p7":{"Value":"161","NavigateAfterClick":true},"ctl00_LTopPane_m_29_452_ctnr_m_29_452_ctl00_p0_p8":{"Value":"393","NavigateAfterClick":true},"ctl00_LTopPane_m_29_452_ctnr_m_29_452_ctl00_p0_p9":{"Value":"660","NavigateAfterClick":true},"ctl00_LTopPane_m_29_452_ctnr_m_29_452_ctl00_p0_p10":{"Value":"433","NavigateAfterClick":true},"ctl00_LTopPane_m_29_452_ctnr_m_29_452_ctl00_p0_p11":{"Value":"128","NavigateAfterClick":true},"ctl00_LTopPane_m_29_452_ctnr_m_29_452_ctl00_p0_p12":{"Value":"133","NavigateAfterClick":true},"ctl00_LTopPane_m_29_452_ctnr_m_29_452_ctl00_p0_p13":{"Value":"132","NavigateAfterClick":true},"ctl00_LTopPane_m_29_452_ctnr_m_29_452_ctl00_p0_p14":{"Value":"131","NavigateAfterClick":true},"ctl00_LTopPane_m_29_452_ctnr_m_29_452_ctl00_p0_p15":{"Value":"919","NavigateAfterClick":true},"ctl00_LTopPane_m_29_452_ctnr_m_29_452_ctl00_p0_p16":{"NavigateAfterClick":true}});</script>
+</div>
+
+</div></td></tr>
+                                </table>
+                                <div><div id="ctl00_LPane_m_29_621_ctnr_div" style="padding:0 0 15 0;vertical-align:middle;text-align:center;"><div id="ctl00_LPane_m_29_621_ctnr_title" class="moduleTitle"></div><a title=TamSaha href="http://www.tff.org/Resources/Tamsaha/164/" target=_blank></a><a href="http://www.tff.org/Resources/Tamsaha/165" target=_blank></a><a href="http://www.tff.org/Resources/Tamsaha/166/" target=_blank></a><a href="http://www.tff.org/Resources/Tamsaha/167/" target=_blank></a><a href="http://www.tff.org/Resources/Tamsaha/168/" target=_blank><img border=0 alt="" src="Resources/TFF/Images/TamSaha/168kapak-180.jpg"></a><br><a href="http://www.tff.org/default.aspx?pageID=193" target=_blank><em>TamSaha i�erikleri i�in t�klay�n�z...</em></a></div></div>
+                            </td>
+                            <td valign="top">
+                                <table width="100%" border="0" cellpadding="0" cellspacing="0" class="yuzdeyuzH">
+                                    <tr>
+                                        <td width="4" height="4"><img src="App_Themes/TFF_Default/Images/design/oval.sol.gif" width="4" height="4"></td>
+                                        <td bgcolor="#FFFFFF"></td>
+                                        <td width="4" height="4"><img src="App_Themes/TFF_Default/Images/design/oval.sag.gif" width="4" height="4"></td>
+                                    </tr>
+                                    <tr bgcolor="#FFFFFF">
+                                        <td>&nbsp;</td>
+                                        <td valign="top" class="contentPadding">
+                                            <table width="100%" border="0" cellpadding="0" cellspacing="0" class="yuzdeyuzH">
+                                                <tr>
+                                                    <td valign="top" class="ortaAlan" style="width: 576px; min-width: 576px;">
+                                                        <div id="ctl00_MPane_m_29_194_ctnr_div" style="vertical-align:top;text-align:center;"><table width="100%" border="0" cellpadding="0" cellspacing="0" background="App_Themes/TFF_Default/Images/design/genel.grad.bg.gif" class="usteBG marginB"><tr><td width="4" align="left" valign="top"><img src="App_Themes/TFF_Default/Images/design/oval.sol.beyaz.gif" width="4" height="4"></td><td align="left" valign="top" style="padding-left:6px; padding-right:6px; padding-top:10px"><div  class="moduleTitle"></div>
+<table width="100%">
+    <tr>
+        <td colspan="3" style="text-align: center;">
+            <table cellspacing="0" id="ctl00_MPane_m_29_194_ctnr_m_29_194_MacBilgiDisplay1_dtMacBilgisi" width="100%">
+	<tr>
+		<td colspan="2">
+        <table width="100%" border="0" cellspacing="0" cellpadding="5">
+            <tr>
+                <td align="center" valign="middle" class="GriBorder beyazBG" style="width: 150;">
+                    <table width="100%" border="0" cellspacing="0" cellpadding="5">
+                        <tr>
+                            <td align="center" valign="middle" class="TakimAdi altGriCizgi">
+                                <p>
+                                    <a id="ctl00_MPane_m_29_194_ctnr_m_29_194_MacBilgiDisplay1_dtMacBilgisi_imgTakim1Logo" href="Default.aspx?pageId=28&amp;kulupId=4355"><img src="https://fys.tff.org/TFFUploadFolder/KulupLogolari\010779_120x120.jpg" alt="" /></a><br>
+                                    <a id="ctl00_MPane_m_29_194_ctnr_m_29_194_MacBilgiDisplay1_dtMacBilgisi_lnkTakim1" href="Default.aspx?pageId=28&amp;kulupId=4355">ANKARASPOR A.�.</a></p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td align="center">
+
+                                <p class="MacDetaySayi">
+                                    <span id="ctl00_MPane_m_29_194_ctnr_m_29_194_MacBilgiDisplay1_dtMacBilgisi_lblTakim1Skor">1</span>
+
+                                </p>
+
+
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+                <td align="center" valign="middle" class="MacDetayAltBG">
+                    <div id="ctl00_MPane_m_29_194_ctnr_m_29_194_MacBilgiDisplay1_dtMacBilgisi_ip">
+
+                        <p>
+                            <img src='Resources/TFF/Images/OrganizasyonLogolari/superlig.jpg' alt=""><br />
+                            <b>
+                                <span id="ctl00_MPane_m_29_194_ctnr_m_29_194_MacBilgiDisplay1_dtMacBilgisi_lblOrganizasyonAdi">Turkcell S�per Lig (Profesyonel Tak�m) <br/></span><br />
+                                <span id="ctl00_MPane_m_29_194_ctnr_m_29_194_MacBilgiDisplay1_dtMacBilgisi_Label9">Ma� Kodu:</span>&nbsp<span id="ctl00_MPane_m_29_194_ctnr_m_29_194_MacBilgiDisplay1_dtMacBilgisi_lblKod">1003</span></b>
+                        </p>
+                        <p align="center">
+                            <img src="App_Themes/TFF_Default/Images/design/iconBayrak.gif" width="8" height="10"
+                                align="absmiddle">
+                            <b>
+                                <a id="ctl00_MPane_m_29_194_ctnr_m_29_194_MacBilgiDisplay1_dtMacBilgisi_lnkStad" href="Default.aspx?pageId=394&amp;stadId=11">ANKARA 19 MAYIS</a>
+
+                                <br />
+                                <span id="ctl00_MPane_m_29_194_ctnr_m_29_194_MacBilgiDisplay1_dtMacBilgisi_lblTarih">4.08.2006 - 21:00</span></b><br>
+
+                                    <div style="margin-bottom: 3px; text-align: left;">
+                                        <img src="App_Themes/TFF_Default/Images/design/iconHakem.gif" width="10" height="13">
+                                        <a id="ctl00_MPane_m_29_194_ctnr_m_29_194_MacBilgiDisplay1_dtMacBilgisi_rpt_ctl00_lnkHakem" href="Default.aspx?pageId=72&amp;hakemId=18626">C�NEYT �AKIR(Hakem)</a></div>
+
+                                    <div style="margin-bottom: 3px; text-align: left;">
+                                        <img src="App_Themes/TFF_Default/Images/design/iconHakem.gif" width="10" height="13">
+                                        <a id="ctl00_MPane_m_29_194_ctnr_m_29_194_MacBilgiDisplay1_dtMacBilgisi_rpt_ctl01_lnkHakem" href="Default.aspx?pageId=72&amp;hakemId=18486">BAK� TUNCAY AKKIN(1. Yard�mc� Hakem)</a></div>
+
+                                    <div style="margin-bottom: 3px; text-align: left;">
+                                        <img src="App_Themes/TFF_Default/Images/design/iconHakem.gif" width="10" height="13">
+                                        <a id="ctl00_MPane_m_29_194_ctnr_m_29_194_MacBilgiDisplay1_dtMacBilgisi_rpt_ctl02_lnkHakem" href="Default.aspx?pageId=72&amp;hakemId=18638">ALPASLAN DEDE�(2. Yard�mc� Hakem)</a></div>
+
+                                    <div style="margin-bottom: 3px; text-align: left;">
+                                        <img src="App_Themes/TFF_Default/Images/design/iconHakem.gif" width="10" height="13">
+                                        <a id="ctl00_MPane_m_29_194_ctnr_m_29_194_MacBilgiDisplay1_dtMacBilgisi_rpt_ctl03_lnkHakem" href="Default.aspx?pageId=72&amp;hakemId=19089">TOLGA �ZKALFA(D�rd�nc� Hakem)</a></div>
+
+                            <br />
+
+                                    <div style="margin-bottom: 3px; text-align: left;">
+                                        <img src="App_Themes/TFF_Default/Images/design/iconGozlemci.gif" width="10" height="13"
+                                            align="absmiddle">
+                                        <span id="ctl00_MPane_m_29_194_ctnr_m_29_194_MacBilgiDisplay1_dtMacBilgisi_goz_ctl00_lnkgoz">HAMD� KUTVAL(G�zlemci)</span><br />
+                                    </div>
+
+
+
+                                    <div style="margin-bottom: 3px; text-align: left;">
+                                        <img src="App_Themes/TFF_Default/Images/design/iconTemsilci.gif" width="10" height="13"
+                                            align="absmiddle">
+                                        <span id="ctl00_MPane_m_29_194_ctnr_m_29_194_MacBilgiDisplay1_dtMacBilgisi_tem_ctl01_lnkTem">�ABAN ACARBAY(Temsilci)</span><br />
+                                        </div>
+
+                                    <div style="margin-bottom: 3px; text-align: left;">
+                                        <img src="App_Themes/TFF_Default/Images/design/iconTemsilci.gif" width="10" height="13"
+                                            align="absmiddle">
+                                        <span id="ctl00_MPane_m_29_194_ctnr_m_29_194_MacBilgiDisplay1_dtMacBilgisi_tem_ctl02_lnkTem">ADNAN AD�L M�FT�O�LU(Temsilci)</span><br />
+                                        </div>
+
+                        </p>
+
+		</div>
+
+                </td>
+                <td align="center" valign="middle" class="GriBorder beyazBG" style="width: 150;">
+                    <table width="100%" border="0" cellspacing="0" cellpadding="5">
+                        <tr>
+                            <td align="center" valign="middle" class="TakimAdi altGriCizgi">
+                                <p>
+                                    <a id="ctl00_MPane_m_29_194_ctnr_m_29_194_MacBilgiDisplay1_dtMacBilgisi_imgTakim2Logo" href="Default.aspx?pageId=28&amp;kulupId=3604"><img src="https://fys.tff.org/TFFUploadFolder/KulupLogolari\000162_120x120.jpg" alt="" /></a><br>
+                                    <a id="ctl00_MPane_m_29_194_ctnr_m_29_194_MacBilgiDisplay1_dtMacBilgisi_lnkTakim2" href="Default.aspx?pageId=28&amp;kulupId=3604">GALATASARAY A.�.</a></p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td align="center">
+
+                                <p class="MacDetaySayi">
+                                    <span id="ctl00_MPane_m_29_194_ctnr_m_29_194_MacBilgiDisplay1_dtMacBilgisi_Label12">1</span>
+
+                                </p>
+
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+        <table width="100%" border="0" cellpadding="0" cellspacing="0" class="ayirac">
+            <tr>
+                <td>
+                    <!-- Ay�ra�-->
+                </td>
+            </tr>
+        </table>
+    </td>
+	</tr>
+</table>
+<span id="ctl00_MPane_m_29_194_ctnr_m_29_194_MacBilgiDisplay1_lblWarn"></span>
+
+        </td>
+    </tr>
+    <tr>
+        <td  valign="top" style="width:50%;" >
+
+        <table width="100%" border="0" cellspacing="0" cellpadding="3">
+            <tr>
+                <td class="MacDetayMiniBaslik">
+                    <img src="App_Themes/TFF_Default/Images/design/iconilk11.gif" width="15" height="14"
+                        align="absmiddle">
+                    <span id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim1_rptKadrolar_ctl00_Label1">�lk 11</span>
+                </td>
+            </tr>
+            <tr>
+                <td class="GriBorder">
+                    <table width="100%" border="0" cellspacing="0" cellpadding="3">
+
+        <tr>
+            <td align="left" valign="top">
+                <span id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim1_rptKadrolar_ctl01_formaNo">84.</span>
+                <a id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim1_rptKadrolar_ctl01_lnkOyuncu" href="Default.aspx?pageId=30&amp;kisiId=336983">HAKAN ARIKAN</a>
+                <input type="hidden" name="ctl00$MPane$m_29_194_ctnr$m_29_194$grdTakim1$rptKadrolar$ctl01$hdnOynadigiKulup" id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim1_rptKadrolar_ctl01_hdnOynadigiKulup" />
+            </td>
+        </tr>
+
+        <tr>
+            <td align="left" valign="top">
+                <span id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim1_rptKadrolar_ctl02_formaNo">2.</span>
+                <a id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim1_rptKadrolar_ctl02_lnkOyuncu" href="Default.aspx?pageId=30&amp;kisiId=950373">ADAM PETROUS</a>
+                <input type="hidden" name="ctl00$MPane$m_29_194_ctnr$m_29_194$grdTakim1$rptKadrolar$ctl02$hdnOynadigiKulup" id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim1_rptKadrolar_ctl02_hdnOynadigiKulup" />
+            </td>
+        </tr>
+
+        <tr>
+            <td align="left" valign="top">
+                <span id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim1_rptKadrolar_ctl03_formaNo">4.</span>
+                <a id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim1_rptKadrolar_ctl03_lnkOyuncu" href="Default.aspx?pageId=30&amp;kisiId=30101">MUHAMMET HAN�F� YOLDA�</a>
+                <input type="hidden" name="ctl00$MPane$m_29_194_ctnr$m_29_194$grdTakim1$rptKadrolar$ctl03$hdnOynadigiKulup" id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim1_rptKadrolar_ctl03_hdnOynadigiKulup" />
+            </td>
+        </tr>
+
+        <tr>
+            <td align="left" valign="top">
+                <span id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim1_rptKadrolar_ctl04_formaNo">5.</span>
+                <a id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim1_rptKadrolar_ctl04_lnkOyuncu" href="Default.aspx?pageId=30&amp;kisiId=26103">RAMAZAN TUN�</a>
+                <input type="hidden" name="ctl00$MPane$m_29_194_ctnr$m_29_194$grdTakim1$rptKadrolar$ctl04$hdnOynadigiKulup" id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim1_rptKadrolar_ctl04_hdnOynadigiKulup" />
+            </td>
+        </tr>
+
+        <tr>
+            <td align="left" valign="top">
+                <span id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim1_rptKadrolar_ctl05_formaNo">6.</span>
+                <a id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim1_rptKadrolar_ctl05_lnkOyuncu" href="Default.aspx?pageId=30&amp;kisiId=30098">G�K�EK VEDERSON</a>
+                <input type="hidden" name="ctl00$MPane$m_29_194_ctnr$m_29_194$grdTakim1$rptKadrolar$ctl05$hdnOynadigiKulup" id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim1_rptKadrolar_ctl05_hdnOynadigiKulup" />
+            </td>
+        </tr>
+
+        <tr>
+            <td align="left" valign="top">
+                <span id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim1_rptKadrolar_ctl06_formaNo">72.</span>
+                <a id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim1_rptKadrolar_ctl06_lnkOyuncu" href="Default.aspx?pageId=30&amp;kisiId=26635">DEVRAN AYHAN</a>
+                <input type="hidden" name="ctl00$MPane$m_29_194_ctnr$m_29_194$grdTakim1$rptKadrolar$ctl06$hdnOynadigiKulup" id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim1_rptKadrolar_ctl06_hdnOynadigiKulup" />
+            </td>
+        </tr>
+
+        <tr>
+            <td align="left" valign="top">
+                <span id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim1_rptKadrolar_ctl07_formaNo">10.</span>
+                <a id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim1_rptKadrolar_ctl07_lnkOyuncu" href="Default.aspx?pageId=30&amp;kisiId=30100">S�LV�NO JOAO DE CARVALHO</a>
+                <input type="hidden" name="ctl00$MPane$m_29_194_ctnr$m_29_194$grdTakim1$rptKadrolar$ctl07$hdnOynadigiKulup" id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim1_rptKadrolar_ctl07_hdnOynadigiKulup" />
+            </td>
+        </tr>
+
+        <tr>
+            <td align="left" valign="top">
+                <span id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim1_rptKadrolar_ctl08_formaNo">20.</span>
+                <a id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim1_rptKadrolar_ctl08_lnkOyuncu" href="Default.aspx?pageId=30&amp;kisiId=657880">�ZER HURMACI</a>
+                <input type="hidden" name="ctl00$MPane$m_29_194_ctnr$m_29_194$grdTakim1$rptKadrolar$ctl08$hdnOynadigiKulup" id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim1_rptKadrolar_ctl08_hdnOynadigiKulup" />
+            </td>
+        </tr>
+
+        <tr>
+            <td align="left" valign="top">
+                <span id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim1_rptKadrolar_ctl09_formaNo">19.</span>
+                <a id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim1_rptKadrolar_ctl09_lnkOyuncu" href="Default.aspx?pageId=30&amp;kisiId=527413">B�LAL KISA</a>
+                <input type="hidden" name="ctl00$MPane$m_29_194_ctnr$m_29_194$grdTakim1$rptKadrolar$ctl09$hdnOynadigiKulup" id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim1_rptKadrolar_ctl09_hdnOynadigiKulup" />
+            </td>
+        </tr>
+
+        <tr>
+            <td align="left" valign="top">
+                <span id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim1_rptKadrolar_ctl10_formaNo">66.</span>
+                <a id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim1_rptKadrolar_ctl10_lnkOyuncu" href="Default.aspx?pageId=30&amp;kisiId=627393">ADEM KO�AK</a>
+                <input type="hidden" name="ctl00$MPane$m_29_194_ctnr$m_29_194$grdTakim1$rptKadrolar$ctl10$hdnOynadigiKulup" id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim1_rptKadrolar_ctl10_hdnOynadigiKulup" />
+            </td>
+        </tr>
+
+        <tr>
+            <td align="left" valign="top">
+                <span id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim1_rptKadrolar_ctl11_formaNo">50.</span>
+                <a id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim1_rptKadrolar_ctl11_lnkOyuncu" href="Default.aspx?pageId=30&amp;kisiId=548553">H�RR�YET G�CER</a>
+                <input type="hidden" name="ctl00$MPane$m_29_194_ctnr$m_29_194$grdTakim1$rptKadrolar$ctl11$hdnOynadigiKulup" id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim1_rptKadrolar_ctl11_hdnOynadigiKulup" />
+            </td>
+        </tr>
+
+        </table> </td> </tr> </table>
+
+
+        <table width="100%" border="0" cellspacing="0" cellpadding="3">
+            <tr>
+                <td class="MacDetayMiniBaslik">
+                    <img src="App_Themes/TFF_Default/Images/design/iconilk11.gif" width="15" height="14"
+                        align="absmiddle">
+                    <span id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim1_rptYedekler_ctl00_Label2">Yedekler</span>
+                </td>
+            </tr>
+            <tr>
+                <td class="GriBorder">
+                    <table width="100%" border="0" cellspacing="0" cellpadding="3">
+
+        <tr>
+            <td align="left" valign="top">
+                <span id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim1_rptYedekler_ctl01_formaNo">78.</span>
+                <a id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim1_rptYedekler_ctl01_lnkOyuncu" href="Default.aspx?pageId=30&amp;kisiId=28180">FARUK G�RSOY</a>
+                <input type="hidden" name="ctl00$MPane$m_29_194_ctnr$m_29_194$grdTakim1$rptYedekler$ctl01$hdnOynadigiKulup" id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim1_rptYedekler_ctl01_hdnOynadigiKulup" />
+            </td>
+        </tr>
+
+        <tr>
+            <td align="left" valign="top">
+                <span id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim1_rptYedekler_ctl02_formaNo">9.</span>
+                <a id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim1_rptYedekler_ctl02_lnkOyuncu" href="Default.aspx?pageId=30&amp;kisiId=953595">ARDIAN DOKAJ</a>
+                <input type="hidden" name="ctl00$MPane$m_29_194_ctnr$m_29_194$grdTakim1$rptYedekler$ctl02$hdnOynadigiKulup" id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim1_rptYedekler_ctl02_hdnOynadigiKulup" />
+            </td>
+        </tr>
+
+        <tr>
+            <td align="left" valign="top">
+                <span id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim1_rptYedekler_ctl03_formaNo">13.</span>
+                <a id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim1_rptYedekler_ctl03_lnkOyuncu" href="Default.aspx?pageId=30&amp;kisiId=28137">CEM YANIK</a>
+                <input type="hidden" name="ctl00$MPane$m_29_194_ctnr$m_29_194$grdTakim1$rptYedekler$ctl03$hdnOynadigiKulup" id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim1_rptYedekler_ctl03_hdnOynadigiKulup" />
+            </td>
+        </tr>
+
+        <tr>
+            <td align="left" valign="top">
+                <span id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim1_rptYedekler_ctl04_formaNo">16.</span>
+                <a id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim1_rptYedekler_ctl04_lnkOyuncu" href="Default.aspx?pageId=30&amp;kisiId=422817">ED�Z BAHT�YARO�LU</a>
+                <input type="hidden" name="ctl00$MPane$m_29_194_ctnr$m_29_194$grdTakim1$rptYedekler$ctl04$hdnOynadigiKulup" id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim1_rptYedekler_ctl04_hdnOynadigiKulup" />
+            </td>
+        </tr>
+
+        <tr>
+            <td align="left" valign="top">
+                <span id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim1_rptYedekler_ctl05_formaNo">18.</span>
+                <a id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim1_rptYedekler_ctl05_lnkOyuncu" href="Default.aspx?pageId=30&amp;kisiId=316547">ANIL TA�DEM�R</a>
+                <input type="hidden" name="ctl00$MPane$m_29_194_ctnr$m_29_194$grdTakim1$rptYedekler$ctl05$hdnOynadigiKulup" id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim1_rptYedekler_ctl05_hdnOynadigiKulup" />
+            </td>
+        </tr>
+
+        <tr>
+            <td align="left" valign="top">
+                <span id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim1_rptYedekler_ctl06_formaNo">23.</span>
+                <a id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim1_rptYedekler_ctl06_lnkOyuncu" href="Default.aspx?pageId=30&amp;kisiId=98179">MUSTAFA YAL�INKAYA</a>
+                <input type="hidden" name="ctl00$MPane$m_29_194_ctnr$m_29_194$grdTakim1$rptYedekler$ctl06$hdnOynadigiKulup" id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim1_rptYedekler_ctl06_hdnOynadigiKulup" />
+            </td>
+        </tr>
+
+        <tr>
+            <td align="left" valign="top">
+                <span id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim1_rptYedekler_ctl07_formaNo">99.</span>
+                <a id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim1_rptYedekler_ctl07_lnkOyuncu" href="Default.aspx?pageId=30&amp;kisiId=403702">EMRE AKTA�</a>
+                <input type="hidden" name="ctl00$MPane$m_29_194_ctnr$m_29_194$grdTakim1$rptYedekler$ctl07$hdnOynadigiKulup" id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim1_rptYedekler_ctl07_hdnOynadigiKulup" />
+            </td>
+        </tr>
+
+        </table> </td> </tr> </table>
+
+
+
+        <table width="100%" border="0" cellspacing="0" cellpadding="3">
+            <tr>
+                <td class="MacDetayMiniBaslik">
+                    <img src="App_Themes/TFF_Default/Images/design/iconGoller.gif" width="15" height="9"
+                        align="absmiddle">
+                    <span id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim1_rptGoller_ctl00_Label3">Goller</span>
+                </td>
+            </tr>
+            <tr>
+                <td class="GriBorder">
+                    <table width="100%" border="0" cellspacing="0" cellpadding="3">
+
+        <tr>
+            <td align="left" valign="top">
+                <img id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim1_rptGoller_ctl01_g" src="App_Themes/TFF_Default/Images/design/minitop.gif" />&nbsp;
+                <a id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim1_rptGoller_ctl01_lblGol" href="Default.aspx?pageId=30&amp;kisiId=950373">ADAM PETROUS,10.dk (H)</a>
+            </td>
+        </tr>
+
+        </table> </td> </tr> </table>
+
+
+        <table width="100%" border="0" cellspacing="0" cellpadding="3">
+            <tr>
+                <td class="MacDetayMiniBaslik">
+                    <img src="App_Themes/TFF_Default/Images/design/iconKartlar.gif" width="9" height="9"
+                        align="absmiddle">
+                    <span id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim1_rptKartlar_ctl00_Label4">Kartlar</span>
+                </td>
+            </tr>
+            <tr>
+                <td class="GriBorder">
+                    <table width="100%" border="0" cellspacing="0" cellpadding="3">
+
+        <tr>
+            <td align="left" valign="top">
+                <img id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim1_rptKartlar_ctl01_k" src="App_Themes/TFF_Default/Images/design/icon.sarikart.gif" alt="Sar� Kart" />&nbsp;<a id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim1_rptKartlar_ctl01_lblKart" href="Default.aspx?pageId=30&amp;kisiId=422817">ED�Z BAHT�YARO�LU</a>
+                <span id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim1_rptKartlar_ctl01_d">89.dk</span>
+            </td>
+        </tr>
+
+        <tr>
+            <td align="left" valign="top">
+                <img id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim1_rptKartlar_ctl02_k" src="App_Themes/TFF_Default/Images/design/icon.sarikart.gif" alt="Sar� Kart" />&nbsp;<a id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim1_rptKartlar_ctl02_lblKart" href="Default.aspx?pageId=30&amp;kisiId=657880">�ZER HURMACI</a>
+                <span id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim1_rptKartlar_ctl02_d">25.dk</span>
+            </td>
+        </tr>
+
+        </table> </td> </tr> </table>
+
+
+        <table width="100%" border="0" cellspacing="0" cellpadding="3">
+            <tr>
+                <td class="MacDetayMiniBaslik">
+                    <img src="App_Themes/TFF_Default/Images/design/iconOyundanCikanlar.gif" width="11"
+                        height="11" align="absmiddle">
+                    <span id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim1_rptCikanlar_ctl00_Label5">Oyundan ��kanlar</span>
+                </td>
+            </tr>
+            <tr>
+                <td class="GriBorder">
+                    <table width="100%" border="0" cellspacing="0" cellpadding="3">
+
+        <tr>
+            <td align="left" valign="top">
+                &nbsp;<a id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim1_rptCikanlar_ctl01_lblCikan" href="Default.aspx?pageId=30&amp;kisiId=26103">RAMAZAN TUN�</a>&nbsp;<span id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim1_rptCikanlar_ctl01_oc">79.dk</span>
+            </td>
+        </tr>
+
+        <tr>
+            <td align="left" valign="top">
+                &nbsp;<a id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim1_rptCikanlar_ctl02_lblCikan" href="Default.aspx?pageId=30&amp;kisiId=26635">DEVRAN AYHAN</a>&nbsp;<span id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim1_rptCikanlar_ctl02_oc">76.dk</span>
+            </td>
+        </tr>
+
+        <tr>
+            <td align="left" valign="top">
+                &nbsp;<a id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim1_rptCikanlar_ctl03_lblCikan" href="Default.aspx?pageId=30&amp;kisiId=527413">B�LAL KISA</a>&nbsp;<span id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim1_rptCikanlar_ctl03_oc">76.dk</span>
+            </td>
+        </tr>
+
+        </table> </td> </tr> </table>
+
+
+        <table width="100%" border="0" cellspacing="0" cellpadding="3">
+            <tr>
+                <td class="MacDetayMiniBaslik">
+                    <img src="App_Themes/TFF_Default/Images/design/iconOyunaGirenler.gif" width="11"
+                        height="11" align="absmiddle">
+                    <span id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim1_rptGirenler_ctl00_Label6">Oyuna Girenler</span>
+                </td>
+            </tr>
+            <tr>
+                <td class="GriBorder">
+                    <table width="100%" border="0" cellspacing="0" cellpadding="3">
+
+        <tr>
+            <td align="left" valign="top">
+                <a id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim1_rptGirenler_ctl01_lblGiren" href="Default.aspx?pageId=30&amp;kisiId=422817">ED�Z BAHT�YARO�LU</a>&nbsp;<span id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim1_rptGirenler_ctl01_og">79.dk</span>
+            </td>
+        </tr>
+
+        <tr>
+            <td align="left" valign="top">
+                <a id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim1_rptGirenler_ctl02_lblGiren" href="Default.aspx?pageId=30&amp;kisiId=28137">CEM YANIK</a>&nbsp;<span id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim1_rptGirenler_ctl02_og">76.dk</span>
+            </td>
+        </tr>
+
+        <tr>
+            <td align="left" valign="top">
+                <a id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim1_rptGirenler_ctl03_lblGiren" href="Default.aspx?pageId=30&amp;kisiId=953595">ARDIAN DOKAJ</a>&nbsp;<span id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim1_rptGirenler_ctl03_og">76.dk</span>
+            </td>
+        </tr>
+
+        </table> </td> </tr> </table>
+
+</td>
+        <td >
+        </td>
+        <td valign="top" style="width:50%;"   >
+
+        <table width="100%" border="0" cellspacing="0" cellpadding="3">
+            <tr>
+                <td class="MacDetayMiniBaslik">
+                    <img src="App_Themes/TFF_Default/Images/design/iconilk11.gif" width="15" height="14"
+                        align="absmiddle">
+                    <span id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim2_rptKadrolar_ctl00_Label1">�lk 11</span>
+                </td>
+            </tr>
+            <tr>
+                <td class="GriBorder">
+                    <table width="100%" border="0" cellspacing="0" cellpadding="3">
+
+        <tr>
+            <td align="left" valign="top">
+                <span id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim2_rptKadrolar_ctl01_formaNo">1.</span>
+                <a id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim2_rptKadrolar_ctl01_lnkOyuncu" href="Default.aspx?pageId=30&amp;kisiId=29795">FARYD CAMILO MONDRAGON ALY</a>
+                <input type="hidden" name="ctl00$MPane$m_29_194_ctnr$m_29_194$grdTakim2$rptKadrolar$ctl01$hdnOynadigiKulup" id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim2_rptKadrolar_ctl01_hdnOynadigiKulup" />
+            </td>
+        </tr>
+
+        <tr>
+            <td align="left" valign="top">
+                <span id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim2_rptKadrolar_ctl02_formaNo">2.</span>
+                <a id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim2_rptKadrolar_ctl02_lnkOyuncu" href="Default.aspx?pageId=30&amp;kisiId=30055">STJEPAN TOMAS</a>
+                <input type="hidden" name="ctl00$MPane$m_29_194_ctnr$m_29_194$grdTakim2$rptKadrolar$ctl02$hdnOynadigiKulup" id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim2_rptKadrolar_ctl02_hdnOynadigiKulup" />
+            </td>
+        </tr>
+
+        <tr>
+            <td align="left" valign="top">
+                <span id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim2_rptKadrolar_ctl03_formaNo">4.</span>
+                <a id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim2_rptKadrolar_ctl03_lnkOyuncu" href="Default.aspx?pageId=30&amp;kisiId=30115">R�GOBERT BAHANAG SONG</a>
+                <input type="hidden" name="ctl00$MPane$m_29_194_ctnr$m_29_194$grdTakim2$rptKadrolar$ctl03$hdnOynadigiKulup" id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim2_rptKadrolar_ctl03_hdnOynadigiKulup" />
+            </td>
+        </tr>
+
+        <tr>
+            <td align="left" valign="top">
+                <span id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim2_rptKadrolar_ctl04_formaNo">9.</span>
+                <a id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim2_rptKadrolar_ctl04_lnkOyuncu" href="Default.aspx?pageId=30&amp;kisiId=22411">HAKAN ��K�R</a>
+                <input type="hidden" name="ctl00$MPane$m_29_194_ctnr$m_29_194$grdTakim2$rptKadrolar$ctl04$hdnOynadigiKulup" id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim2_rptKadrolar_ctl04_hdnOynadigiKulup" />
+            </td>
+        </tr>
+
+        <tr>
+            <td align="left" valign="top">
+                <span id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim2_rptKadrolar_ctl05_formaNo">10.</span>
+                <a id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim2_rptKadrolar_ctl05_lnkOyuncu" href="Default.aspx?pageId=30&amp;kisiId=259968">NECAT� ATE�</a>
+                <input type="hidden" name="ctl00$MPane$m_29_194_ctnr$m_29_194$grdTakim2$rptKadrolar$ctl05$hdnOynadigiKulup" id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim2_rptKadrolar_ctl05_hdnOynadigiKulup" />
+            </td>
+        </tr>
+
+        <tr>
+            <td align="left" valign="top">
+                <span id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim2_rptKadrolar_ctl06_formaNo">11.</span>
+                <a id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim2_rptKadrolar_ctl06_lnkOyuncu" href="Default.aspx?pageId=30&amp;kisiId=26252">HASAN G�KHAN �A�</a>
+                <input type="hidden" name="ctl00$MPane$m_29_194_ctnr$m_29_194$grdTakim2$rptKadrolar$ctl06$hdnOynadigiKulup" id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim2_rptKadrolar_ctl06_hdnOynadigiKulup" />
+            </td>
+        </tr>
+
+        <tr>
+            <td align="left" valign="top">
+                <span id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim2_rptKadrolar_ctl07_formaNo">16.</span>
+                <a id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim2_rptKadrolar_ctl07_lnkOyuncu" href="Default.aspx?pageId=30&amp;kisiId=980953">MARCELO ADRIAN CARRUSCA</a>
+                <input type="hidden" name="ctl00$MPane$m_29_194_ctnr$m_29_194$grdTakim2$rptKadrolar$ctl07$hdnOynadigiKulup" id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim2_rptKadrolar_ctl07_hdnOynadigiKulup" />
+            </td>
+        </tr>
+
+        <tr>
+            <td align="left" valign="top">
+                <span id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim2_rptKadrolar_ctl08_formaNo">19.</span>
+                <a id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim2_rptKadrolar_ctl08_lnkOyuncu" href="Default.aspx?pageId=30&amp;kisiId=342483">C�HAN HASPOLATLI</a>
+                <input type="hidden" name="ctl00$MPane$m_29_194_ctnr$m_29_194$grdTakim2$rptKadrolar$ctl08$hdnOynadigiKulup" id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim2_rptKadrolar_ctl08_hdnOynadigiKulup" />
+            </td>
+        </tr>
+
+        <tr>
+            <td align="left" valign="top">
+                <span id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim2_rptKadrolar_ctl09_formaNo">22.</span>
+                <a id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim2_rptKadrolar_ctl09_lnkOyuncu" href="Default.aspx?pageId=30&amp;kisiId=915789">SA�A �L��</a>
+                <input type="hidden" name="ctl00$MPane$m_29_194_ctnr$m_29_194$grdTakim2$rptKadrolar$ctl09$hdnOynadigiKulup" id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim2_rptKadrolar_ctl09_hdnOynadigiKulup" />
+            </td>
+        </tr>
+
+        <tr>
+            <td align="left" valign="top">
+                <span id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim2_rptKadrolar_ctl10_formaNo">24.</span>
+                <a id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim2_rptKadrolar_ctl10_lnkOyuncu" href="Default.aspx?pageId=30&amp;kisiId=663117">MEHMET G�VEN</a>
+                <input type="hidden" name="ctl00$MPane$m_29_194_ctnr$m_29_194$grdTakim2$rptKadrolar$ctl10$hdnOynadigiKulup" id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim2_rptKadrolar_ctl10_hdnOynadigiKulup" />
+            </td>
+        </tr>
+
+        <tr>
+            <td align="left" valign="top">
+                <span id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim2_rptKadrolar_ctl11_formaNo">25.</span>
+                <a id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim2_rptKadrolar_ctl11_lnkOyuncu" href="Default.aspx?pageId=30&amp;kisiId=690327">FERHAT �ZTORUN</a>
+                <input type="hidden" name="ctl00$MPane$m_29_194_ctnr$m_29_194$grdTakim2$rptKadrolar$ctl11$hdnOynadigiKulup" id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim2_rptKadrolar_ctl11_hdnOynadigiKulup" />
+            </td>
+        </tr>
+
+        </table> </td> </tr> </table>
+
+
+        <table width="100%" border="0" cellspacing="0" cellpadding="3">
+            <tr>
+                <td class="MacDetayMiniBaslik">
+                    <img src="App_Themes/TFF_Default/Images/design/iconilk11.gif" width="15" height="14"
+                        align="absmiddle">
+                    <span id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim2_rptYedekler_ctl00_Label2">Yedekler</span>
+                </td>
+            </tr>
+            <tr>
+                <td class="GriBorder">
+                    <table width="100%" border="0" cellspacing="0" cellpadding="3">
+
+        <tr>
+            <td align="left" valign="top">
+                <span id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim2_rptYedekler_ctl01_formaNo">17.</span>
+                <a id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim2_rptYedekler_ctl01_lnkOyuncu" href="Default.aspx?pageId=30&amp;kisiId=339089">FEVZ� ELMAS</a>
+                <input type="hidden" name="ctl00$MPane$m_29_194_ctnr$m_29_194$grdTakim2$rptYedekler$ctl01$hdnOynadigiKulup" id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim2_rptYedekler_ctl01_hdnOynadigiKulup" />
+            </td>
+        </tr>
+
+        <tr>
+            <td align="left" valign="top">
+                <span id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim2_rptYedekler_ctl02_formaNo">5.</span>
+                <a id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim2_rptYedekler_ctl02_lnkOyuncu" href="Default.aspx?pageId=30&amp;kisiId=27671">ORHAN AK</a>
+                <input type="hidden" name="ctl00$MPane$m_29_194_ctnr$m_29_194$grdTakim2$rptYedekler$ctl02$hdnOynadigiKulup" id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim2_rptYedekler_ctl02_hdnOynadigiKulup" />
+            </td>
+        </tr>
+
+        <tr>
+            <td align="left" valign="top">
+                <span id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim2_rptYedekler_ctl03_formaNo">18.</span>
+                <a id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim2_rptYedekler_ctl03_lnkOyuncu" href="Default.aspx?pageId=30&amp;kisiId=26243">AYHAN AKMAN</a>
+                <input type="hidden" name="ctl00$MPane$m_29_194_ctnr$m_29_194$grdTakim2$rptYedekler$ctl03$hdnOynadigiKulup" id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim2_rptYedekler_ctl03_hdnOynadigiKulup" />
+            </td>
+        </tr>
+
+        <tr>
+            <td align="left" valign="top">
+                <span id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim2_rptYedekler_ctl04_formaNo">27.</span>
+                <a id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim2_rptYedekler_ctl04_lnkOyuncu" href="Default.aspx?pageId=30&amp;kisiId=97024">�ZG�R CAN �ZCAN</a>
+                <input type="hidden" name="ctl00$MPane$m_29_194_ctnr$m_29_194$grdTakim2$rptYedekler$ctl04$hdnOynadigiKulup" id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim2_rptYedekler_ctl04_hdnOynadigiKulup" />
+            </td>
+        </tr>
+
+        <tr>
+            <td align="left" valign="top">
+                <span id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim2_rptYedekler_ctl05_formaNo">28.</span>
+                <a id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim2_rptYedekler_ctl05_lnkOyuncu" href="Default.aspx?pageId=30&amp;kisiId=26490">TOLGA SEYHAN</a>
+                <input type="hidden" name="ctl00$MPane$m_29_194_ctnr$m_29_194$grdTakim2$rptYedekler$ctl05$hdnOynadigiKulup" id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim2_rptYedekler_ctl05_hdnOynadigiKulup" />
+            </td>
+        </tr>
+
+        <tr>
+            <td align="left" valign="top">
+                <span id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim2_rptYedekler_ctl06_formaNo">55.</span>
+                <a id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim2_rptYedekler_ctl06_lnkOyuncu" href="Default.aspx?pageId=30&amp;kisiId=481718">SABR� SARIO�LU</a>
+                <input type="hidden" name="ctl00$MPane$m_29_194_ctnr$m_29_194$grdTakim2$rptYedekler$ctl06$hdnOynadigiKulup" id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim2_rptYedekler_ctl06_hdnOynadigiKulup" />
+            </td>
+        </tr>
+
+        <tr>
+            <td align="left" valign="top">
+                <span id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim2_rptYedekler_ctl07_formaNo">66.</span>
+                <a id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim2_rptYedekler_ctl07_lnkOyuncu" href="Default.aspx?pageId=30&amp;kisiId=664036">ARDA TURAN</a>
+                <input type="hidden" name="ctl00$MPane$m_29_194_ctnr$m_29_194$grdTakim2$rptYedekler$ctl07$hdnOynadigiKulup" id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim2_rptYedekler_ctl07_hdnOynadigiKulup" />
+            </td>
+        </tr>
+
+        </table> </td> </tr> </table>
+
+
+
+        <table width="100%" border="0" cellspacing="0" cellpadding="3">
+            <tr>
+                <td class="MacDetayMiniBaslik">
+                    <img src="App_Themes/TFF_Default/Images/design/iconGoller.gif" width="15" height="9"
+                        align="absmiddle">
+                    <span id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim2_rptGoller_ctl00_Label3">Goller</span>
+                </td>
+            </tr>
+            <tr>
+                <td class="GriBorder">
+                    <table width="100%" border="0" cellspacing="0" cellpadding="3">
+
+        <tr>
+            <td align="left" valign="top">
+                <img id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim2_rptGoller_ctl01_g" src="App_Themes/TFF_Default/Images/design/minitop.gif" />&nbsp;
+                <a id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim2_rptGoller_ctl01_lblGol" href="Default.aspx?pageId=30&amp;kisiId=915789">SA�A �L��,81.dk (F)</a>
+            </td>
+        </tr>
+
+        </table> </td> </tr> </table>
+
+
+
+        <table width="100%" border="0" cellspacing="0" cellpadding="3">
+            <tr>
+                <td class="MacDetayMiniBaslik">
+                    <img src="App_Themes/TFF_Default/Images/design/iconOyundanCikanlar.gif" width="11"
+                        height="11" align="absmiddle">
+                    <span id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim2_rptCikanlar_ctl00_Label5">Oyundan ��kanlar</span>
+                </td>
+            </tr>
+            <tr>
+                <td class="GriBorder">
+                    <table width="100%" border="0" cellspacing="0" cellpadding="3">
+
+        <tr>
+            <td align="left" valign="top">
+                &nbsp;<a id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim2_rptCikanlar_ctl01_lblCikan" href="Default.aspx?pageId=30&amp;kisiId=26252">HASAN G�KHAN �A�</a>&nbsp;<span id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim2_rptCikanlar_ctl01_oc">46.dk</span>
+            </td>
+        </tr>
+
+        <tr>
+            <td align="left" valign="top">
+                &nbsp;<a id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim2_rptCikanlar_ctl02_lblCikan" href="Default.aspx?pageId=30&amp;kisiId=259968">NECAT� ATE�</a>&nbsp;<span id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim2_rptCikanlar_ctl02_oc">46.dk</span>
+            </td>
+        </tr>
+
+        <tr>
+            <td align="left" valign="top">
+                &nbsp;<a id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim2_rptCikanlar_ctl03_lblCikan" href="Default.aspx?pageId=30&amp;kisiId=980953">MARCELO ADRIAN CARRUSCA</a>&nbsp;<span id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim2_rptCikanlar_ctl03_oc">62.dk</span>
+            </td>
+        </tr>
+
+        </table> </td> </tr> </table>
+
+
+        <table width="100%" border="0" cellspacing="0" cellpadding="3">
+            <tr>
+                <td class="MacDetayMiniBaslik">
+                    <img src="App_Themes/TFF_Default/Images/design/iconOyunaGirenler.gif" width="11"
+                        height="11" align="absmiddle">
+                    <span id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim2_rptGirenler_ctl00_Label6">Oyuna Girenler</span>
+                </td>
+            </tr>
+            <tr>
+                <td class="GriBorder">
+                    <table width="100%" border="0" cellspacing="0" cellpadding="3">
+
+        <tr>
+            <td align="left" valign="top">
+                <a id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim2_rptGirenler_ctl01_lblGiren" href="Default.aspx?pageId=30&amp;kisiId=664036">ARDA TURAN</a>&nbsp;<span id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim2_rptGirenler_ctl01_og">46.dk</span>
+            </td>
+        </tr>
+
+        <tr>
+            <td align="left" valign="top">
+                <a id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim2_rptGirenler_ctl02_lblGiren" href="Default.aspx?pageId=30&amp;kisiId=97024">�ZG�R CAN �ZCAN</a>&nbsp;<span id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim2_rptGirenler_ctl02_og">46.dk</span>
+            </td>
+        </tr>
+
+        <tr>
+            <td align="left" valign="top">
+                <a id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim2_rptGirenler_ctl03_lblGiren" href="Default.aspx?pageId=30&amp;kisiId=481718">SABR� SARIO�LU</a>&nbsp;<span id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim2_rptGirenler_ctl03_og">62.dk</span>
+            </td>
+        </tr>
+
+        </table> </td> </tr> </table>
+
+&nbsp;</td>
+    </tr>
+    <tr>
+
+    </tr>
+    <tr>
+        <td colspan="3" valign="top" align="center">
+
+            <span id="ctl00_MPane_m_29_194_ctnr_m_29_194_rptGolTipleri_ctl00_lblGolTipi">F:F - Ayak</span>
+
+            <span id="ctl00_MPane_m_29_194_ctnr_m_29_194_rptGolTipleri_ctl01_lblGolTipi">H:H - Kafa</span>
+
+            <span id="ctl00_MPane_m_29_194_ctnr_m_29_194_rptGolTipleri_ctl02_lblGolTipi">K:K - Kendi Kalesine</span>
+
+            <span id="ctl00_MPane_m_29_194_ctnr_m_29_194_rptGolTipleri_ctl03_lblGolTipi">P:P - Penalt�</span>
+
+            <span id="ctl00_MPane_m_29_194_ctnr_m_29_194_rptGolTipleri_ctl04_lblGolTipi">S:S - Seri Penalt�</span>
+
+        </td>
+    </tr>
+</table>
+</td><td width="4" align="right" valign="top"><img src="App_Themes/TFF_Default/Images/design/oval.sag.beyaz.gif" width="4" height="4"></td></tr></table></div>
+
+
+                                                        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                                            <tr>
+                                                                <td width="33%" align="left" valign="top" style="padding-right: 10px"></td>
+                                                                <td align="left" valign="top"></td>
+                                                            </tr>
+                                                        </table>
+
+                                                        <div style="height: 1px"><img src="App_Themes/TFF_Default/Images/design/bosluk.gif" width="576" height="1"></div>
+                                                    </td>
+                                                    <td valign="top" class="sagAlan"><div id="ctl00_RPane_m_29_5753_ctnr_div" style="vertical-align:top;text-align:left;"><table width="100%" border="0" cellpadding="0" cellspacing="0" class="alanlar2 marginB"><tr><td class="alanProfesyonel" style="height:23px"><div class="moduleTitle">Fikst�rler</div></td></tr><tr><td class="alanlarContent">
+<script language="javascript" type="text/javascript">function ___BeforeClickHandler(node){ if(node.Category==''){ if(node.Expanded==true) node.Collapse(); else node.Expand(); return false; }  }</script>
+<div id="ctl00_RPane_m_29_5753_ctnr_m_29_5753_TFF_Ana_wrapper" style="display:inline">
+	<!-- 2.5.3 --><script type="text/javascript" src="/RadControls/ComboBox/Scripts/2_5_3/RadComboBox.js"></script><div class="ComboBox_TFF_Ana" id="ctl00_RPane_m_29_5753_ctnr_m_29_5753_TFF_Ana" style="display:inline; white-space: nowrap;"><input onmouseout="rcbDispatcher(&#39;ctl00_RPane_m_29_5753_ctnr_m_29_5753_TFF_Ana&#39;,&#39;inputimageout&#39;,event)" value="Lig Se�iniz..." class="ComboBoxInput_TFF_Ana" onmouseover="rcbDispatcher(&#39;ctl00_RPane_m_29_5753_ctnr_m_29_5753_TFF_Ana&#39;,&#39;inputimagehover&#39;,event)" id="ctl00_RPane_m_29_5753_ctnr_m_29_5753_TFF_Ana_Input" style="width:160px;" name="ctl00$RPane$m_29_5753_ctnr$m_29_5753$TFF_Ana_Input" onkeydown="rcbDispatcher(&#39;ctl00_RPane_m_29_5753_ctnr_m_29_5753_TFF_Ana&#39;,&#39;keypress&#39;,event)" type="text" onkeypress="rcbDispatcher(&#39;ctl00_RPane_m_29_5753_ctnr_m_29_5753_TFF_Ana&#39;,&#39;keydown&#39;,event)" onclick="rcbDispatcher(&#39;ctl00_RPane_m_29_5753_ctnr_m_29_5753_TFF_Ana&#39;,&#39;inputclick&#39;,event)"></input><img alt="" id="ctl00_RPane_m_29_5753_ctnr_m_29_5753_TFF_Ana_Image" src="/RadControls/ComboBox/Skins/TFF_Ana/DropArrow.gif" class="ComboBoxImage_TFF_Ana" onclick="rcbDispatcher(&#39;ctl00_RPane_m_29_5753_ctnr_m_29_5753_TFF_Ana&#39;,&#39;toggledropdown&#39;,event);" onmouseover="rcbDispatcher(&#39;ctl00_RPane_m_29_5753_ctnr_m_29_5753_TFF_Ana&#39;,&#39;inputimagehover&#39;,event);" onmouseout="rcbDispatcher(&#39;ctl00_RPane_m_29_5753_ctnr_m_29_5753_TFF_Ana&#39;,&#39;inputimageout&#39;,event);"></img><div id="ctl00_RPane_m_29_5753_ctnr_m_29_5753_TFF_Ana_DropDownPlaceholder" style="position:absolute; display: none; z-index: 300;" class="ComboBoxDropDown_TFF_Ana"><div id="ctl00_RPane_m_29_5753_ctnr_m_29_5753_TFF_Ana_DropDown" style="overflow:auto;height:100px;white-space:normal;" onmouseover="rcbDispatcher('ctl00_RPane_m_29_5753_ctnr_m_29_5753_TFF_Ana','mouseover',event)" onmouseout="rcbDispatcher('ctl00_RPane_m_29_5753_ctnr_m_29_5753_TFF_Ana','mouseout',event)" onclick="rcbDispatcher('ctl00_RPane_m_29_5753_ctnr_m_29_5753_TFF_Ana','click',event)"><div id="ctl00_RPane_m_29_5753_ctnr_m_29_5753_TFF_Ana_c0" class="ComboBoxItem_TFF_Ana">
+	Lig Se&#231;iniz...
+</div><div id="ctl00_RPane_m_29_5753_ctnr_m_29_5753_TFF_Ana_c1" class="ComboBoxItem_TFF_Ana">
+	ST S&#252;per Lig
+</div><div id="ctl00_RPane_m_29_5753_ctnr_m_29_5753_TFF_Ana_c2" class="ComboBoxItem_TFF_Ana">
+	ST 1. Lig
+</div><div id="ctl00_RPane_m_29_5753_ctnr_m_29_5753_TFF_Ana_c3" class="ComboBoxItem_TFF_Ana">
+	TFF 2. Lig
+</div><div id="ctl00_RPane_m_29_5753_ctnr_m_29_5753_TFF_Ana_c4" class="ComboBoxItem_TFF_Ana">
+	TFF 3. Lig
+</div><div id="ctl00_RPane_m_29_5753_ctnr_m_29_5753_TFF_Ana_c5" class="ComboBoxItem_TFF_Ana">
+	Ziraat T&#252;rkiye Kupas�
+</div><div id="ctl00_RPane_m_29_5753_ctnr_m_29_5753_TFF_Ana_c6" class="ComboBoxItem_TFF_Ana">
+	U21 Ligi
+</div><div id="ctl00_RPane_m_29_5753_ctnr_m_29_5753_TFF_Ana_c7" class="ComboBoxItem_TFF_Ana">
+	B&#246;lgesel Amat&#246;r Lig
+</div><div id="ctl00_RPane_m_29_5753_ctnr_m_29_5753_TFF_Ana_c8" class="ComboBoxItem_TFF_Ana">
+	Engelli Futbolu
+</div><div id="ctl00_RPane_m_29_5753_ctnr_m_29_5753_TFF_Ana_c9" class="ComboBoxItem_TFF_Ana">
+	Sezon Planlamas�
+</div></div></div><span id="ctl00_RPane_m_29_5753_ctnr_m_29_5753_TFF_AnaStyleSheetHolder" style="display:none;"></span></div><input type="hidden" name="ctl00$RPane$m_29_5753_ctnr$m_29_5753$TFF_Ana_text" id="ctl00_RPane_m_29_5753_ctnr_m_29_5753_TFF_Ana_text" value="Lig Se�iniz..." /><input type="hidden" name="ctl00$RPane$m_29_5753_ctnr$m_29_5753$TFF_Ana_value" id="ctl00_RPane_m_29_5753_ctnr_m_29_5753_TFF_Ana_value" value="" /><input type="hidden" name="ctl00$RPane$m_29_5753_ctnr$m_29_5753$TFF_Ana_index" id="ctl00_RPane_m_29_5753_ctnr_m_29_5753_TFF_Ana_index" value="-1" /><script type="text/javascript">window["ctl00_RPane_m_29_5753_ctnr_m_29_5753_TFF_Ana"] = new RadComboBox("TFF_Ana","ctl00_RPane_m_29_5753_ctnr_m_29_5753_TFF_Ana");window["ctl00_RPane_m_29_5753_ctnr_m_29_5753_TFF_Ana"].Initialize({"LoadOnDemandUrl":"/Default.aspx?pageID=29&macId=2%26rcbID=ctl00_RPane_m_29_5753_ctnr_m_29_5753_TFF_Ana%26rcbServerID=TFF_Ana","OnClientSelectedIndexChanged":"ctl00_RPane_m_29_5753_ctnr_m_29_5753selectedIndexChanged","PostBackReference":"__doPostBack('ctl00$RPane$m_29_5753_ctnr$m_29_5753$TFF_Ana','TextChange')","MarkFirstMatch":true,"Skin":"TFF_Ana","Enabled":true,"ScrollDownImage":"/RadControls/ComboBox/Skins/TFF_Ana/ScrollDown.gif","ScrollDownImageDisabled":"/RadControls/ComboBox/Skins/TFF_Ana/ScrollDownDisabled.gif"},[{"Text":"Lig Se�iniz...","ClientID":"ctl00_RPane_m_29_5753_ctnr_m_29_5753_TFF_Ana_c0"},{"Text":"ST S�per Lig","Value":"http://www.tff.org/default.aspx?pageID=198|true","ClientID":"ctl00_RPane_m_29_5753_ctnr_m_29_5753_TFF_Ana_c1"},{"Text":"ST 1. Lig","Value":"http://www.tff.org/default.aspx?pageID=142|true","ClientID":"ctl00_RPane_m_29_5753_ctnr_m_29_5753_TFF_Ana_c2"},{"Text":"TFF 2. Lig","Value":"default.aspx?pageID=976|true","ClientID":"ctl00_RPane_m_29_5753_ctnr_m_29_5753_TFF_Ana_c3"},{"Text":"TFF 3. Lig","Value":"default.aspx?pageID=971|true","ClientID":"ctl00_RPane_m_29_5753_ctnr_m_29_5753_TFF_Ana_c4"},{"Text":"Ziraat T�rkiye Kupas�","Value":"default.aspx?pageID=598","ClientID":"ctl00_RPane_m_29_5753_ctnr_m_29_5753_TFF_Ana_c5"},{"Text":"U21 Ligi","Value":"default.aspx?pageID=456|true","ClientID":"ctl00_RPane_m_29_5753_ctnr_m_29_5753_TFF_Ana_c6"},{"Text":"B�lgesel Amat�r Lig","Value":"default.aspx?pageID=1289|true","ClientID":"ctl00_RPane_m_29_5753_ctnr_m_29_5753_TFF_Ana_c7"},{"Text":"Engelli Futbolu","Value":"default.aspx?pageID=1296","ClientID":"ctl00_RPane_m_29_5753_ctnr_m_29_5753_TFF_Ana_c8"},{"Text":"Sezon Planlamas�","Value":"http://www.tff.org/default.aspx?pageID=201&ftxtID=27484|true","ClientID":"ctl00_RPane_m_29_5753_ctnr_m_29_5753_TFF_Ana_c9"}]);</script>
+</div>
+
+</td></tr></table></div><div id="ctl00_RPane_m_29_2084_ctnr_div" style="vertical-align:top;text-align:left;"><table width="100%" border="0" cellpadding="0" cellspacing="0" class="alanlar2 marginB"><tr><td class="alanProfesyonel" style="height:23px"><div class="moduleTitle">Puan Cetvelleri</div></td></tr><tr><td class="alanlarContent"><div id="ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_wrapper" style="display:inline">
+	<!-- 2.5.3 --><div class="ComboBox_TFF_Ana" id="ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo" style="display:inline; white-space: nowrap;"><input onmouseout="rcbDispatcher(&#39;ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo&#39;,&#39;inputimageout&#39;,event)" value="Lig Se�iniz.." class="ComboBoxInput_TFF_Ana" onmouseover="rcbDispatcher(&#39;ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo&#39;,&#39;inputimagehover&#39;,event)" id="ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_Input" style="width:160px;" name="ctl00$RPane$m_29_2084_ctnr$m_29_2084$mo_Input" onkeydown="rcbDispatcher(&#39;ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo&#39;,&#39;keypress&#39;,event)" type="text" onkeypress="rcbDispatcher(&#39;ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo&#39;,&#39;keydown&#39;,event)" onclick="rcbDispatcher(&#39;ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo&#39;,&#39;inputclick&#39;,event)"></input><img alt="" id="ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_Image" src="/RadControls/ComboBox/Skins/TFF_Ana/DropArrow.gif" class="ComboBoxImage_TFF_Ana" onclick="rcbDispatcher(&#39;ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo&#39;,&#39;toggledropdown&#39;,event);" onmouseover="rcbDispatcher(&#39;ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo&#39;,&#39;inputimagehover&#39;,event);" onmouseout="rcbDispatcher(&#39;ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo&#39;,&#39;inputimageout&#39;,event);"></img><div id="ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_DropDownPlaceholder" style="position:absolute; display: none; z-index: 300;" class="ComboBoxDropDown_TFF_Ana"><div id="ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_DropDown" style="overflow:auto;height:100px;white-space:nowrap;" onmouseover="rcbDispatcher('ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo','mouseover',event)" onmouseout="rcbDispatcher('ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo','mouseout',event)" onclick="rcbDispatcher('ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo','click',event)"><div id="ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c0" class="ComboBoxItem_TFF_Ana">
+	Lig Se&#231;iniz..
+</div><div id="ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c1" class="ComboBoxItem_TFF_Ana">
+	Spor Toto S&#252;per Lig Lefter K&#252;&#231;&#252;kandonyadis Sezonu
+</div><div id="ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c2" class="ComboBoxItem_TFF_Ana">
+	Spor Toto 1. Lig
+</div><div id="ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c3" class="ComboBoxItem_TFF_Ana">
+	TFF 2. Lig Beyaz
+</div><div id="ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c4" class="ComboBoxItem_TFF_Ana">
+	TFF 2. Lig K�rm�z�
+</div><div id="ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c5" class="ComboBoxItem_TFF_Ana">
+	TFF 3. Lig 1. Grup
+</div><div id="ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c6" class="ComboBoxItem_TFF_Ana">
+	TFF 3. Lig 2. Grup
+</div><div id="ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c7" class="ComboBoxItem_TFF_Ana">
+	TFF 3. Lig 3. Grup
+</div><div id="ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c8" class="ComboBoxItem_TFF_Ana">
+	U21 Ligi 1. Lig
+</div><div id="ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c9" class="ComboBoxItem_TFF_Ana">
+	U21 Ligi S&#252;per Lig
+</div><div id="ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c10" class="ComboBoxItem_TFF_Ana">
+	Ziraat T&#252;rkiye Kupas�
+</div><div id="ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c11" class="ComboBoxItem_TFF_Ana">
+	Kad�nlar 1.Ligi
+</div><div id="ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c12" class="ComboBoxItem_TFF_Ana">
+	Kad�nlar 2.Ligi
+</div><div id="ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c13" class="ComboBoxItem_TFF_Ana">
+	Kad�nlar 3.Ligi 01
+</div><div id="ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c14" class="ComboBoxItem_TFF_Ana">
+	Kad�nlar 3.Ligi 02
+</div><div id="ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c15" class="ComboBoxItem_TFF_Ana">
+	Kad�nlar 3.Ligi 03
+</div><div id="ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c16" class="ComboBoxItem_TFF_Ana">
+	Kad�nlar 3.Ligi 04
+</div><div id="ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c17" class="ComboBoxItem_TFF_Ana">
+	Kad�nlar 3.Ligi 05
+</div><div id="ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c18" class="ComboBoxItem_TFF_Ana">
+	Kad�nlar 3.Ligi 06
+</div><div id="ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c19" class="ComboBoxItem_TFF_Ana">
+	Kad�nlar 3.Ligi 07
+</div><div id="ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c20" class="ComboBoxItem_TFF_Ana">
+	Kad�nlar 3.Ligi 08
+</div><div id="ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c21" class="ComboBoxItem_TFF_Ana">
+	Kad�nlar 3.Ligi 09
+</div><div id="ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c22" class="ComboBoxItem_TFF_Ana">
+	Kad�nlar 3.Ligi 10
+</div><div id="ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c23" class="ComboBoxItem_TFF_Ana">
+	Kad�nlar 3.Ligi 11
+</div><div id="ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c24" class="ComboBoxItem_TFF_Ana">
+	Kad�nlar 3.Ligi 12
+</div><div id="ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c25" class="ComboBoxItem_TFF_Ana">
+	Kad�nlar 3.Ligi 13
+</div><div id="ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c26" class="ComboBoxItem_TFF_Ana">
+	Kad�nlar 3.Ligi 14
+</div><div id="ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c27" class="ComboBoxItem_TFF_Ana">
+	Kad�nlar 3.Ligi 15
+</div><div id="ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c28" class="ComboBoxItem_TFF_Ana">
+	SporToto B&#246;lgesel Amat&#246;r Lig 1. GRUP
+</div><div id="ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c29" class="ComboBoxItem_TFF_Ana">
+	SporToto B&#246;lgesel Amat&#246;r Lig 10. GRUP
+</div><div id="ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c30" class="ComboBoxItem_TFF_Ana">
+	SporToto B&#246;lgesel Amat&#246;r Lig 11. GRUP
+</div><div id="ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c31" class="ComboBoxItem_TFF_Ana">
+	SporToto B&#246;lgesel Amat&#246;r Lig 2. GRUP
+</div><div id="ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c32" class="ComboBoxItem_TFF_Ana">
+	SporToto B&#246;lgesel Amat&#246;r Lig 3. GRUP
+</div><div id="ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c33" class="ComboBoxItem_TFF_Ana">
+	SporToto B&#246;lgesel Amat&#246;r Lig 4. GRUP
+</div><div id="ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c34" class="ComboBoxItem_TFF_Ana">
+	SporToto B&#246;lgesel Amat&#246;r Lig 5. GRUP
+</div><div id="ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c35" class="ComboBoxItem_TFF_Ana">
+	SporToto B&#246;lgesel Amat&#246;r Lig 6. GRUP
+</div><div id="ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c36" class="ComboBoxItem_TFF_Ana">
+	SporToto B&#246;lgesel Amat&#246;r Lig 7. GRUP
+</div><div id="ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c37" class="ComboBoxItem_TFF_Ana">
+	SporToto B&#246;lgesel Amat&#246;r Lig 8. GRUP
+</div><div id="ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c38" class="ComboBoxItem_TFF_Ana">
+	SporToto B&#246;lgesel Amat&#246;r Lig 9. GRUP
+</div><div id="ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c39" class="ComboBoxItem_TFF_Ana">
+	Spor-Toto B&#246;lgesel Geli�im U15 Ligi 1.Grup
+</div><div id="ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c40" class="ComboBoxItem_TFF_Ana">
+	Spor-Toto B&#246;lgesel Geli�im U15 Ligi 2.Grup
+</div><div id="ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c41" class="ComboBoxItem_TFF_Ana">
+	Spor-Toto B&#246;lgesel Geli�im U15 Ligi 3.Grup
+</div><div id="ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c42" class="ComboBoxItem_TFF_Ana">
+	Spor-Toto B&#246;lgesel Geli�im U15 Ligi 4.Grup
+</div><div id="ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c43" class="ComboBoxItem_TFF_Ana">
+	Spor-Toto B&#246;lgesel Geli�im U15 Ligi 5.Grup
+</div><div id="ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c44" class="ComboBoxItem_TFF_Ana">
+	Spor-Toto B&#246;lgesel Geli�im U16 Ligi 1.Grup
+</div><div id="ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c45" class="ComboBoxItem_TFF_Ana">
+	Spor-Toto B&#246;lgesel Geli�im U16 Ligi 2.Grup
+</div><div id="ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c46" class="ComboBoxItem_TFF_Ana">
+	Spor-Toto B&#246;lgesel Geli�im U16 Ligi 3.Grup
+</div><div id="ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c47" class="ComboBoxItem_TFF_Ana">
+	Spor-Toto B&#246;lgesel Geli�im U16 Ligi 4.Grup
+</div><div id="ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c48" class="ComboBoxItem_TFF_Ana">
+	Spor-Toto B&#246;lgesel Geli�im U16 Ligi 5.Grup
+</div><div id="ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c49" class="ComboBoxItem_TFF_Ana">
+	Spor-Toto B&#246;lgesel Geli�im U17 Ligi 1.Grup
+</div><div id="ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c50" class="ComboBoxItem_TFF_Ana">
+	Spor-Toto B&#246;lgesel Geli�im U17 Ligi 2.Grup
+</div><div id="ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c51" class="ComboBoxItem_TFF_Ana">
+	Spor-Toto B&#246;lgesel Geli�im U17 Ligi 3.Grup
+</div><div id="ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c52" class="ComboBoxItem_TFF_Ana">
+	Spor-Toto B&#246;lgesel Geli�im U17 Ligi 4.Grup
+</div><div id="ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c53" class="ComboBoxItem_TFF_Ana">
+	Spor-Toto B&#246;lgesel Geli�im U17 Ligi 5.Grup
+</div><div id="ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c54" class="ComboBoxItem_TFF_Ana">
+	Spor-Toto B&#246;lgesel Geli�im U19 Ligi 1.Grup
+</div><div id="ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c55" class="ComboBoxItem_TFF_Ana">
+	Spor-Toto B&#246;lgesel Geli�im U19 Ligi 2.Grup
+</div><div id="ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c56" class="ComboBoxItem_TFF_Ana">
+	Spor-Toto B&#246;lgesel Geli�im U19 Ligi 3.Grup
+</div><div id="ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c57" class="ComboBoxItem_TFF_Ana">
+	Spor-Toto B&#246;lgesel Geli�im U19 Ligi 4.Grup
+</div><div id="ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c58" class="ComboBoxItem_TFF_Ana">
+	Spor-Toto B&#246;lgesel Geli�im U19 Ligi 5.Grup
+</div><div id="ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c59" class="ComboBoxItem_TFF_Ana">
+	Spor-Toto Geli�im Elit U14 Ligi 1.Grup
+</div><div id="ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c60" class="ComboBoxItem_TFF_Ana">
+	Spor-Toto Geli�im Elit U14 Ligi 2.Grup
+</div><div id="ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c61" class="ComboBoxItem_TFF_Ana">
+	Spor-Toto Geli�im Elit U14 Ligi 3.Grup
+</div><div id="ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c62" class="ComboBoxItem_TFF_Ana">
+	Spor-Toto Geli�im Elit U14 Ligi 4.Grup
+</div><div id="ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c63" class="ComboBoxItem_TFF_Ana">
+	Spor-Toto Geli�im Elit U15 Ligi 1.Grup
+</div><div id="ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c64" class="ComboBoxItem_TFF_Ana">
+	Spor-Toto Geli�im Elit U15 Ligi 2.Grup
+</div><div id="ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c65" class="ComboBoxItem_TFF_Ana">
+	Spor-Toto Geli�im Elit U15 Ligi 3.Grup
+</div><div id="ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c66" class="ComboBoxItem_TFF_Ana">
+	Spor-Toto Geli�im Elit U15 Ligi 4.Grup
+</div><div id="ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c67" class="ComboBoxItem_TFF_Ana">
+	Spor-Toto Geli�im Elit U16 Ligi 1.Grup
+</div><div id="ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c68" class="ComboBoxItem_TFF_Ana">
+	Spor-Toto Geli�im Elit U16 Ligi 2.Grup
+</div><div id="ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c69" class="ComboBoxItem_TFF_Ana">
+	Spor-Toto Geli�im Elit U16 Ligi 3.Grup
+</div><div id="ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c70" class="ComboBoxItem_TFF_Ana">
+	Spor-Toto Geli�im Elit U16 Ligi 4.Grup
+</div><div id="ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c71" class="ComboBoxItem_TFF_Ana">
+	Spor-Toto Geli�im Elit U17 Ligi Elit A
+</div><div id="ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c72" class="ComboBoxItem_TFF_Ana">
+	Spor-Toto Geli�im Elit U17 Ligi Elit B
+</div><div id="ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c73" class="ComboBoxItem_TFF_Ana">
+	Spor-Toto Geli�im Elit U19 Ligi Elit A
+</div><div id="ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c74" class="ComboBoxItem_TFF_Ana">
+	Spor-Toto Geli�im Elit U19 Ligi Elit B
+</div></div></div><span id="ctl00_RPane_m_29_2084_ctnr_m_29_2084_moStyleSheetHolder" style="display:none;"></span></div><input type="hidden" name="ctl00$RPane$m_29_2084_ctnr$m_29_2084$mo_text" id="ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_text" value="Lig Se�iniz.." /><input type="hidden" name="ctl00$RPane$m_29_2084_ctnr$m_29_2084$mo_value" id="ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_value" value="" /><input type="hidden" name="ctl00$RPane$m_29_2084_ctnr$m_29_2084$mo_index" id="ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_index" value="0" /><script type="text/javascript">window["ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo"] = new RadComboBox("mo","ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo");window["ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo"].Initialize({"LoadOnDemandUrl":"/Default.aspx?pageID=29&macId=2%26rcbID=ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo%26rcbServerID=mo","OnClientSelectedIndexChanging":"handleDateChange","AutoPostBack":true,"PostBackReference":"__doPostBack('ctl00$RPane$m_29_2084_ctnr$m_29_2084$mo','TextChange')","MarkFirstMatch":true,"Skin":"TFF_Ana","SelectedIndex":0,"Enabled":true,"ScrollDownImage":"/RadControls/ComboBox/Skins/TFF_Ana/ScrollDown.gif","ScrollDownImageDisabled":"/RadControls/ComboBox/Skins/TFF_Ana/ScrollDownDisabled.gif"},[{"Text":"Lig Se�iniz..","Selected":true,"ClientID":"ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c0"},{"Text":"Spor Toto S�per Lig Lefter K���kandonyadis Sezonu","Value":"900_-1","ClientID":"ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c1"},{"Text":"Spor Toto 1. Lig","Value":"901_-1","ClientID":"ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c2"},{"Text":"TFF 2. Lig Beyaz","Value":"902_1622","ClientID":"ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c3"},{"Text":"TFF 2. Lig K�rm�z�","Value":"902_1621","ClientID":"ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c4"},{"Text":"TFF 3. Lig 1. Grup","Value":"903_1623","ClientID":"ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c5"},{"Text":"TFF 3. Lig 2. Grup","Value":"903_1624","ClientID":"ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c6"},{"Text":"TFF 3. Lig 3. Grup","Value":"903_1625","ClientID":"ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c7"},{"Text":"U21 Ligi 1. Lig","Value":"904_1627","ClientID":"ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c8"},{"Text":"U21 Ligi S�per Lig","Value":"904_1626","ClientID":"ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c9"},{"Text":"Ziraat T�rkiye Kupas�","Value":"912_-1","ClientID":"ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c10"},{"Text":"Kad�nlar 1.Ligi","Value":"930_-1","ClientID":"ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c11"},{"Text":"Kad�nlar 2.Ligi","Value":"931_-1","ClientID":"ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c12"},{"Text":"Kad�nlar 3.Ligi 01","Value":"935_1727","ClientID":"ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c13"},{"Text":"Kad�nlar 3.Ligi 02","Value":"935_1728","ClientID":"ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c14"},{"Text":"Kad�nlar 3.Ligi 03","Value":"935_1729","ClientID":"ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c15"},{"Text":"Kad�nlar 3.Ligi 04","Value":"935_1730","ClientID":"ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c16"},{"Text":"Kad�nlar 3.Ligi 05","Value":"935_1731","ClientID":"ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c17"},{"Text":"Kad�nlar 3.Ligi 06","Value":"935_1732","ClientID":"ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c18"},{"Text":"Kad�nlar 3.Ligi 07","Value":"935_1733","ClientID":"ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c19"},{"Text":"Kad�nlar 3.Ligi 08","Value":"935_1734","ClientID":"ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c20"},{"Text":"Kad�nlar 3.Ligi 09","Value":"935_1735","ClientID":"ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c21"},{"Text":"Kad�nlar 3.Ligi 10","Value":"935_1736","ClientID":"ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c22"},{"Text":"Kad�nlar 3.Ligi 11","Value":"935_1737","ClientID":"ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c23"},{"Text":"Kad�nlar 3.Ligi 12","Value":"935_1738","ClientID":"ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c24"},{"Text":"Kad�nlar 3.Ligi 13","Value":"935_1739","ClientID":"ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c25"},{"Text":"Kad�nlar 3.Ligi 14","Value":"935_1740","ClientID":"ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c26"},{"Text":"Kad�nlar 3.Ligi 15","Value":"935_1741","ClientID":"ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c27"},{"Text":"SporToto B�lgesel Amat�r Lig 1. GRUP","Value":"928_1716","ClientID":"ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c28"},{"Text":"SporToto B�lgesel Amat�r Lig 10. GRUP","Value":"928_1725","ClientID":"ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c29"},{"Text":"SporToto B�lgesel Amat�r Lig 11. GRUP","Value":"928_1726","ClientID":"ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c30"},{"Text":"SporToto B�lgesel Amat�r Lig 2. GRUP","Value":"928_1717","ClientID":"ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c31"},{"Text":"SporToto B�lgesel Amat�r Lig 3. GRUP","Value":"928_1718","ClientID":"ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c32"},{"Text":"SporToto B�lgesel Amat�r Lig 4. GRUP","Value":"928_1719","ClientID":"ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c33"},{"Text":"SporToto B�lgesel Amat�r Lig 5. GRUP","Value":"928_1720","ClientID":"ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c34"},{"Text":"SporToto B�lgesel Amat�r Lig 6. GRUP","Value":"928_1721","ClientID":"ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c35"},{"Text":"SporToto B�lgesel Amat�r Lig 7. GRUP","Value":"928_1722","ClientID":"ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c36"},{"Text":"SporToto B�lgesel Amat�r Lig 8. GRUP","Value":"928_1723","ClientID":"ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c37"},{"Text":"SporToto B�lgesel Amat�r Lig 9. GRUP","Value":"928_1724","ClientID":"ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c38"},{"Text":"Spor-Toto B�lgesel Geli�im U15 Ligi 1.Grup","Value":"913_1644","ClientID":"ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c39"},{"Text":"Spor-Toto B�lgesel Geli�im U15 Ligi 2.Grup","Value":"913_1645","ClientID":"ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c40"},{"Text":"Spor-Toto B�lgesel Geli�im U15 Ligi 3.Grup","Value":"913_1646","ClientID":"ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c41"},{"Text":"Spor-Toto B�lgesel Geli�im U15 Ligi 4.Grup","Value":"913_1647","ClientID":"ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c42"},{"Text":"Spor-Toto B�lgesel Geli�im U15 Ligi 5.Grup","Value":"913_1648","ClientID":"ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c43"},{"Text":"Spor-Toto B�lgesel Geli�im U16 Ligi 1.Grup","Value":"914_1649","ClientID":"ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c44"},{"Text":"Spor-Toto B�lgesel Geli�im U16 Ligi 2.Grup","Value":"914_1650","ClientID":"ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c45"},{"Text":"Spor-Toto B�lgesel Geli�im U16 Ligi 3.Grup","Value":"914_1651","ClientID":"ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c46"},{"Text":"Spor-Toto B�lgesel Geli�im U16 Ligi 4.Grup","Value":"914_1652","ClientID":"ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c47"},{"Text":"Spor-Toto B�lgesel Geli�im U16 Ligi 5.Grup","Value":"914_1653","ClientID":"ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c48"},{"Text":"Spor-Toto B�lgesel Geli�im U17 Ligi 1.Grup","Value":"915_1654","ClientID":"ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c49"},{"Text":"Spor-Toto B�lgesel Geli�im U17 Ligi 2.Grup","Value":"915_1655","ClientID":"ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c50"},{"Text":"Spor-Toto B�lgesel Geli�im U17 Ligi 3.Grup","Value":"915_1656","ClientID":"ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c51"},{"Text":"Spor-Toto B�lgesel Geli�im U17 Ligi 4.Grup","Value":"915_1657","ClientID":"ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c52"},{"Text":"Spor-Toto B�lgesel Geli�im U17 Ligi 5.Grup","Value":"915_1658","ClientID":"ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c53"},{"Text":"Spor-Toto B�lgesel Geli�im U19 Ligi 1.Grup","Value":"916_1659","ClientID":"ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c54"},{"Text":"Spor-Toto B�lgesel Geli�im U19 Ligi 2.Grup","Value":"916_1660","ClientID":"ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c55"},{"Text":"Spor-Toto B�lgesel Geli�im U19 Ligi 3.Grup","Value":"916_1661","ClientID":"ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c56"},{"Text":"Spor-Toto B�lgesel Geli�im U19 Ligi 4.Grup","Value":"916_1662","ClientID":"ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c57"},{"Text":"Spor-Toto B�lgesel Geli�im U19 Ligi 5.Grup","Value":"916_1663","ClientID":"ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c58"},{"Text":"Spor-Toto Geli�im Elit U14 Ligi 1.Grup","Value":"907_1632","ClientID":"ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c59"},{"Text":"Spor-Toto Geli�im Elit U14 Ligi 2.Grup","Value":"907_1633","ClientID":"ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c60"},{"Text":"Spor-Toto Geli�im Elit U14 Ligi 3.Grup","Value":"907_1634","ClientID":"ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c61"},{"Text":"Spor-Toto Geli�im Elit U14 Ligi 4.Grup","Value":"907_1635","ClientID":"ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c62"},{"Text":"Spor-Toto Geli�im Elit U15 Ligi 1.Grup","Value":"908_1636","ClientID":"ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c63"},{"Text":"Spor-Toto Geli�im Elit U15 Ligi 2.Grup","Value":"908_1637","ClientID":"ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c64"},{"Text":"Spor-Toto Geli�im Elit U15 Ligi 3.Grup","Value":"908_1638","ClientID":"ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c65"},{"Text":"Spor-Toto Geli�im Elit U15 Ligi 4.Grup","Value":"908_1639","ClientID":"ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c66"},{"Text":"Spor-Toto Geli�im Elit U16 Ligi 1.Grup","Value":"909_1640","ClientID":"ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c67"},{"Text":"Spor-Toto Geli�im Elit U16 Ligi 2.Grup","Value":"909_1641","ClientID":"ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c68"},{"Text":"Spor-Toto Geli�im Elit U16 Ligi 3.Grup","Value":"909_1642","ClientID":"ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c69"},{"Text":"Spor-Toto Geli�im Elit U16 Ligi 4.Grup","Value":"909_1643","ClientID":"ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c70"},{"Text":"Spor-Toto Geli�im Elit U17 Ligi Elit A","Value":"905_1628","ClientID":"ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c71"},{"Text":"Spor-Toto Geli�im Elit U17 Ligi Elit B","Value":"905_1629","ClientID":"ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c72"},{"Text":"Spor-Toto Geli�im Elit U19 Ligi Elit A","Value":"906_1630","ClientID":"ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c73"},{"Text":"Spor-Toto Geli�im Elit U19 Ligi Elit B","Value":"906_1631","ClientID":"ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c74"}]);</script>
+</div>
+<div id="ctl00_RPane_m_29_2084_ctnr_m_29_2084_Panel1">
+
+
+
+
+</div>
+
+<script type="text/javascript">
+function handleDateChange(item) {
+   if (item.Index == item.ComboBox.SelectedItem.Index) {
+        return false;
+   }
+}
+
+</script>
+
+<div id="ctl00_RPane_m_29_2084_ctnr_m_29_2084_RadAjaxManager1" ToolTip="">
+	<!-- 1.5.3 -->
+</div>
+<div id="ctl00_RPane_m_29_2084_ctnr_m_29_2084_lp" style="display:none;height:75px;width:75px;">
+
+    <img id="ctl00_RPane_m_29_2084_ctnr_m_29_2084_Image1" src="RadControls/Ajax/Skins/Default/loadingBall.gif" alt="Y�kleniyor..." />
+<script type="text/javascript" src="/WebResource.axd?d=3fbP7V7-QvH2yiVbaEoCmIQzDyJygVbEtsPVAt5hU6BQmzb3B-jvqBNEDj_PE6KAkdWl8biOapVM6r34htaYh0svDyb_1lAaaiKk9XwmHgz7e9DM6gIiMx6CTEOh0PYDVmeteNoj_qt16grcQXWWD6RefYvZxTOvnXXBxKkCZK-9cWRy0&amp;t=636559471900000000"></script><script type='text/javascript'>RadAjaxNamespace.AddPanel( { ClientID : 'ctl00_RPane_m_29_2084_ctnr_m_29_2084_lp', IsSticky : false, InitialDelayTime: 0, MinDisplayTime: 0 } );</script>
+</div>
+</td></tr></table></div><div id="ctl00_RPane_m_29_5764_ctnr_div" style="vertical-align:top;text-align:left;"><table width="100%" border="0" cellpadding="0" cellspacing="0" class="alanlar2 marginB"><tr><td class="alanProfesyonel" style="height:23px"><div class="moduleTitle">Haftal�k Ma� G�revlileri </div></td></tr><tr><td class="alanlarContent"><p align=left><a href="default.aspx?pageID=433" target=_blank><strong><font size=2>Hakem, G�zlemci ve Temsilciler</font></strong></a></p></td></tr></table></div><div id="ctl00_RPane_m_29_8433_ctnr_div" style="vertical-align:top;text-align:left;"><div id="ctl00_RPane_m_29_8433_ctnr_title" class="moduleTitle"></div><a href="https://eshop.tff.org/forma" target=_blank></a><a href="https://eshop.tff.org/" target=_blank><img border=0 alt="" src="Resources/TFF/Images/0000000015/TFF/e-shop/TFF-E-Shop180.jpg"></a><a href="https://eshop.tff.org/forma" target=_blank></a></div>
+</td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                        <td>&nbsp;</td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td height="62" valign="bottom" class="footerBG" width="992">
+
+                    <table style="height: 62px" cellspacing="0" cellpadding="0" width="100%" border="0">
+                        <tbody>
+                            <tr>
+                                <td class="footerTopBG" height="9">&nbsp;</td>
+                            </tr>
+                            <tr>
+                                <td class="footerLinkBG" height="54">
+                                    <table cellspacing="0" cellpadding="0" align="right" border="0"><tbody><tr><td></td></tr></tbody></table>
+                                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                        <tr>
+                                            <td width="97"><img src="App_Themes/TFF_Default/Images/design/bosluk.gif" width="97" height="54" border="0"></td>
+                                            <td><p><a href="Default.aspx?pageID=176"><b>�leti�im</b></a><b> |<a href="Default.aspx?pageId=378&letter=A"> Site Haritas�</a> | <a href="Copyright.htm" onclick="return Popup(this.href,'Ar�iv',800,380,0,0,0);">Kopya Haklar�</a> |<a href="Default.aspx?pageID=179"> Kullan�m �artlar�</a> | <a href="Default.aspx?pageID=175">Sponsorlar</a></b><br>T�m haklar� T�rkiye Futbol Federasyonu'na aittir.</p></td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+                <td class="footerBG">&nbsp;</td>
+            </tr>
+        </table>
+    </form>
+    <script src="http://www.google-analytics.com/urchin.js" type="text/javascript"></script>
+    <script type="text/javascript">_uacct = "UA-1435738-1";urchinTracker();</script>
+</body>
+</html>

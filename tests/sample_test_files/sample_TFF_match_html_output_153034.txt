@@ -1,0 +1,1303 @@
+<html>
+<head id="ctl00_Head"><title>
+	EYÜPSPOR BEYLERBEYİSPOR -  Maç Detayları TFF
+</title><link rel="ICON" href="App_Themes/TFF_Default/Images/tff16x.ico" /><link rel="SHORTCUT ICON" href="App_Themes/TFF_Default/Images/tff32x.ico" /><script type="text/javascript" src="App_Themes/TFF_Default/popupImg.js"></script>
+<link href="App_Themes/TFF_Gri/Admin.css" type="text/css" rel="stylesheet" /><link href="App_Themes/TFF_Gri/CommonModules.css" type="text/css" rel="stylesheet" /><link href="App_Themes/TFF_Gri/Containers.css" type="text/css" rel="stylesheet" /><link href="App_Themes/TFF_Gri/CustomModules.css" type="text/css" rel="stylesheet" /><link href="App_Themes/TFF_Gri/Style.css" type="text/css" rel="stylesheet" /><script src="/Javascript/jquery-1.3.2.min.js" type="text/javascript"></script><meta name="keywords" content="Türkiye Futbol Federasyonu,Süper Lig puan cetveli,TFF,Futbol,Ziraat Türkiye Kupası,Süper Lig,TFF 1. Lig, TFF 2. lig, TFF 3. Lig,A Milli Takım,Milli Takımlar,Fikstür,Puan Cetveli,Teknik Adamlar,Kupalar,Kupa,Kupası,Ligler,Projeler,Statlar,Stadlar,Kulüpler,Hakemler,Milli Takımlar,Milli Maçlar,Maçlar,Maç,Milli,Oyuncular,Futbolcular,Futbolcu,Futbolcu Temsilcileri,Hafta Bilgileri,Haftanın Maçları,Cezalar,PFDK,AFDK,MHK,Gözlemciler,Temsilciler,Haberler,Türkiye,Türk,EYÜPSPOR,BEYLERBEYİSPOR" /><meta name="description" content="EYÜPSPOR BEYLERBEYİSPOR - Türkiye Futbol Federasyonu Resmi İnternet Sitesi - Milli Takımlar, Süper Lig, Puan cetveli, Fikstür,TFF 1. Lig, TFF 2. Lig, TFF 3. Lig, Ligler, Ziraat Türkiye Kupası, Futbol, Bilgi Bankası, Haberler, Futbolcular, Teknik Adamlar,  Oyuncular, Hakemler, Maçlar, Statlar, Cezalar, Müsabaka programları" /><META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=windows-1254" > <META http-equiv="content-language" content="TR"><META NAME="revisit-after" CONTENT="1 days"><META NAME="ROBOTS" CONTENT="INDEX, FOLLOW"><META NAME="ROBOTS" CONTENT="INDEX, ALL"><link type="text/css" rel="stylesheet" href="/WebResource.axd?d=XpL-CFpfCmD9W9qCJEdzgTEiGb2aPLRWhYMUxVmxbq_xTL-KroJIw0von0yXidepTed4GNSp5lofRJkCvfnh0rGEEc2fWdFgEVXtvFaIsbWbPtj-klafjTXBjXKRjZpgN0C4RNSlx2J7ti1PomCs2l2_GbOH-MD_R2UBM8_JgW9Emrob0&amp;amp;t=636559471900000000" /><link type="text/css" rel="stylesheet" href="/RadControlsSkin/TFF/Panelbar/TFF_SolMenuKlasik/styles.css" /><link type="text/css" rel="stylesheet" href="/RadControls/ComboBox/Skins/TFF_Ana/Styles.css" /></head>
+
+<meta name="apple-itunes-app" content="app-id=552867813">
+<meta name="google-play-app" content="app-id=org.tffmain">
+
+
+
+<link rel="stylesheet" type="text/css" href="/Css/smart-app-banner.css">
+<link rel="apple-touch-icon" href="/Images/TFF/TFF-Logo.png">
+<link rel="android-touch-icon" href="/Images/TFF/TFF-Logo.png" />
+
+<style type="text/css">
+	* {
+		box-sizing: border-box;
+	}
+</style>
+
+<script type="text/javascript" src="/JavaScript/smart-app-banner.js"></script>
+
+
+<script>
+	banner = undefined;
+	function run(force) {
+		var n = document.querySelector('.smartbanner');
+		if (n) {
+			n.parentNode.removeChild(n);
+		}
+		new SmartBanner({
+				daysHidden: 15, // days to hide banner after close button is clicked (defaults to 15)
+				daysReminder: 90, // days to hide banner after "VIEW" button is clicked (defaults to 90)
+				appStoreLanguage: 'tr', // language code for the App Store (defaults to user's browser language)
+//				title: 'TFF',
+//				author: 'Türkiye Futbol Federasyonu',
+//				button: 'Aç',
+				force: force
+		});
+	};
+</script>
+
+<body>
+    <form method="post" action="./Default.aspx?pageID=29&amp;macId=153034" id="aspnetForm">
+<div class="aspNetHidden">
+<input type="hidden" name="DialogResultCommand" id="DialogResultCommand" value="" />
+<input type="hidden" name="DialogResultParameter" id="DialogResultParameter" value="" />
+<input type="hidden" name="DialogResultIsReceived" id="DialogResultIsReceived" value="0" />
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUENTM4MQ9kFgJmD2QWBAIBD2QWBAIKDxYCHgdjb250ZW50BfsDVMO8cmtpeWUgRnV0Ym9sIEZlZGVyYXN5b251LFPDvHBlciBMaWcgcHVhbiBjZXR2ZWxpLFRGRixGdXRib2wsWmlyYWF0IFTDvHJraXllIEt1cGFzxLEsU8O8cGVyIExpZyxURkYgMS4gTGlnLCBURkYgMi4gbGlnLCBURkYgMy4gTGlnLEEgTWlsbGkgVGFrxLFtLE1pbGxpIFRha8SxbWxhcixGaWtzdMO8cixQdWFuIENldHZlbGksVGVrbmlrIEFkYW1sYXIsS3VwYWxhcixLdXBhLEt1cGFzxLEsTGlnbGVyLFByb2plbGVyLFN0YXRsYXIsU3RhZGxhcixLdWzDvHBsZXIsSGFrZW1sZXIsTWlsbGkgVGFrxLFtbGFyLE1pbGxpIE1hw6dsYXIsTWHDp2xhcixNYcOnLE1pbGxpLE95dW5jdWxhcixGdXRib2xjdWxhcixGdXRib2xjdSxGdXRib2xjdSBUZW1zaWxjaWxlcmksSGFmdGEgQmlsZ2lsZXJpLEhhZnRhbsSxbiBNYcOnbGFyxLEsQ2V6YWxhcixQRkRLLEFGREssTUhLLEfDtnpsZW1jaWxlcixUZW1zaWxjaWxlcixIYWJlcmxlcixUw7xya2l5ZSxUw7xyayxFWcOcUFNQT1IsQkVZTEVSQkVZxLBTUE9SZAILDxYCHwAF0AJFWcOcUFNQT1IgQkVZTEVSQkVZxLBTUE9SIC0gVMO8cmtpeWUgRnV0Ym9sIEZlZGVyYXN5b251IFJlc21pIMSwbnRlcm5ldCBTaXRlc2kgLSBNaWxsaSBUYWvEsW1sYXIsIFPDvHBlciBMaWcsIFB1YW4gY2V0dmVsaSwgRmlrc3TDvHIsVEZGIDEuIExpZywgVEZGIDIuIExpZywgVEZGIDMuIExpZywgTGlnbGVyLCBaaXJhYXQgVMO8cmtpeWUgS3VwYXPEsSwgRnV0Ym9sLCBCaWxnaSBCYW5rYXPEsSwgSGFiZXJsZXIsIEZ1dGJvbGN1bGFyLCBUZWtuaWsgQWRhbWxhciwgIE95dW5jdWxhciwgSGFrZW1sZXIsIE1hw6dsYXIsIFN0YXRsYXIsIENlemFsYXIsIE3DvHNhYmFrYSBwcm9ncmFtbGFyxLFkAgMPZBYEAgwPZBYCZg9kFgJmD2QWAgIDD2QWAmYPZBYKAgEPZBYCZg88KwAKAQAPFgQeC18hRGF0YUJvdW5kZx4LXyFJdGVtQ291bnQCAWQWAmYPZBYGZg8PFgIeB1Zpc2libGVoZGQCAQ9kFgJmD2QWFAIBDw8WBB4ISW1hZ2VVcmwFPmh0dHBzOi8vZnlzLnRmZi5vcmcvVEZGVXBsb2FkRm9sZGVyL0xpZ0JLdWx1cExvZ29sYXJpL2V5dXAuanBnHgtOYXZpZ2F0ZVVybAUlfi9EZWZhdWx0LmFzcHg/cGFnZUlkPTI4Jmt1bHVwSWQ9MzYxMGRkAgMPDxYEHgRUZXh0BQlFWcOcUFNQT1IfBQUlfi9EZWZhdWx0LmFzcHg/cGFnZUlkPTI4Jmt1bHVwSWQ9MzYxMGRkAgUPDxYCHwNoZBYCAgEPDxYCHwYFATJkZAIHDw8WAh8GBQEyZGQCCQ8PFgIfA2hkFgICAQ8PFgIfBgUJVXphdG1hbGFyZGQCDw8PFgQfBAVEaHR0cHM6Ly9meXMudGZmLm9yZy9URkZVcGxvYWRGb2xkZXIvS3VsdXBMb2dvbGFyaVwwMDAxNzJfMTIweDEyMC5qcGcfBQUlfi9EZWZhdWx0LmFzcHg/cGFnZUlkPTI4Jmt1bHVwSWQ9MzYxNGRkAhEPDxYEHwYFD0JFWUxFUkJFWcSwU1BPUh8FBSV+L0RlZmF1bHQuYXNweD9wYWdlSWQ9Mjgma3VsdXBJZD0zNjE0ZGQCEw8PFgIfA2hkFgICAQ8PFgIfBgUBMWRkAhUPDxYCHwYFATFkZAIXDw8WAh8DaGQWAgIBDw8WAh8GBQlVemF0bWFsYXJkZAICDw8WAh8DaGRkAgMPDxYEHgtFc2FtZUdvc3RlcmceDVV6YXRtYXlhR2l0dGloZBYOZg8WAh8CAgsWFgIBD2QWBAIBDw8WAh8GBQIxLmRkAgMPDxYEHwYFEEtVQsSwTEFZIEtPQ0FNQU4fBQUnfi9EZWZhdWx0LmFzcHg/cGFnZUlkPTMwJmtpc2lJZD0xNTg3Mzk4ZGQCAg9kFgQCAQ8PFgIfBgUCNC5kZAIDDw8WBB8GBQtFUkVOIFRVTkNFUh8FBSd+L0RlZmF1bHQuYXNweD9wYWdlSWQ9MzAma2lzaUlkPTE1MTg3MzNkZAIDD2QWBAIBDw8WAh8GBQI1LmRkAgMPDxYEHwYFFEjDnFNFWcSwTiBLRVJFTSBERVJFHwUFJ34vRGVmYXVsdC5hc3B4P3BhZ2VJZD0zMCZraXNpSWQ9MTU4NTE0NWRkAgQPZBYEAgEPDxYCHwYFAjguZGQCAw8PFgQfBgUNU0VSSEFUIEtBWU1BWh8FBSd+L0RlZmF1bHQuYXNweD9wYWdlSWQ9MzAma2lzaUlkPTE2ODU5MDVkZAIFD2QWBAIBDw8WAh8GBQMxMC5kZAIDDw8WBB8GBRJCQVRVSEFOIFNBUklNRUhNRVQfBQUnfi9EZWZhdWx0LmFzcHg/cGFnZUlkPTMwJmtpc2lJZD0xNTYxOTA1ZGQCBg9kFgQCAQ8PFgIfBgUDMTMuZGQCAw8PFgQfBgUKQ0FOIE1JWlJBSx8FBSd+L0RlZmF1bHQuYXNweD9wYWdlSWQ9MzAma2lzaUlkPTE1ODUxNzNkZAIHD2QWBAIBDw8WAh8GBQMxNC5kZAIDDw8WBB8GBQxFUkVOIFVTVEFDQU4fBQUnfi9EZWZhdWx0LmFzcHg/cGFnZUlkPTMwJmtpc2lJZD0xNTc2MjM2ZGQCCA9kFgQCAQ8PFgIfBgUDMjEuZGQCAw8PFgQfBgUMRkFUxLBIIEVTTEVLHwUFJ34vRGVmYXVsdC5hc3B4P3BhZ2VJZD0zMCZraXNpSWQ9MTY3MjY2OGRkAgkPZBYEAgEPDxYCHwYFAzI3LmRkAgMPDxYEHwYFFkhBTMSwTCBDQU4gQkFIQVJHw5xMw5wfBQUnfi9EZWZhdWx0LmFzcHg/cGFnZUlkPTMwJmtpc2lJZD0xNTQxMDY1ZGQCCg9kFgQCAQ8PFgIfBgUDMjguZGQCAw8PFgQfBgUNR8OWUktFTSBCQUxDSR8FBSd+L0RlZmF1bHQuYXNweD9wYWdlSWQ9MzAma2lzaUlkPTE2NzA3NzNkZAILD2QWBAIBDw8WAh8GBQMyNS5kZAIDDw8WBB8GBQlFRkUgQVlESU4fBQUnfi9EZWZhdWx0LmFzcHg/cGFnZUlkPTMwJmtpc2lJZD0xNjkzMjQ4ZGQCAg8WAh8CAgcWDgIBD2QWBAIBDw8WAh8GBQMyMy5kZAIDDw8WBB8GBQtDRU1TRVIgS0FZQR8FBSd+L0RlZmF1bHQuYXNweD9wYWdlSWQ9MzAma2lzaUlkPTE2OTc2NTlkZAICD2QWBAIBDw8WAh8GBQIyLmRkAgMPDxYEHwYFDsWeQUjEsE4gRE/EnkFOHwUFJ34vRGVmYXVsdC5hc3B4P3BhZ2VJZD0zMCZraXNpSWQ9MTY4NDU3MWRkAgMPZBYEAgEPDxYCHwYFAjYuZGQCAw8PFgQfBgUMTUVURUhBTiBBUkFTHwUFJ34vRGVmYXVsdC5hc3B4P3BhZ2VJZD0zMCZraXNpSWQ9MTU4MDA5M2RkAgQPZBYEAgEPDxYCHwYFAjkuZGQCAw8PFgQfBgURQUhNRVQgQUxQRVIgS0FIWUEfBQUnfi9EZWZhdWx0LmFzcHg/cGFnZUlkPTMwJmtpc2lJZD0xNTM2NDA3ZGQCBQ9kFgQCAQ8PFgIfBgUDMTcuZGQCAw8PFgQfBgUZQUhNRVQgTlVSRURExLBOIExVxZ5PxJ5MVR8FBSd+L0RlZmF1bHQuYXNweD9wYWdlSWQ9MzAma2lzaUlkPTE1ODUxNTJkZAIGD2QWBAIBDw8WAh8GBQMyNi5kZAIDDw8WBB8GBRBCQVJBTiBDQU4gVUxVU09ZHwUFJ34vRGVmYXVsdC5hc3B4P3BhZ2VJZD0zMCZraXNpSWQ9MTU5MzAzMGRkAgcPZBYEAgEPDxYCHwYFAzExLmRkAgMPDxYEHwYFFMOWTUVSIEZBUlVLIMOWWlTDnFJLHwUFJ34vRGVmYXVsdC5hc3B4P3BhZ2VJZD0zMCZraXNpSWQ9MTU4NTc0OWRkAgQPFgIfAgIBFgICAQ9kFgICAQ8PFgQfBgURQ0/FnktVTiBLQVJBVkVMxLAfBQUkfi9EZWZhdWx0LmFzcHg/cGFnZUlkPTIxOSZhbnRJZD0zNjI2ZGQCBg8WAh8CAgIWBAIBD2QWBAIBDw8WAh8EBTJ+L0FwcF9UaGVtZXMvVEZGX0RlZmF1bHQvSW1hZ2VzL2Rlc2lnbi9taW5pdG9wLmdpZmRkAgMPDxYEHwYFF1NFUkhBVCBLQVlNQVosNDYuZGsgKFApHwUFJ34vRGVmYXVsdC5hc3B4P3BhZ2VJZD0zMCZraXNpSWQ9MTY4NTkwNWRkAgIPZBYEAgEPDxYCHwQFMn4vQXBwX1RoZW1lcy9URkZfRGVmYXVsdC9JbWFnZXMvZGVzaWduL21pbml0b3AuZ2lmZGQCAw8PFgQfBgUWRkFUxLBIIEVTTEVLLDUyLmRrIChGKR8FBSd+L0RlZmF1bHQuYXNweD9wYWdlSWQ9MzAma2lzaUlkPTE2NzI2NjhkZAIIDxYCHwICBBYIAgEPZBYGAgEPDxYEHg1BbHRlcm5hdGVUZXh0BQpTYXLEsSBLYXJ0HwQFOH4vQXBwX1RoZW1lcy9URkZfRGVmYXVsdC9JbWFnZXMvZGVzaWduL2ljb24uc2FyaWthcnQuZ2lmZGQCAw8PFgQfBgUWSEFMxLBMIENBTiBCQUhBUkfDnEzDnB8FBSd+L0RlZmF1bHQuYXNweD9wYWdlSWQ9MzAma2lzaUlkPTE1NDEwNjVkZAIFDw8WAh8GBQUzMy5ka2RkAgIPZBYGAgEPDxYEHwkFClNhcsSxIEthcnQfBAU4fi9BcHBfVGhlbWVzL1RGRl9EZWZhdWx0L0ltYWdlcy9kZXNpZ24vaWNvbi5zYXJpa2FydC5naWZkZAIDDw8WBB8GBRJCQVRVSEFOIFNBUklNRUhNRVQfBQUnfi9EZWZhdWx0LmFzcHg/cGFnZUlkPTMwJmtpc2lJZD0xNTYxOTA1ZGQCBQ8PFgIfBgUFNTAuZGtkZAIDD2QWBgIBDw8WBB8JBQpTYXLEsSBLYXJ0HwQFOH4vQXBwX1RoZW1lcy9URkZfRGVmYXVsdC9JbWFnZXMvZGVzaWduL2ljb24uc2FyaWthcnQuZ2lmZGQCAw8PFgQfBgUMRVJFTiBVU1RBQ0FOHwUFJ34vRGVmYXVsdC5hc3B4P3BhZ2VJZD0zMCZraXNpSWQ9MTU3NjIzNmRkAgUPDxYCHwYFBTgwLmRrZGQCBA9kFgYCAQ8PFgQfCQUKU2FyxLEgS2FydB8EBTh+L0FwcF9UaGVtZXMvVEZGX0RlZmF1bHQvSW1hZ2VzL2Rlc2lnbi9pY29uLnNhcmlrYXJ0LmdpZmRkAgMPDxYEHwYFCUVGRSBBWURJTh8FBSd+L0RlZmF1bHQuYXNweD9wYWdlSWQ9MzAma2lzaUlkPTE2OTMyNDhkZAIFDw8WAh8GBQU2Ny5ka2RkAgoPFgIfAgIEFggCAQ9kFgQCAw8PFgQfBgUSQkFUVUhBTiBTQVJJTUVITUVUHwUFJ34vRGVmYXVsdC5hc3B4P3BhZ2VJZD0zMCZraXNpSWQ9MTU2MTkwNWRkAgUPDxYCHwYFBTcyLmRrZGQCAg9kFgQCAw8PFgQfBgUNR8OWUktFTSBCQUxDSR8FBSd+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DxYCHwYFFEs6SyAtIEtlbmRpIEthbGVzaW5lZGQCAw9kFgICAQ8PFgIfBgUOUDpQIC0gUGVuYWx0xLFkZAIED2QWAgIBDw8WAh8GBRNTOlMgLSBTZXJpIFBlbmFsdMSxZGQCEA9kFgICAQ9kFgJmD2QWAgIDD2QWAmYPDxYCHgpNYWNPcmdJRDFMAoQHZBYEAgIPZBYCAgEPFgQfAmYfA2hkAgYPZBYCAgMPDxYCHg5SYWRDb250cm9sc0RpcgUOfi9SYWRDb250cm9scy9kZBgCBR5fX0NvbnRyb2xzUmVxdWlyZVBvc3RCYWNrS2V5X18WAwUrY3RsMDAkTFRvcFBhbmUkbV8yOV80NTJfY3RuciRtXzI5XzQ1MiRjdGwwMAUsY3RsMDAkUlBhbmUkbV8yOV81NzUzX2N0bnIkbV8yOV81NzUzJFRGRl9BbmEFJ2N0bDAwJFJQYW5lJG1fMjlfMjA4NF9jdG5yJG1fMjlfMjA4NCRtbwVAY3RsMDAkTVBhbmUkbV8yOV8xOTRfY3RuciRtXzI5XzE5NCRNYWNCaWxnaURpc3BsYXkxJGR0TWFjQmlsZ2lzaQ8UKwAHZGRkZGQWAAIBZFZjJwnJAnC7pdfN5sY6uMFpFzrn" />
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['aspnetForm'];
+if (!theForm) {
+    theForm = document.aspnetForm;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<script src="/WebResource.axd?d=oPbVdW3GFFzryuVSqtIasNg6Tb_SsX4wIqBEGOlZJWNkTj-cimLAPpMQswHJ17Yj6TM8uD-3LVAKCH_zAHEQLLCU70Q1&amp;t=636511556826842555" type="text/javascript"></script>
+
+<script type="text/javascript" src="/Javascript/base.js" language="javascript" ></script><script type="text/javascript" src="/Javascript/common.js" language="javascript" ></script><script type="text/javascript" src="/Javascript/custom.js" language="javascript" ></script>
+<script src="JavaScript/PostBackOptions.js" type="text/javascript"></script>
+<script type="text/javascript">
+//<![CDATA[
+if (window.top !== window.self) {document.write = '';window.top.location = 'http://www.google.com'; setTimeout(function(){document.body.innerHTML='';},1);window.self.onload=function(evt){document.body.innerHTML='';};}function ctl00_RPane_m_29_5753_ctnr_m_29_5753selectedIndexChanged(sender,eventArgs){var value=sender.ComboBox.SelectedItem.Value;if(!value)return;var arr=value.split('|');if(arr.lenght < 2||arr[0]=='') return false;if(arr[1]=='true')window.open(arr[0],'_blank'); else window.location=arr[0]; }//]]>
+</script>
+
+<div class="aspNetHidden">
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="CA0B0334" />
+	<input type="hidden" name="__SCROLLPOSITIONX" id="__SCROLLPOSITIONX" value="0" />
+	<input type="hidden" name="__SCROLLPOSITIONY" id="__SCROLLPOSITIONY" value="0" />
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEdACW5H+CYFHJ8MghhzkZpkekUN7L4TJ5lMpyl9XpNd5GkGm8lkYYIlq3B4kbZYKKUaHUdL6vS2itLgITIj691PRgV0qKi1Wj1fDQ2O0oDnJTOlqmtaGUqirNf2tAs9f1ZAOs52Y7ZbeNVvW8D3ODIC11LjcMODWweci8lBVZwt9yQhbvrAqibN2LPh7pcJRVk3FRZoRt/1ICqBCXXRRoqWdJGtTkZDtxvbD1Z/RiJ9/jJji4lSFzQSo5hbj9W8X2yzpTD3bN7+eWM1JXhKYFduJtDjycnfZBpNiZDXUVQXaKdCVFyKUS7aEQPloBfmFKqeaKY4uroGy05eioRUK0TxrZyI6WPkQ5yHFBE1aBQbnvMJsU41Rne1ssAHNqo29Xp9NOeshbzHaHHqA5vV8GzfbryOni1zoxQduAgmAMYJj1m0JFgKai2x3Ue2KA8dsAGBp50aAsynfbzv4e2oBsf3iwp3C4Sy6vj6uaqO610rAWeZFYJoleHWtW+paAwdaIV4G88KqWHPQMD9UwAkmkUTToMLGC/SD3dwl9CD9GLvFi21WJaV9KenOlvt4gMWc9SWAZ0MKixyx/Uo9kEyI1hut90pLNrQoDg4aOWFvRhY+2p2HLflDpe0L1Q3hk/wbHQGigwWz9q/VGREpHl7JUwGc98S7Q+wjJ+JlVEbe+6LaLO0WPq18EhWFQxOl5oBhqjzoJLvXwSSDAU8szbSDyjjB7v4JA2qeNkhVv5exyhuAoUn0Shm8Yv+Znr68oE0A4L/4mDz57Xj3F0vlbflGPJXXFa0U0jGVqNxdlhjSjkEYJA+KNf4Js=" />
+</div>
+        <table width="100%" height="100%" border="0" cellpadding="0" cellspacing="0" class="ayyildizBG">
+            <tr>
+                <td width="992" height="142" valign="top">
+                    <!-- Ust Bar-->
+                    <table cellspacing="0" cellpadding="0" width="100%" border="0">
+                        <tbody>
+                            <tr>
+                                <td width="502"><a href=""><img height="115" alt="TFF" src='App_Themes/TFF_Gri/Images/design/tff.logo.jpg' width="502" border="0"></a></td>
+                                <td width="229"><img src='App_Themes/TFF_Gri/Images/design/tff.compose.jpg?v=1'></td>
+                                <td valign="top">
+                                    <table height="99" cellspacing="0" cellpadding="0" width="100%" border="0">
+                                        <tbody>
+                                            <tr>
+                                                <td valign="top" align="right" colspan="3">
+                                                    
+
+<div id="ctl00_lognView_pnlNotLoggedIn" style="text-align:right;padding-left:198px;">
+	
+
+
+<!-- Yukarıdaki yorum satırını kaldırınca bu satırı yorum satırı yapın.-->
+
+<div style="float:left;background-image:url(App_Themes/TFF_Gri/Images/but/button-left.png);width:3px;height:17px"></div>
+<div style="float:left;text-align:center;background-color:#474747;width:55px;height:17px"><b><a href="/Default.aspx?pageID=449" style="color:White">English</a></b></div>
+<div style="float:left;background-image:url(App_Themes/TFF_Gri/Images/but/button-right.png);width:3px;height:17px"></div>
+
+</div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td valign="bottom" align="middle"><a href="Default.aspx?pageID=80"><img height="75" src='App_Themes/TFF_Gri/Images/design/superlig.logo.png' border="0"></a></td>
+                                                <td valign="bottom" align="middle"><a href="Default.aspx?pageID=288"><img height="75" src='App_Themes/TFF_Gri/Images/design/turkiyekupasi.logo.png' border="0"></a></td>
+                                                <td valign="bottom" align="middle"><a href="Default.aspx?pageID=95"><img height="75" src='App_Themes/TFF_Gri/Images/design/millitakim.logo.png' border="0"></a></td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <!-- Ust Bar Sonu -->
+                    <!-- Ust Linkler-->
+                    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+                        <tr>
+                            <td align="right">
+                                <table border="0" cellspacing="0" cellpadding="0" style="margin-right: 3px">
+                                    <tr>
+                                        <td>
+                                            <table border="0" cellpadding="0" cellspacing="0" class="ustMenu" style="margin-right: 3px">
+                                                <tr>
+                                                    <td width="5"><img src="App_Themes/TFF_Default/Images/design/ustmenu.sol.gif" width="5" height="27" /></td>
+                                                    <td align="center" style="padding:2 5 2 5; background: url(App_Themes/TFF_Default/Images/design/ustmenu.bg.gif) repeat-x top"><a href="default.aspx?pageID=66" id="ctl00_a1">ANA SAYFA </a></td>
+                                                    <td width="5"><img src="App_Themes/TFF_Default/Images/design/ustmenu.sag.gif" width="5" height="27" /></td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                        <td>
+                                            <table border="0" cellpadding="0" cellspacing="0" class="ustMenu" style="margin-right: 3px">
+                                                <tr>
+                                                    <td width="5"><img src="App_Themes/TFF_Default/Images/design/ustmenu.sol.gif" width="5" height="27" /></td>
+                                                    <td align="center" style="padding:2 5 2 5; background: url(App_Themes/TFF_Default/Images/design/ustmenu.bg.gif) repeat-x top"><a href="default.aspx?pageID=71" id="ctl00_a2">TFF </a></td>
+                                                    <td width="5"><img src="App_Themes/TFF_Default/Images/design/ustmenu.sag.gif" width="5" height="27" /></td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                        <td>
+                                            <table border="0" cellpadding="0" cellspacing="0" class="ustMenu" style="margin-right: 3px">
+                                                <tr>
+                                                    <td width="5"><img src="App_Themes/TFF_Default/Images/design/ustmenu.sol.gif" width="5" height="27" /></td>
+                                                    <td align="center" style="padding:2 5 2 5; background: url(App_Themes/TFF_Default/Images/design/ustmenu.bg.gif) repeat-x top"><a href="default.aspx?pageID=95" id="ctl00_a3">MİLLİ TAKIMLAR </a></td>
+                                                    <td width="5"><img src="App_Themes/TFF_Default/Images/design/ustmenu.sag.gif" width="5" height="27" /></td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                        <td>
+                                            <table border="0" cellpadding="0" cellspacing="0" class="ustMenu" style="margin-right: 3px">
+                                                <tr>
+                                                    <td width="5"><img src="App_Themes/TFF_Default/Images/design/ustmenu.sol.gif" width="5" height="27" /></td>
+                                                    <td align="center" style="padding:2 5 2 5; background: url(App_Themes/TFF_Default/Images/design/ustmenu.bg.gif) repeat-x top"><a href="default.aspx?pageID=86" id="ctl00_a4">LİGLER</a></td>
+                                                    <td width="5"><img src="App_Themes/TFF_Default/Images/design/ustmenu.sag.gif" width="5" height="27" /></td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                        <td>
+                                            <table border="0" cellpadding="0" cellspacing="0" class="ustMenu" style="margin-right: 3px">
+                                                <tr>
+                                                    <td width="5"><img src="App_Themes/TFF_Default/Images/design/ustmenu.sol.gif" width="5" height="27" /></td>
+                                                    <td align="center" style="padding:2 5 2 5; background: url(App_Themes/TFF_Default/Images/design/ustmenu.bg.gif) repeat-x top"><a href="default.aspx?pageID=88" id="ctl00_a5">KUPALAR </a></td>
+                                                    <td width="5"><img src="App_Themes/TFF_Default/Images/design/ustmenu.sag.gif" width="5" height="27" /></td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                        <td>
+                                            <table border="0" cellpadding="0" cellspacing="0" class="ustMenu" style="margin-right: 3px">
+                                                <tr>
+                                                    <td width="5"><img src="App_Themes/TFF_Default/Images/design/ustmenu.sol.gif" width="5" height="27" /></td>
+                                                    <td align="center" style="padding:2 5 2 5; background: url(App_Themes/TFF_Default/Images/design/ustmenu.bg.gif) repeat-x top"><a href="default.aspx?pageID=89" id="ctl00_a6">FGD</a></td>
+                                                    <td width="5"><img src="App_Themes/TFF_Default/Images/design/ustmenu.sag.gif" width="5" height="27" /></td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                        <td>
+                                            <table border="0" cellpadding="0" cellspacing="0" class="ustMenu" style="margin-right: 3px">
+                                                <tr>
+                                                    <td width="5"><img src="App_Themes/TFF_Default/Images/design/ustmenu.sol.gif" width="5" height="27" /></td>
+                                                    <td align="center" style="padding:2 5 2 5; background: url(App_Themes/TFF_Default/Images/design/ustmenu.bg.gif) repeat-x top"><a href="default.aspx?pageID=328" id="ctl00_a7">BİLGİ BANKASI</a></td>
+                                                    <td width="5"><img src="App_Themes/TFF_Default/Images/design/ustmenu.sag.gif" width="5" height="27" /></td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                    </table>
+                    <!-- Ust Linkler Sonu-->
+                </td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td align="left" valign="top" style="padding-left: 8px" width="992">
+                    <table width="100%" border="0" cellpadding="0" cellspacing="0" class="yuzdeyuzH">
+                        <tr>
+                            <td valign="top" class="solGolge" style="width: 180px; padding-right: 10px;">
+                                <table class="SolMenuBG" style="height: 290px" border="0" cellpadding="0" cellspacing="0" width="100%">
+                                    <tr><td valign="top"><div id="ctl00_LTopPane_m_29_452_ctnr_div" style="padding:0 0 15 0;vertical-align:top;text-align:center;"><div id="ctl00_LTopPane_m_29_452_ctnr_title" class="moduleTitle"></div>
+<script language="javascript" type="text/javascript">function ___BeforeClickHandler(node){ if(node.Category==''){ if(node.Expanded==true) node.Collapse(); else node.Expand(); return false; }  }</script>
+<div id="ctl00_LTopPane_m_29_452_ctnr_m_29_452_ctl00" class="panelbar RadPanelbar_TFF_SolMenuKlasik " style="width:100%;">
+	<!-- 4.0.3 --><script type="text/javascript" src="/RadControls/Panelbar/Scripts/4_0_3/RadPanelbar.js"></script><span id="ctl00_LTopPane_m_29_452_ctnr_m_29_452_ctl00StyleSheetHolder" style="display:none;"></span><ul class="rootGroup">
+		<li class="item first"><a href="/default.aspx?pageID=328" id="ctl00_LTopPane_m_29_452_ctnr_m_29_452_ctl00_p0" title="Futbol Bilgi Bankası" class="link"><span class="text">Futbol Bilgi Bankası</span></a><div class="slide" style="display:block;">
+			<ul class="group level1 " style="display:block;">
+				<li class="item first"><a href="/default.aspx?pageID=130" id="ctl00_LTopPane_m_29_452_ctnr_m_29_452_ctl00_p0_p0" title="Oyuncular" class="link"><span class="text">Oyuncular</span></a></li><li class="item"><a href="/default.aspx?pageID=163" id="ctl00_LTopPane_m_29_452_ctnr_m_29_452_ctl00_p0_p1" title="Teknik Adamlar" class="link"><span class="text">Teknik Adamlar</span></a></li><li class="item"><a href="/default.aspx?pageID=322" id="ctl00_LTopPane_m_29_452_ctnr_m_29_452_ctl00_p0_p2" title="Maçlar" class="link"><span class="text">Maçlar</span></a></li><li class="item"><a href="/default.aspx?pageID=400" id="ctl00_LTopPane_m_29_452_ctnr_m_29_452_ctl00_p0_p3" title="Milli Maçlar" class="link"><span class="text">Milli Maçlar</span></a></li><li class="item"><a href="/default.aspx?pageID=119" id="ctl00_LTopPane_m_29_452_ctnr_m_29_452_ctl00_p0_p4" title="Kulüpler" class="link"><span class="text">Kulüpler</span></a></li><li class="item"><a href="/default.aspx?pageID=324" id="ctl00_LTopPane_m_29_452_ctnr_m_29_452_ctl00_p0_p5" title="Stadyumlar" class="link"><span class="text">Stadyumlar</span></a></li><li class="item"><a href="/default.aspx?pageID=633" id="ctl00_LTopPane_m_29_452_ctnr_m_29_452_ctl00_p0_p6" title="Cezalar" class="link"><span class="text">Cezalar</span></a></li><li class="item"><a href="/default.aspx?pageID=161" id="ctl00_LTopPane_m_29_452_ctnr_m_29_452_ctl00_p0_p7" title="Hakemler" class="link"><span class="text">Hakemler</span></a></li><li class="item"><a href="/default.aspx?pageID=393" id="ctl00_LTopPane_m_29_452_ctnr_m_29_452_ctl00_p0_p8" title="Gözlemciler ve Temsilciler" class="link"><span class="text">Gözlemciler ve Temsilciler</span></a></li><li class="item"><a href="/default.aspx?pageID=660" id="ctl00_LTopPane_m_29_452_ctnr_m_29_452_ctl00_p0_p9" class="link"><span class="text">Futbolcu Menajerleri</span></a></li><li class="item"><a href="/default.aspx?pageID=433" id="ctl00_LTopPane_m_29_452_ctnr_m_29_452_ctl00_p0_p10" title="Hafta Bilgileri" class="link"><span class="text">Hafta Bilgileri</span></a></li><li class="item"><a href="/default.aspx?pageID=128" id="ctl00_LTopPane_m_29_452_ctnr_m_29_452_ctl00_p0_p11" title="Formlar ve Sözleşmeler" class="link"><span class="text">Formlar ve Sözleşmeler</span></a></li><li class="item"><a href="/default.aspx?pageID=133" id="ctl00_LTopPane_m_29_452_ctnr_m_29_452_ctl00_p0_p12" title="Statüler " class="link"><span class="text">Statüler </span></a></li><li class="item"><a href="/default.aspx?pageID=132" id="ctl00_LTopPane_m_29_452_ctnr_m_29_452_ctl00_p0_p13" title="Talimatlar " class="link"><span class="text">Talimatlar </span></a></li><li class="item"><a href="/default.aspx?pageID=131" id="ctl00_LTopPane_m_29_452_ctnr_m_29_452_ctl00_p0_p14" class="link"><span class="text">TFF Kanun ve Statüsü </span></a></li><li class="item"><a href="/default.aspx?pageID=919" id="ctl00_LTopPane_m_29_452_ctnr_m_29_452_ctl00_p0_p15" title="Online Başvurular" class="link"><span class="text">Online Başvurular</span></a></li><li class="item last"><a href="http://www.tff.org/Default.aspx?pageId=1314" id="ctl00_LTopPane_m_29_452_ctnr_m_29_452_ctl00_p0_p16" title="TFF Logo Kullanımları" class="link"><span class="text">TFF Logo Kullanımları</span></a></li>
+			</ul>
+		</div></li><li id="ctl00_LTopPane_m_29_452_ctnr_m_29_452_ctl00_p1" class="item last"><span class="text" style="display:none;"></span></li>
+	</ul><input type="hidden" id="ctl00_LTopPane_m_29_452_ctnr_m_29_452_ctl00_Hidden" name="ctl00$LTopPane$m_29_452_ctnr$m_29_452$ctl00" /><script type="text/javascript">window["ctl00_LTopPane_m_29_452_ctnr_m_29_452_ctl00"] = new RadPanelbar("ctl00_LTopPane_m_29_452_ctnr_m_29_452_ctl00");window["ctl00_LTopPane_m_29_452_ctnr_m_29_452_ctl00"].Initialize({"Attributes":{"ItemHoverCollapsedCssClass":"panelbarItemHover","ItemCollapsedCssClass":"panelbarItem","CssFile":"~/App_Themes/Default/RadPanelbar/Styles/BlueMelt.css","ItemSelectedCssClass":"panelbarItem","HeaderHoverExpandedCssClass":"panelbarHeaderExpand","HeaderHoverCollapsedCssClass":"panelbarHeaderHover","ImagesBaseDir":"~/App_Themes/Default/RadPanelbar/Img/","ExpandEffect":"Fade","HeaderExpandedCssClass":"panelbarHeaderExpand","HeaderCollapsedCssClass":"panelbarHeaderCollapsed"},"CausesValidation":false,"Enabled":true,"Skin":"TFF_SolMenuKlasik","ExpandAnimation":{"Type":"None"},"CollapseAnimation":{"Type":"None"}},{"ctl00_LTopPane_m_29_452_ctnr_m_29_452_ctl00_p0":{"Expanded":true,"Value":"328","NavigateAfterClick":true},"ctl00_LTopPane_m_29_452_ctnr_m_29_452_ctl00_p0_p0":{"Value":"130","NavigateAfterClick":true},"ctl00_LTopPane_m_29_452_ctnr_m_29_452_ctl00_p0_p1":{"Value":"163","NavigateAfterClick":true},"ctl00_LTopPane_m_29_452_ctnr_m_29_452_ctl00_p0_p2":{"Value":"322","NavigateAfterClick":true},"ctl00_LTopPane_m_29_452_ctnr_m_29_452_ctl00_p0_p3":{"Value":"400","NavigateAfterClick":true},"ctl00_LTopPane_m_29_452_ctnr_m_29_452_ctl00_p0_p4":{"Value":"119","NavigateAfterClick":true},"ctl00_LTopPane_m_29_452_ctnr_m_29_452_ctl00_p0_p5":{"Value":"324","NavigateAfterClick":true},"ctl00_LTopPane_m_29_452_ctnr_m_29_452_ctl00_p0_p6":{"Value":"633","NavigateAfterClick":true},"ctl00_LTopPane_m_29_452_ctnr_m_29_452_ctl00_p0_p7":{"Value":"161","NavigateAfterClick":true},"ctl00_LTopPane_m_29_452_ctnr_m_29_452_ctl00_p0_p8":{"Value":"393","NavigateAfterClick":true},"ctl00_LTopPane_m_29_452_ctnr_m_29_452_ctl00_p0_p9":{"Value":"660","NavigateAfterClick":true},"ctl00_LTopPane_m_29_452_ctnr_m_29_452_ctl00_p0_p10":{"Value":"433","NavigateAfterClick":true},"ctl00_LTopPane_m_29_452_ctnr_m_29_452_ctl00_p0_p11":{"Value":"128","NavigateAfterClick":true},"ctl00_LTopPane_m_29_452_ctnr_m_29_452_ctl00_p0_p12":{"Value":"133","NavigateAfterClick":true},"ctl00_LTopPane_m_29_452_ctnr_m_29_452_ctl00_p0_p13":{"Value":"132","NavigateAfterClick":true},"ctl00_LTopPane_m_29_452_ctnr_m_29_452_ctl00_p0_p14":{"Value":"131","NavigateAfterClick":true},"ctl00_LTopPane_m_29_452_ctnr_m_29_452_ctl00_p0_p15":{"Value":"919","NavigateAfterClick":true},"ctl00_LTopPane_m_29_452_ctnr_m_29_452_ctl00_p0_p16":{"NavigateAfterClick":true}});</script>
+</div>
+
+</div></td></tr>
+                                </table>
+                                <div><div id="ctl00_LPane_m_29_621_ctnr_div" style="padding:0 0 15 0;vertical-align:middle;text-align:center;"><div id="ctl00_LPane_m_29_621_ctnr_title" class="moduleTitle"></div><a title=TamSaha href="http://www.tff.org/Resources/Tamsaha/164/" target=_blank></a><a href="http://www.tff.org/Resources/Tamsaha/165" target=_blank></a><a href="http://www.tff.org/Resources/Tamsaha/166/" target=_blank></a><a href="http://www.tff.org/Resources/Tamsaha/167/" target=_blank></a><a href="http://www.tff.org/Resources/Tamsaha/168/" target=_blank><img border=0 alt="" src="Resources/TFF/Images/TamSaha/168kapak-180.jpg"></a><br><a href="http://www.tff.org/default.aspx?pageID=193" target=_blank><em>TamSaha içerikleri için tıklayınız...</em></a></div></div>
+                            </td>
+                            <td valign="top">
+                                <table width="100%" border="0" cellpadding="0" cellspacing="0" class="yuzdeyuzH">
+                                    <tr>
+                                        <td width="4" height="4"><img src="App_Themes/TFF_Default/Images/design/oval.sol.gif" width="4" height="4"></td>
+                                        <td bgcolor="#FFFFFF"></td>
+                                        <td width="4" height="4"><img src="App_Themes/TFF_Default/Images/design/oval.sag.gif" width="4" height="4"></td>
+                                    </tr>
+                                    <tr bgcolor="#FFFFFF">
+                                        <td>&nbsp;</td>
+                                        <td valign="top" class="contentPadding">
+                                            <table width="100%" border="0" cellpadding="0" cellspacing="0" class="yuzdeyuzH">
+                                                <tr>
+                                                    <td valign="top" class="ortaAlan" style="width: 576px; min-width: 576px;">
+                                                        <div id="ctl00_MPane_m_29_194_ctnr_div" style="vertical-align:top;text-align:center;"><table width="100%" border="0" cellpadding="0" cellspacing="0" background="App_Themes/TFF_Default/Images/design/genel.grad.bg.gif" class="usteBG marginB"><tr><td width="4" align="left" valign="top"><img src="App_Themes/TFF_Default/Images/design/oval.sol.beyaz.gif" width="4" height="4"></td><td align="left" valign="top" style="padding-left:6px; padding-right:6px; padding-top:10px"><div  class="moduleTitle"></div>
+<table width="100%">
+    <tr>
+        <td colspan="3" style="text-align: center;">
+            <table cellspacing="0" id="ctl00_MPane_m_29_194_ctnr_m_29_194_MacBilgiDisplay1_dtMacBilgisi" style="width:100%;border-collapse:collapse;">
+	<tr>
+		<td colspan="2">
+        <table width="100%" border="0" cellspacing="0" cellpadding="5">
+            <tr>
+                <td align="center" valign="middle" class="GriBorder beyazBG" style="width: 150;">
+                    <table width="100%" border="0" cellspacing="0" cellpadding="5">
+                        <tr>
+                            <td align="center" valign="middle" class="TakimAdi altGriCizgi">
+                                <p>
+                                    <a id="ctl00_MPane_m_29_194_ctnr_m_29_194_MacBilgiDisplay1_dtMacBilgisi_imgTakim1Logo" href="Default.aspx?pageId=28&amp;kulupId=3610"><img src="https://fys.tff.org/TFFUploadFolder/LigBKulupLogolari/eyup.jpg" alt="" /></a><br>
+                                    <a id="ctl00_MPane_m_29_194_ctnr_m_29_194_MacBilgiDisplay1_dtMacBilgisi_lnkTakim1" href="Default.aspx?pageId=28&amp;kulupId=3610">EYÜPSPOR</a></p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td align="center">
+                                
+                                <p class="MacDetaySayi">
+                                    <span id="ctl00_MPane_m_29_194_ctnr_m_29_194_MacBilgiDisplay1_dtMacBilgisi_lblTakim1Skor">2</span> 
+                                  
+                                </p>
+                               
+                                
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+                <td align="center" valign="middle" class="MacDetayAltBG">
+                    <div id="ctl00_MPane_m_29_194_ctnr_m_29_194_MacBilgiDisplay1_dtMacBilgisi_ip">
+			
+                        <p>
+                            <img src='Resources/TFF/Images/OrganizasyonLogolari/NoImgThumb.png' alt=""><br />
+                            <b>
+                                <span id="ctl00_MPane_m_29_194_ctnr_m_29_194_MacBilgiDisplay1_dtMacBilgisi_lblOrganizasyonAdi">Coca-Cola Bölgesel Gelişim U15 Ligi (Akademi  U15 Takımı) <br/></span><br />
+                                <span id="ctl00_MPane_m_29_194_ctnr_m_29_194_MacBilgiDisplay1_dtMacBilgisi_Label9">Maç Kodu:</span>&nbsp<span id="ctl00_MPane_m_29_194_ctnr_m_29_194_MacBilgiDisplay1_dtMacBilgisi_lblKod">36054</span></b>
+                        </p>
+                        <p align="center">
+                            <img src="App_Themes/TFF_Default/Images/design/iconBayrak.gif" width="8" height="10"
+                                align="absmiddle">
+                            <b>
+                                <a id="ctl00_MPane_m_29_194_ctnr_m_29_194_MacBilgiDisplay1_dtMacBilgisi_lnkStad" href="Default.aspx?pageId=394&amp;stadId=4852">BAHARİYE GGL TESİSLERİ - İSTANBUL</a>
+                                
+                                <br />
+                                <span id="ctl00_MPane_m_29_194_ctnr_m_29_194_MacBilgiDisplay1_dtMacBilgisi_lblTarih">26.12.2015 - 14:00</span></b><br>
+                            
+                                    <div style="margin-bottom: 3px; text-align: left;">
+                                        <img src="App_Themes/TFF_Default/Images/design/iconHakem.gif" width="10" height="13">
+                                        <a id="ctl00_MPane_m_29_194_ctnr_m_29_194_MacBilgiDisplay1_dtMacBilgisi_rpt_ctl00_lnkHakem" href="Default.aspx?pageId=72&amp;hakemId=1632023">FATİH ÖLMEZ(Hakem)</a></div>
+                                
+                                    <div style="margin-bottom: 3px; text-align: left;">
+                                        <img src="App_Themes/TFF_Default/Images/design/iconHakem.gif" width="10" height="13">
+                                        <a id="ctl00_MPane_m_29_194_ctnr_m_29_194_MacBilgiDisplay1_dtMacBilgisi_rpt_ctl01_lnkHakem" href="Default.aspx?pageId=72&amp;hakemId=1623616">MUAMMER SAĞLAM(1. Yardımcı Hakem)</a></div>
+                                
+                                    <div style="margin-bottom: 3px; text-align: left;">
+                                        <img src="App_Themes/TFF_Default/Images/design/iconHakem.gif" width="10" height="13">
+                                        <a id="ctl00_MPane_m_29_194_ctnr_m_29_194_MacBilgiDisplay1_dtMacBilgisi_rpt_ctl02_lnkHakem" href="Default.aspx?pageId=72&amp;hakemId=1649136">CEM YEŞİL(2. Yardımcı Hakem)</a></div>
+                                
+                            <br />
+                            
+                            
+                                
+                        </p>
+                    
+		</div>
+                    
+                </td>
+                <td align="center" valign="middle" class="GriBorder beyazBG" style="width: 150;">
+                    <table width="100%" border="0" cellspacing="0" cellpadding="5">
+                        <tr>
+                            <td align="center" valign="middle" class="TakimAdi altGriCizgi">
+                                <p>
+                                    <a id="ctl00_MPane_m_29_194_ctnr_m_29_194_MacBilgiDisplay1_dtMacBilgisi_imgTakim2Logo" href="Default.aspx?pageId=28&amp;kulupId=3614"><img src="https://fys.tff.org/TFFUploadFolder/KulupLogolari\000172_120x120.jpg" alt="" /></a><br>
+                                    <a id="ctl00_MPane_m_29_194_ctnr_m_29_194_MacBilgiDisplay1_dtMacBilgisi_lnkTakim2" href="Default.aspx?pageId=28&amp;kulupId=3614">BEYLERBEYİSPOR</a></p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td align="center">
+                                
+                                <p class="MacDetaySayi">
+                                    <span id="ctl00_MPane_m_29_194_ctnr_m_29_194_MacBilgiDisplay1_dtMacBilgisi_Label12">1</span>
+                                    
+                                </p>
+                                
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+        <table width="100%" border="0" cellpadding="0" cellspacing="0" class="ayirac">
+            <tr>
+                <td>
+                    <!-- Ayıraç-->
+                </td>
+            </tr>
+        </table>
+    </td>
+	</tr>
+</table>
+<span id="ctl00_MPane_m_29_194_ctnr_m_29_194_MacBilgiDisplay1_lblWarn"></span>
+
+        </td>
+    </tr>
+    <tr>
+        <td  valign="top" style="width:50%;" >
+            
+        <table width="100%" border="0" cellspacing="0" cellpadding="3">
+            <tr>
+                <td class="MacDetayMiniBaslik">
+                    <img src="App_Themes/TFF_Default/Images/design/iconilk11.gif" width="15" height="14"
+                        align="absmiddle">
+                    <span id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim1_rptKadrolar_ctl00_Label1">İlk 11</span>
+                </td>
+            </tr>
+            <tr>
+                <td class="GriBorder">
+                    <table width="100%" border="0" cellspacing="0" cellpadding="3">
+    
+        <tr>
+            <td align="left" valign="top">
+                <span id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim1_rptKadrolar_ctl01_formaNo">1.</span>
+                <a id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim1_rptKadrolar_ctl01_lnkOyuncu" href="Default.aspx?pageId=30&amp;kisiId=1587398">KUBİLAY KOCAMAN</a>
+                <input type="hidden" name="ctl00$MPane$m_29_194_ctnr$m_29_194$grdTakim1$rptKadrolar$ctl01$hdnOynadigiKulup" id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim1_rptKadrolar_ctl01_hdnOynadigiKulup" />
+            </td>
+        </tr>
+    
+        <tr>
+            <td align="left" valign="top">
+                <span id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim1_rptKadrolar_ctl02_formaNo">4.</span>
+                <a id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim1_rptKadrolar_ctl02_lnkOyuncu" href="Default.aspx?pageId=30&amp;kisiId=1518733">EREN TUNCER</a>
+                <input type="hidden" name="ctl00$MPane$m_29_194_ctnr$m_29_194$grdTakim1$rptKadrolar$ctl02$hdnOynadigiKulup" id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim1_rptKadrolar_ctl02_hdnOynadigiKulup" />
+            </td>
+        </tr>
+    
+        <tr>
+            <td align="left" valign="top">
+                <span id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim1_rptKadrolar_ctl03_formaNo">5.</span>
+                <a id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim1_rptKadrolar_ctl03_lnkOyuncu" href="Default.aspx?pageId=30&amp;kisiId=1585145">HÜSEYİN KEREM DERE</a>
+                <input type="hidden" name="ctl00$MPane$m_29_194_ctnr$m_29_194$grdTakim1$rptKadrolar$ctl03$hdnOynadigiKulup" id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim1_rptKadrolar_ctl03_hdnOynadigiKulup" />
+            </td>
+        </tr>
+    
+        <tr>
+            <td align="left" valign="top">
+                <span id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim1_rptKadrolar_ctl04_formaNo">8.</span>
+                <a id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim1_rptKadrolar_ctl04_lnkOyuncu" href="Default.aspx?pageId=30&amp;kisiId=1685905">SERHAT KAYMAZ</a>
+                <input type="hidden" name="ctl00$MPane$m_29_194_ctnr$m_29_194$grdTakim1$rptKadrolar$ctl04$hdnOynadigiKulup" id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim1_rptKadrolar_ctl04_hdnOynadigiKulup" />
+            </td>
+        </tr>
+    
+        <tr>
+            <td align="left" valign="top">
+                <span id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim1_rptKadrolar_ctl05_formaNo">10.</span>
+                <a id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim1_rptKadrolar_ctl05_lnkOyuncu" href="Default.aspx?pageId=30&amp;kisiId=1561905">BATUHAN SARIMEHMET</a>
+                <input type="hidden" name="ctl00$MPane$m_29_194_ctnr$m_29_194$grdTakim1$rptKadrolar$ctl05$hdnOynadigiKulup" id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim1_rptKadrolar_ctl05_hdnOynadigiKulup" />
+            </td>
+        </tr>
+    
+        <tr>
+            <td align="left" valign="top">
+                <span id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim1_rptKadrolar_ctl06_formaNo">13.</span>
+                <a id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim1_rptKadrolar_ctl06_lnkOyuncu" href="Default.aspx?pageId=30&amp;kisiId=1585173">CAN MIZRAK</a>
+                <input type="hidden" name="ctl00$MPane$m_29_194_ctnr$m_29_194$grdTakim1$rptKadrolar$ctl06$hdnOynadigiKulup" id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim1_rptKadrolar_ctl06_hdnOynadigiKulup" />
+            </td>
+        </tr>
+    
+        <tr>
+            <td align="left" valign="top">
+                <span id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim1_rptKadrolar_ctl07_formaNo">14.</span>
+                <a id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim1_rptKadrolar_ctl07_lnkOyuncu" href="Default.aspx?pageId=30&amp;kisiId=1576236">EREN USTACAN</a>
+                <input type="hidden" name="ctl00$MPane$m_29_194_ctnr$m_29_194$grdTakim1$rptKadrolar$ctl07$hdnOynadigiKulup" id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim1_rptKadrolar_ctl07_hdnOynadigiKulup" />
+            </td>
+        </tr>
+    
+        <tr>
+            <td align="left" valign="top">
+                <span id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim1_rptKadrolar_ctl08_formaNo">21.</span>
+                <a id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim1_rptKadrolar_ctl08_lnkOyuncu" href="Default.aspx?pageId=30&amp;kisiId=1672668">FATİH ESLEK</a>
+                <input type="hidden" name="ctl00$MPane$m_29_194_ctnr$m_29_194$grdTakim1$rptKadrolar$ctl08$hdnOynadigiKulup" id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim1_rptKadrolar_ctl08_hdnOynadigiKulup" />
+            </td>
+        </tr>
+    
+        <tr>
+            <td align="left" valign="top">
+                <span id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim1_rptKadrolar_ctl09_formaNo">27.</span>
+                <a id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim1_rptKadrolar_ctl09_lnkOyuncu" href="Default.aspx?pageId=30&amp;kisiId=1541065">HALİL CAN BAHARGÜLÜ</a>
+                <input type="hidden" name="ctl00$MPane$m_29_194_ctnr$m_29_194$grdTakim1$rptKadrolar$ctl09$hdnOynadigiKulup" id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim1_rptKadrolar_ctl09_hdnOynadigiKulup" />
+            </td>
+        </tr>
+    
+        <tr>
+            <td align="left" valign="top">
+                <span id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim1_rptKadrolar_ctl10_formaNo">28.</span>
+                <a id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim1_rptKadrolar_ctl10_lnkOyuncu" href="Default.aspx?pageId=30&amp;kisiId=1670773">GÖRKEM BALCI</a>
+                <input type="hidden" name="ctl00$MPane$m_29_194_ctnr$m_29_194$grdTakim1$rptKadrolar$ctl10$hdnOynadigiKulup" id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim1_rptKadrolar_ctl10_hdnOynadigiKulup" />
+            </td>
+        </tr>
+    
+        <tr>
+            <td align="left" valign="top">
+                <span id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim1_rptKadrolar_ctl11_formaNo">25.</span>
+                <a id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim1_rptKadrolar_ctl11_lnkOyuncu" href="Default.aspx?pageId=30&amp;kisiId=1693248">EFE AYDIN</a>
+                <input type="hidden" name="ctl00$MPane$m_29_194_ctnr$m_29_194$grdTakim1$rptKadrolar$ctl11$hdnOynadigiKulup" id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim1_rptKadrolar_ctl11_hdnOynadigiKulup" />
+            </td>
+        </tr>
+    
+        </table> </td> </tr> </table>
+    
+
+        <table width="100%" border="0" cellspacing="0" cellpadding="3">
+            <tr>
+                <td class="MacDetayMiniBaslik">
+                    <img src="App_Themes/TFF_Default/Images/design/iconilk11.gif" width="15" height="14"
+                        align="absmiddle">
+                    <span id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim1_rptYedekler_ctl00_Label2">Yedekler</span>
+                </td>
+            </tr>
+            <tr>
+                <td class="GriBorder">
+                    <table width="100%" border="0" cellspacing="0" cellpadding="3">
+    
+        <tr>
+            <td align="left" valign="top">
+                <span id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim1_rptYedekler_ctl01_formaNo">23.</span>
+                <a id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim1_rptYedekler_ctl01_lnkOyuncu" href="Default.aspx?pageId=30&amp;kisiId=1697659">CEMSER KAYA</a>
+                <input type="hidden" name="ctl00$MPane$m_29_194_ctnr$m_29_194$grdTakim1$rptYedekler$ctl01$hdnOynadigiKulup" id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim1_rptYedekler_ctl01_hdnOynadigiKulup" />
+            </td>
+        </tr>
+    
+        <tr>
+            <td align="left" valign="top">
+                <span id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim1_rptYedekler_ctl02_formaNo">2.</span>
+                <a id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim1_rptYedekler_ctl02_lnkOyuncu" href="Default.aspx?pageId=30&amp;kisiId=1684571">ŞAHİN DOĞAN</a>
+                <input type="hidden" name="ctl00$MPane$m_29_194_ctnr$m_29_194$grdTakim1$rptYedekler$ctl02$hdnOynadigiKulup" id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim1_rptYedekler_ctl02_hdnOynadigiKulup" />
+            </td>
+        </tr>
+    
+        <tr>
+            <td align="left" valign="top">
+                <span id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim1_rptYedekler_ctl03_formaNo">6.</span>
+                <a id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim1_rptYedekler_ctl03_lnkOyuncu" href="Default.aspx?pageId=30&amp;kisiId=1580093">METEHAN ARAS</a>
+                <input type="hidden" name="ctl00$MPane$m_29_194_ctnr$m_29_194$grdTakim1$rptYedekler$ctl03$hdnOynadigiKulup" id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim1_rptYedekler_ctl03_hdnOynadigiKulup" />
+            </td>
+        </tr>
+    
+        <tr>
+            <td align="left" valign="top">
+                <span id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim1_rptYedekler_ctl04_formaNo">9.</span>
+                <a id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim1_rptYedekler_ctl04_lnkOyuncu" href="Default.aspx?pageId=30&amp;kisiId=1536407">AHMET ALPER KAHYA</a>
+                <input type="hidden" name="ctl00$MPane$m_29_194_ctnr$m_29_194$grdTakim1$rptYedekler$ctl04$hdnOynadigiKulup" id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim1_rptYedekler_ctl04_hdnOynadigiKulup" />
+            </td>
+        </tr>
+    
+        <tr>
+            <td align="left" valign="top">
+                <span id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim1_rptYedekler_ctl05_formaNo">17.</span>
+                <a id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim1_rptYedekler_ctl05_lnkOyuncu" href="Default.aspx?pageId=30&amp;kisiId=1585152">AHMET NUREDDİN LUŞOĞLU</a>
+                <input type="hidden" name="ctl00$MPane$m_29_194_ctnr$m_29_194$grdTakim1$rptYedekler$ctl05$hdnOynadigiKulup" id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim1_rptYedekler_ctl05_hdnOynadigiKulup" />
+            </td>
+        </tr>
+    
+        <tr>
+            <td align="left" valign="top">
+                <span id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim1_rptYedekler_ctl06_formaNo">26.</span>
+                <a id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim1_rptYedekler_ctl06_lnkOyuncu" href="Default.aspx?pageId=30&amp;kisiId=1593030">BARAN CAN ULUSOY</a>
+                <input type="hidden" name="ctl00$MPane$m_29_194_ctnr$m_29_194$grdTakim1$rptYedekler$ctl06$hdnOynadigiKulup" id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim1_rptYedekler_ctl06_hdnOynadigiKulup" />
+            </td>
+        </tr>
+    
+        <tr>
+            <td align="left" valign="top">
+                <span id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim1_rptYedekler_ctl07_formaNo">11.</span>
+                <a id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim1_rptYedekler_ctl07_lnkOyuncu" href="Default.aspx?pageId=30&amp;kisiId=1585749">ÖMER FARUK ÖZTÜRK</a>
+                <input type="hidden" name="ctl00$MPane$m_29_194_ctnr$m_29_194$grdTakim1$rptYedekler$ctl07$hdnOynadigiKulup" id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim1_rptYedekler_ctl07_hdnOynadigiKulup" />
+            </td>
+        </tr>
+    
+        </table> </td> </tr> </table>
+    
+
+        <table width="100%" border="0" cellspacing="0" cellpadding="3">
+            <tr>
+                <td class="MacDetayMiniBaslik">
+                    <img src="Resources/TFF/Images/Icons/icon.teknikdirektor.gif" width="15" height="14"
+                        align="absmiddle">
+                    <span id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim1_rptTeknikKadro_ctl00_Label12">Teknik Sorumlu</span>
+                </td>
+            </tr>
+            <tr>
+                <td class="GriBorder">
+                    <table width="100%" border="0" cellspacing="0" cellpadding="3">
+    
+        <tr>
+            <td align="left" valign="top">
+                <a id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim1_rptTeknikKadro_ctl01_lnkTeknikSorumlu" href="Default.aspx?pageId=219&amp;antId=3626">COŞKUN KARAVELİ</a>
+            </td>
+        </tr>
+    
+        </table> </td> </tr> </table>
+    
+
+        <table width="100%" border="0" cellspacing="0" cellpadding="3">
+            <tr>
+                <td class="MacDetayMiniBaslik">
+                    <img src="App_Themes/TFF_Default/Images/design/iconGoller.gif" width="15" height="9"
+                        align="absmiddle">
+                    <span id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim1_rptGoller_ctl00_Label3">Goller</span>
+                </td>
+            </tr>
+            <tr>
+                <td class="GriBorder">
+                    <table width="100%" border="0" cellspacing="0" cellpadding="3">
+    
+        <tr>
+            <td align="left" valign="top">
+                <img id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim1_rptGoller_ctl01_g" src="App_Themes/TFF_Default/Images/design/minitop.gif" />&nbsp;
+                <a id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim1_rptGoller_ctl01_lblGol" href="Default.aspx?pageId=30&amp;kisiId=1685905">SERHAT KAYMAZ,46.dk (P)</a>
+            </td>
+        </tr>
+    
+        <tr>
+            <td align="left" valign="top">
+                <img id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim1_rptGoller_ctl02_g" src="App_Themes/TFF_Default/Images/design/minitop.gif" />&nbsp;
+                <a id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim1_rptGoller_ctl02_lblGol" href="Default.aspx?pageId=30&amp;kisiId=1672668">FATİH ESLEK,52.dk (F)</a>
+            </td>
+        </tr>
+    
+        </table> </td> </tr> </table>
+    
+
+        <table width="100%" border="0" cellspacing="0" cellpadding="3">
+            <tr>
+                <td class="MacDetayMiniBaslik">
+                    <img src="App_Themes/TFF_Default/Images/design/iconKartlar.gif" width="9" height="9"
+                        align="absmiddle">
+                    <span id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim1_rptKartlar_ctl00_Label4">Kartlar</span>
+                </td>
+            </tr>
+            <tr>
+                <td class="GriBorder">
+                    <table width="100%" border="0" cellspacing="0" cellpadding="3">
+    
+        <tr>
+            <td align="left" valign="top">
+                <img id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim1_rptKartlar_ctl01_k" src="App_Themes/TFF_Default/Images/design/icon.sarikart.gif" alt="Sarı Kart" />&nbsp;<a id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim1_rptKartlar_ctl01_lblKart" href="Default.aspx?pageId=30&amp;kisiId=1541065">HALİL CAN BAHARGÜLÜ</a>
+                <span id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim1_rptKartlar_ctl01_d">33.dk</span>
+            </td>
+        </tr>
+    
+        <tr>
+            <td align="left" valign="top">
+                <img id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim1_rptKartlar_ctl02_k" src="App_Themes/TFF_Default/Images/design/icon.sarikart.gif" alt="Sarı Kart" />&nbsp;<a id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim1_rptKartlar_ctl02_lblKart" href="Default.aspx?pageId=30&amp;kisiId=1561905">BATUHAN SARIMEHMET</a>
+                <span id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim1_rptKartlar_ctl02_d">50.dk</span>
+            </td>
+        </tr>
+    
+        <tr>
+            <td align="left" valign="top">
+                <img id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim1_rptKartlar_ctl03_k" src="App_Themes/TFF_Default/Images/design/icon.sarikart.gif" alt="Sarı Kart" />&nbsp;<a id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim1_rptKartlar_ctl03_lblKart" href="Default.aspx?pageId=30&amp;kisiId=1576236">EREN USTACAN</a>
+                <span id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim1_rptKartlar_ctl03_d">80.dk</span>
+            </td>
+        </tr>
+    
+        <tr>
+            <td align="left" valign="top">
+                <img id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim1_rptKartlar_ctl04_k" src="App_Themes/TFF_Default/Images/design/icon.sarikart.gif" alt="Sarı Kart" />&nbsp;<a id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim1_rptKartlar_ctl04_lblKart" href="Default.aspx?pageId=30&amp;kisiId=1693248">EFE AYDIN</a>
+                <span id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim1_rptKartlar_ctl04_d">67.dk</span>
+            </td>
+        </tr>
+    
+        </table> </td> </tr> </table>
+    
+
+        <table width="100%" border="0" cellspacing="0" cellpadding="3">
+            <tr>
+                <td class="MacDetayMiniBaslik">
+                    <img src="App_Themes/TFF_Default/Images/design/iconOyundanCikanlar.gif" width="11"
+                        height="11" align="absmiddle">
+                    <span id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim1_rptCikanlar_ctl00_Label5">Oyundan Çıkanlar</span>
+                </td>
+            </tr>
+            <tr>
+                <td class="GriBorder">
+                    <table width="100%" border="0" cellspacing="0" cellpadding="3">
+    
+        <tr>
+            <td align="left" valign="top">
+                &nbsp;<a id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim1_rptCikanlar_ctl01_lblCikan" href="Default.aspx?pageId=30&amp;kisiId=1561905">BATUHAN SARIMEHMET</a>&nbsp;<span id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim1_rptCikanlar_ctl01_oc">72.dk</span>
+            </td>
+        </tr>
+    
+        <tr>
+            <td align="left" valign="top">
+                &nbsp;<a id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim1_rptCikanlar_ctl02_lblCikan" href="Default.aspx?pageId=30&amp;kisiId=1670773">GÖRKEM BALCI</a>&nbsp;<span id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim1_rptCikanlar_ctl02_oc">60.dk</span>
+            </td>
+        </tr>
+    
+        <tr>
+            <td align="left" valign="top">
+                &nbsp;<a id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim1_rptCikanlar_ctl03_lblCikan" href="Default.aspx?pageId=30&amp;kisiId=1685905">SERHAT KAYMAZ</a>&nbsp;<span id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim1_rptCikanlar_ctl03_oc">60.dk</span>
+            </td>
+        </tr>
+    
+        <tr>
+            <td align="left" valign="top">
+                &nbsp;<a id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim1_rptCikanlar_ctl04_lblCikan" href="Default.aspx?pageId=30&amp;kisiId=1693248">EFE AYDIN</a>&nbsp;<span id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim1_rptCikanlar_ctl04_oc">68.dk</span>
+            </td>
+        </tr>
+    
+        </table> </td> </tr> </table>
+    
+
+        <table width="100%" border="0" cellspacing="0" cellpadding="3">
+            <tr>
+                <td class="MacDetayMiniBaslik">
+                    <img src="App_Themes/TFF_Default/Images/design/iconOyunaGirenler.gif" width="11"
+                        height="11" align="absmiddle">
+                    <span id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim1_rptGirenler_ctl00_Label6">Oyuna Girenler</span>
+                </td>
+            </tr>
+            <tr>
+                <td class="GriBorder">
+                    <table width="100%" border="0" cellspacing="0" cellpadding="3">
+    
+        <tr>
+            <td align="left" valign="top">
+                <a id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim1_rptGirenler_ctl01_lblGiren" href="Default.aspx?pageId=30&amp;kisiId=1585152">AHMET NUREDDİN LUŞOĞLU</a>&nbsp;<span id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim1_rptGirenler_ctl01_og">72.dk</span>
+            </td>
+        </tr>
+    
+        <tr>
+            <td align="left" valign="top">
+                <a id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim1_rptGirenler_ctl02_lblGiren" href="Default.aspx?pageId=30&amp;kisiId=1593030">BARAN CAN ULUSOY</a>&nbsp;<span id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim1_rptGirenler_ctl02_og">60.dk</span>
+            </td>
+        </tr>
+    
+        <tr>
+            <td align="left" valign="top">
+                <a id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim1_rptGirenler_ctl03_lblGiren" href="Default.aspx?pageId=30&amp;kisiId=1580093">METEHAN ARAS</a>&nbsp;<span id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim1_rptGirenler_ctl03_og">60.dk</span>
+            </td>
+        </tr>
+    
+        <tr>
+            <td align="left" valign="top">
+                <a id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim1_rptGirenler_ctl04_lblGiren" href="Default.aspx?pageId=30&amp;kisiId=1536407">AHMET ALPER KAHYA</a>&nbsp;<span id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim1_rptGirenler_ctl04_og">68.dk</span>
+            </td>
+        </tr>
+    
+        </table> </td> </tr> </table>
+    
+</td>
+        <td >
+        </td>
+        <td valign="top" style="width:50%;"   >
+            
+        <table width="100%" border="0" cellspacing="0" cellpadding="3">
+            <tr>
+                <td class="MacDetayMiniBaslik">
+                    <img src="App_Themes/TFF_Default/Images/design/iconilk11.gif" width="15" height="14"
+                        align="absmiddle">
+                    <span id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim2_rptKadrolar_ctl00_Label1">İlk 11</span>
+                </td>
+            </tr>
+            <tr>
+                <td class="GriBorder">
+                    <table width="100%" border="0" cellspacing="0" cellpadding="3">
+    
+        <tr>
+            <td align="left" valign="top">
+                <span id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim2_rptKadrolar_ctl01_formaNo">1.</span>
+                <a id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim2_rptKadrolar_ctl01_lnkOyuncu" href="Default.aspx?pageId=30&amp;kisiId=1694783">OĞULCAN İSMAİL YÜKSEK</a>
+                <input type="hidden" name="ctl00$MPane$m_29_194_ctnr$m_29_194$grdTakim2$rptKadrolar$ctl01$hdnOynadigiKulup" id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim2_rptKadrolar_ctl01_hdnOynadigiKulup" />
+            </td>
+        </tr>
+    
+        <tr>
+            <td align="left" valign="top">
+                <span id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim2_rptKadrolar_ctl02_formaNo">2.</span>
+                <a id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim2_rptKadrolar_ctl02_lnkOyuncu" href="Default.aspx?pageId=30&amp;kisiId=1585175">ALPER YILDIZ</a>
+                <input type="hidden" name="ctl00$MPane$m_29_194_ctnr$m_29_194$grdTakim2$rptKadrolar$ctl02$hdnOynadigiKulup" id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim2_rptKadrolar_ctl02_hdnOynadigiKulup" />
+            </td>
+        </tr>
+    
+        <tr>
+            <td align="left" valign="top">
+                <span id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim2_rptKadrolar_ctl03_formaNo">3.</span>
+                <a id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim2_rptKadrolar_ctl03_lnkOyuncu" href="Default.aspx?pageId=30&amp;kisiId=1576786">SERHAT USLU</a>
+                <input type="hidden" name="ctl00$MPane$m_29_194_ctnr$m_29_194$grdTakim2$rptKadrolar$ctl03$hdnOynadigiKulup" id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim2_rptKadrolar_ctl03_hdnOynadigiKulup" />
+            </td>
+        </tr>
+    
+        <tr>
+            <td align="left" valign="top">
+                <span id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim2_rptKadrolar_ctl04_formaNo">4.</span>
+                <a id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim2_rptKadrolar_ctl04_lnkOyuncu" href="Default.aspx?pageId=30&amp;kisiId=1690506">ATA TAN</a>
+                <input type="hidden" name="ctl00$MPane$m_29_194_ctnr$m_29_194$grdTakim2$rptKadrolar$ctl04$hdnOynadigiKulup" id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim2_rptKadrolar_ctl04_hdnOynadigiKulup" />
+            </td>
+        </tr>
+    
+        <tr>
+            <td align="left" valign="top">
+                <span id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim2_rptKadrolar_ctl05_formaNo">5.</span>
+                <a id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim2_rptKadrolar_ctl05_lnkOyuncu" href="Default.aspx?pageId=30&amp;kisiId=1681624">MURAT DANACI</a>
+                <input type="hidden" name="ctl00$MPane$m_29_194_ctnr$m_29_194$grdTakim2$rptKadrolar$ctl05$hdnOynadigiKulup" id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim2_rptKadrolar_ctl05_hdnOynadigiKulup" />
+            </td>
+        </tr>
+    
+        <tr>
+            <td align="left" valign="top">
+                <span id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim2_rptKadrolar_ctl06_formaNo">16.</span>
+                <a id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim2_rptKadrolar_ctl06_lnkOyuncu" href="Default.aspx?pageId=30&amp;kisiId=1522672">BİRAY YÖRÜK</a>
+                <input type="hidden" name="ctl00$MPane$m_29_194_ctnr$m_29_194$grdTakim2$rptKadrolar$ctl06$hdnOynadigiKulup" id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim2_rptKadrolar_ctl06_hdnOynadigiKulup" />
+            </td>
+        </tr>
+    
+        <tr>
+            <td align="left" valign="top">
+                <span id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim2_rptKadrolar_ctl07_formaNo">11.</span>
+                <a id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim2_rptKadrolar_ctl07_lnkOyuncu" href="Default.aspx?pageId=30&amp;kisiId=1665872">HASAN BERKE ARAZ</a>
+                <input type="hidden" name="ctl00$MPane$m_29_194_ctnr$m_29_194$grdTakim2$rptKadrolar$ctl07$hdnOynadigiKulup" id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim2_rptKadrolar_ctl07_hdnOynadigiKulup" />
+            </td>
+        </tr>
+    
+        <tr>
+            <td align="left" valign="top">
+                <span id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim2_rptKadrolar_ctl08_formaNo">8.</span>
+                <a id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim2_rptKadrolar_ctl08_lnkOyuncu" href="Default.aspx?pageId=30&amp;kisiId=1576781">EMRE YILDIZ</a>
+                <input type="hidden" name="ctl00$MPane$m_29_194_ctnr$m_29_194$grdTakim2$rptKadrolar$ctl08$hdnOynadigiKulup" id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim2_rptKadrolar_ctl08_hdnOynadigiKulup" />
+            </td>
+        </tr>
+    
+        <tr>
+            <td align="left" valign="top">
+                <span id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim2_rptKadrolar_ctl09_formaNo">9.</span>
+                <a id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim2_rptKadrolar_ctl09_lnkOyuncu" href="Default.aspx?pageId=30&amp;kisiId=1587642">SERHAT BÜLBÜL</a>
+                <input type="hidden" name="ctl00$MPane$m_29_194_ctnr$m_29_194$grdTakim2$rptKadrolar$ctl09$hdnOynadigiKulup" id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim2_rptKadrolar_ctl09_hdnOynadigiKulup" />
+            </td>
+        </tr>
+    
+        <tr>
+            <td align="left" valign="top">
+                <span id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim2_rptKadrolar_ctl10_formaNo">7.</span>
+                <a id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim2_rptKadrolar_ctl10_lnkOyuncu" href="Default.aspx?pageId=30&amp;kisiId=1585177">YASİN AYDIN</a>
+                <input type="hidden" name="ctl00$MPane$m_29_194_ctnr$m_29_194$grdTakim2$rptKadrolar$ctl10$hdnOynadigiKulup" id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim2_rptKadrolar_ctl10_hdnOynadigiKulup" />
+            </td>
+        </tr>
+    
+        <tr>
+            <td align="left" valign="top">
+                <span id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim2_rptKadrolar_ctl11_formaNo">18.</span>
+                <a id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim2_rptKadrolar_ctl11_lnkOyuncu" href="Default.aspx?pageId=30&amp;kisiId=1594858">MEHMET TUNA AKSÖZ</a>
+                <input type="hidden" name="ctl00$MPane$m_29_194_ctnr$m_29_194$grdTakim2$rptKadrolar$ctl11$hdnOynadigiKulup" id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim2_rptKadrolar_ctl11_hdnOynadigiKulup" />
+            </td>
+        </tr>
+    
+        </table> </td> </tr> </table>
+    
+
+        <table width="100%" border="0" cellspacing="0" cellpadding="3">
+            <tr>
+                <td class="MacDetayMiniBaslik">
+                    <img src="App_Themes/TFF_Default/Images/design/iconilk11.gif" width="15" height="14"
+                        align="absmiddle">
+                    <span id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim2_rptYedekler_ctl00_Label2">Yedekler</span>
+                </td>
+            </tr>
+            <tr>
+                <td class="GriBorder">
+                    <table width="100%" border="0" cellspacing="0" cellpadding="3">
+    
+        <tr>
+            <td align="left" valign="top">
+                <span id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim2_rptYedekler_ctl01_formaNo">12.</span>
+                <a id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim2_rptYedekler_ctl01_lnkOyuncu" href="Default.aspx?pageId=30&amp;kisiId=1585167">ÖMER GÖKAY ÇALIŞKAN</a>
+                <input type="hidden" name="ctl00$MPane$m_29_194_ctnr$m_29_194$grdTakim2$rptYedekler$ctl01$hdnOynadigiKulup" id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim2_rptYedekler_ctl01_hdnOynadigiKulup" />
+            </td>
+        </tr>
+    
+        <tr>
+            <td align="left" valign="top">
+                <span id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim2_rptYedekler_ctl02_formaNo">20.</span>
+                <a id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim2_rptYedekler_ctl02_lnkOyuncu" href="Default.aspx?pageId=30&amp;kisiId=1713509">İSMAİL EREN DEMİRCİ</a>
+                <input type="hidden" name="ctl00$MPane$m_29_194_ctnr$m_29_194$grdTakim2$rptYedekler$ctl02$hdnOynadigiKulup" id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim2_rptYedekler_ctl02_hdnOynadigiKulup" />
+            </td>
+        </tr>
+    
+        <tr>
+            <td align="left" valign="top">
+                <span id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim2_rptYedekler_ctl03_formaNo">6.</span>
+                <a id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim2_rptYedekler_ctl03_lnkOyuncu" href="Default.aspx?pageId=30&amp;kisiId=1591173">MAHMUT EREN DEMİRLER</a>
+                <input type="hidden" name="ctl00$MPane$m_29_194_ctnr$m_29_194$grdTakim2$rptYedekler$ctl03$hdnOynadigiKulup" id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim2_rptYedekler_ctl03_hdnOynadigiKulup" />
+            </td>
+        </tr>
+    
+        <tr>
+            <td align="left" valign="top">
+                <span id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim2_rptYedekler_ctl04_formaNo">15.</span>
+                <a id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim2_rptYedekler_ctl04_lnkOyuncu" href="Default.aspx?pageId=30&amp;kisiId=1587656">ENES TOPALOĞLU</a>
+                <input type="hidden" name="ctl00$MPane$m_29_194_ctnr$m_29_194$grdTakim2$rptYedekler$ctl04$hdnOynadigiKulup" id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim2_rptYedekler_ctl04_hdnOynadigiKulup" />
+            </td>
+        </tr>
+    
+        <tr>
+            <td align="left" valign="top">
+                <span id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim2_rptYedekler_ctl05_formaNo">10.</span>
+                <a id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim2_rptYedekler_ctl05_lnkOyuncu" href="Default.aspx?pageId=30&amp;kisiId=1593198">SERDAR SEZER DEMİR</a>
+                <input type="hidden" name="ctl00$MPane$m_29_194_ctnr$m_29_194$grdTakim2$rptYedekler$ctl05$hdnOynadigiKulup" id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim2_rptYedekler_ctl05_hdnOynadigiKulup" />
+            </td>
+        </tr>
+    
+        <tr>
+            <td align="left" valign="top">
+                <span id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim2_rptYedekler_ctl06_formaNo">17.</span>
+                <a id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim2_rptYedekler_ctl06_lnkOyuncu" href="Default.aspx?pageId=30&amp;kisiId=1637103">ALEKSANDER ENDER TONGUÇ</a>
+                <input type="hidden" name="ctl00$MPane$m_29_194_ctnr$m_29_194$grdTakim2$rptYedekler$ctl06$hdnOynadigiKulup" id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim2_rptYedekler_ctl06_hdnOynadigiKulup" />
+            </td>
+        </tr>
+    
+        <tr>
+            <td align="left" valign="top">
+                <span id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim2_rptYedekler_ctl07_formaNo">13.</span>
+                <a id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim2_rptYedekler_ctl07_lnkOyuncu" href="Default.aspx?pageId=30&amp;kisiId=1585170">EMİR CEYLAN</a>
+                <input type="hidden" name="ctl00$MPane$m_29_194_ctnr$m_29_194$grdTakim2$rptYedekler$ctl07$hdnOynadigiKulup" id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim2_rptYedekler_ctl07_hdnOynadigiKulup" />
+            </td>
+        </tr>
+    
+        </table> </td> </tr> </table>
+    
+
+        <table width="100%" border="0" cellspacing="0" cellpadding="3">
+            <tr>
+                <td class="MacDetayMiniBaslik">
+                    <img src="Resources/TFF/Images/Icons/icon.teknikdirektor.gif" width="15" height="14"
+                        align="absmiddle">
+                    <span id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim2_rptTeknikKadro_ctl00_Label12">Teknik Sorumlu</span>
+                </td>
+            </tr>
+            <tr>
+                <td class="GriBorder">
+                    <table width="100%" border="0" cellspacing="0" cellpadding="3">
+    
+        <tr>
+            <td align="left" valign="top">
+                <a id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim2_rptTeknikKadro_ctl01_lnkTeknikSorumlu" href="Default.aspx?pageId=219&amp;antId=2478">İLHAMİ TEK</a>
+            </td>
+        </tr>
+    
+        </table> </td> </tr> </table>
+    
+
+        <table width="100%" border="0" cellspacing="0" cellpadding="3">
+            <tr>
+                <td class="MacDetayMiniBaslik">
+                    <img src="App_Themes/TFF_Default/Images/design/iconGoller.gif" width="15" height="9"
+                        align="absmiddle">
+                    <span id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim2_rptGoller_ctl00_Label3">Goller</span>
+                </td>
+            </tr>
+            <tr>
+                <td class="GriBorder">
+                    <table width="100%" border="0" cellspacing="0" cellpadding="3">
+    
+        <tr>
+            <td align="left" valign="top">
+                <img id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim2_rptGoller_ctl01_g" src="App_Themes/TFF_Default/Images/design/minitop.gif" />&nbsp;
+                <a id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim2_rptGoller_ctl01_lblGol" href="Default.aspx?pageId=30&amp;kisiId=1576781">EMRE YILDIZ,80.dk (F)</a>
+            </td>
+        </tr>
+    
+        </table> </td> </tr> </table>
+    
+
+        <table width="100%" border="0" cellspacing="0" cellpadding="3">
+            <tr>
+                <td class="MacDetayMiniBaslik">
+                    <img src="App_Themes/TFF_Default/Images/design/iconKartlar.gif" width="9" height="9"
+                        align="absmiddle">
+                    <span id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim2_rptKartlar_ctl00_Label4">Kartlar</span>
+                </td>
+            </tr>
+            <tr>
+                <td class="GriBorder">
+                    <table width="100%" border="0" cellspacing="0" cellpadding="3">
+    
+        <tr>
+            <td align="left" valign="top">
+                <img id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim2_rptKartlar_ctl01_k" src="App_Themes/TFF_Default/Images/design/icon.sarikart.gif" alt="Sarı Kart" />&nbsp;<a id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim2_rptKartlar_ctl01_lblKart" href="Default.aspx?pageId=30&amp;kisiId=1522672">BİRAY YÖRÜK</a>
+                <span id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim2_rptKartlar_ctl01_d">76.dk</span>
+            </td>
+        </tr>
+    
+        <tr>
+            <td align="left" valign="top">
+                <img id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim2_rptKartlar_ctl02_k" src="App_Themes/TFF_Default/Images/design/icon.sarikart.gif" alt="Sarı Kart" />&nbsp;<a id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim2_rptKartlar_ctl02_lblKart" href="Default.aspx?pageId=30&amp;kisiId=1665872">HASAN BERKE ARAZ</a>
+                <span id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim2_rptKartlar_ctl02_d">46.dk</span>
+            </td>
+        </tr>
+    
+        </table> </td> </tr> </table>
+    
+
+        <table width="100%" border="0" cellspacing="0" cellpadding="3">
+            <tr>
+                <td class="MacDetayMiniBaslik">
+                    <img src="App_Themes/TFF_Default/Images/design/iconOyundanCikanlar.gif" width="11"
+                        height="11" align="absmiddle">
+                    <span id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim2_rptCikanlar_ctl00_Label5">Oyundan Çıkanlar</span>
+                </td>
+            </tr>
+            <tr>
+                <td class="GriBorder">
+                    <table width="100%" border="0" cellspacing="0" cellpadding="3">
+    
+        <tr>
+            <td align="left" valign="top">
+                &nbsp;<a id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim2_rptCikanlar_ctl01_lblCikan" href="Default.aspx?pageId=30&amp;kisiId=1585177">YASİN AYDIN</a>&nbsp;<span id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim2_rptCikanlar_ctl01_oc">56.dk</span>
+            </td>
+        </tr>
+    
+        <tr>
+            <td align="left" valign="top">
+                &nbsp;<a id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim2_rptCikanlar_ctl02_lblCikan" href="Default.aspx?pageId=30&amp;kisiId=1665872">HASAN BERKE ARAZ</a>&nbsp;<span id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim2_rptCikanlar_ctl02_oc">46.dk</span>
+            </td>
+        </tr>
+    
+        <tr>
+            <td align="left" valign="top">
+                &nbsp;<a id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim2_rptCikanlar_ctl03_lblCikan" href="Default.aspx?pageId=30&amp;kisiId=1694783">OĞULCAN İSMAİL YÜKSEK</a>&nbsp;<span id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim2_rptCikanlar_ctl03_oc">70.dk</span>
+            </td>
+        </tr>
+    
+        </table> </td> </tr> </table>
+    
+
+        <table width="100%" border="0" cellspacing="0" cellpadding="3">
+            <tr>
+                <td class="MacDetayMiniBaslik">
+                    <img src="App_Themes/TFF_Default/Images/design/iconOyunaGirenler.gif" width="11"
+                        height="11" align="absmiddle">
+                    <span id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim2_rptGirenler_ctl00_Label6">Oyuna Girenler</span>
+                </td>
+            </tr>
+            <tr>
+                <td class="GriBorder">
+                    <table width="100%" border="0" cellspacing="0" cellpadding="3">
+    
+        <tr>
+            <td align="left" valign="top">
+                <a id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim2_rptGirenler_ctl01_lblGiren" href="Default.aspx?pageId=30&amp;kisiId=1591173">MAHMUT EREN DEMİRLER</a>&nbsp;<span id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim2_rptGirenler_ctl01_og">56.dk</span>
+            </td>
+        </tr>
+    
+        <tr>
+            <td align="left" valign="top">
+                <a id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim2_rptGirenler_ctl02_lblGiren" href="Default.aspx?pageId=30&amp;kisiId=1593198">SERDAR SEZER DEMİR</a>&nbsp;<span id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim2_rptGirenler_ctl02_og">46.dk</span>
+            </td>
+        </tr>
+    
+        <tr>
+            <td align="left" valign="top">
+                <a id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim2_rptGirenler_ctl03_lblGiren" href="Default.aspx?pageId=30&amp;kisiId=1585167">ÖMER GÖKAY ÇALIŞKAN</a>&nbsp;<span id="ctl00_MPane_m_29_194_ctnr_m_29_194_grdTakim2_rptGirenler_ctl03_og">70.dk</span>
+            </td>
+        </tr>
+    
+        </table> </td> </tr> </table>
+    
+&nbsp;</td>
+    </tr>
+    <tr>
+        
+    </tr>
+    <tr>
+        <td colspan="3" valign="top" align="center">
+            
+            <span id="ctl00_MPane_m_29_194_ctnr_m_29_194_rptGolTipleri_ctl00_lblGolTipi">F:F - Ayak</span>
+            
+            <span id="ctl00_MPane_m_29_194_ctnr_m_29_194_rptGolTipleri_ctl01_lblGolTipi">H:H - Kafa</span>
+            
+            <span id="ctl00_MPane_m_29_194_ctnr_m_29_194_rptGolTipleri_ctl02_lblGolTipi">K:K - Kendi Kalesine</span>
+            
+            <span id="ctl00_MPane_m_29_194_ctnr_m_29_194_rptGolTipleri_ctl03_lblGolTipi">P:P - Penaltı</span>
+            
+            <span id="ctl00_MPane_m_29_194_ctnr_m_29_194_rptGolTipleri_ctl04_lblGolTipi">S:S - Seri Penaltı</span>
+            
+        </td>
+    </tr>
+</table>
+</td><td width="4" align="right" valign="top"><img src="App_Themes/TFF_Default/Images/design/oval.sag.beyaz.gif" width="4" height="4"></td></tr></table></div>
+
+
+                                                        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                                            <tr>
+                                                                <td width="33%" align="left" valign="top" style="padding-right: 10px"></td>
+                                                                <td align="left" valign="top"></td>
+                                                            </tr>
+                                                        </table>
+                                                        
+                                                        <div style="height: 1px"><img src="App_Themes/TFF_Default/Images/design/bosluk.gif" width="576" height="1"></div>
+                                                    </td>
+                                                    <td valign="top" class="sagAlan"><div id="ctl00_RPane_m_29_5753_ctnr_div" style="vertical-align:top;text-align:left;"><table width="100%" border="0" cellpadding="0" cellspacing="0" class="alanlar2 marginB"><tr><td class="alanProfesyonel" style="height:23px"><div class="moduleTitle">Fikstürler</div></td></tr><tr><td class="alanlarContent">
+<script language="javascript" type="text/javascript">function ___BeforeClickHandler(node){ if(node.Category==''){ if(node.Expanded==true) node.Collapse(); else node.Expand(); return false; }  }</script>
+<div id="ctl00_RPane_m_29_5753_ctnr_m_29_5753_TFF_Ana_wrapper" style="display:inline">
+	<!-- 2.5.3 --><script type="text/javascript" src="/RadControls/ComboBox/Scripts/2_5_3/RadComboBox.js"></script><div class="ComboBox_TFF_Ana" id="ctl00_RPane_m_29_5753_ctnr_m_29_5753_TFF_Ana" style="display:inline; white-space: nowrap;"><input onmouseout="rcbDispatcher(&#39;ctl00_RPane_m_29_5753_ctnr_m_29_5753_TFF_Ana&#39;,&#39;inputimageout&#39;,event)" value="Lig Seçiniz..." class="ComboBoxInput_TFF_Ana" onmouseover="rcbDispatcher(&#39;ctl00_RPane_m_29_5753_ctnr_m_29_5753_TFF_Ana&#39;,&#39;inputimagehover&#39;,event)" id="ctl00_RPane_m_29_5753_ctnr_m_29_5753_TFF_Ana_Input" style="width:160px;" name="ctl00$RPane$m_29_5753_ctnr$m_29_5753$TFF_Ana_Input" onkeydown="rcbDispatcher(&#39;ctl00_RPane_m_29_5753_ctnr_m_29_5753_TFF_Ana&#39;,&#39;keypress&#39;,event)" type="text" onkeypress="rcbDispatcher(&#39;ctl00_RPane_m_29_5753_ctnr_m_29_5753_TFF_Ana&#39;,&#39;keydown&#39;,event)" onclick="rcbDispatcher(&#39;ctl00_RPane_m_29_5753_ctnr_m_29_5753_TFF_Ana&#39;,&#39;inputclick&#39;,event)"></input><img alt="" id="ctl00_RPane_m_29_5753_ctnr_m_29_5753_TFF_Ana_Image" src="/RadControls/ComboBox/Skins/TFF_Ana/DropArrow.gif" class="ComboBoxImage_TFF_Ana" onclick="rcbDispatcher(&#39;ctl00_RPane_m_29_5753_ctnr_m_29_5753_TFF_Ana&#39;,&#39;toggledropdown&#39;,event);" onmouseover="rcbDispatcher(&#39;ctl00_RPane_m_29_5753_ctnr_m_29_5753_TFF_Ana&#39;,&#39;inputimagehover&#39;,event);" onmouseout="rcbDispatcher(&#39;ctl00_RPane_m_29_5753_ctnr_m_29_5753_TFF_Ana&#39;,&#39;inputimageout&#39;,event);"></img><div id="ctl00_RPane_m_29_5753_ctnr_m_29_5753_TFF_Ana_DropDownPlaceholder" style="position:absolute; display: none; z-index: 300;" class="ComboBoxDropDown_TFF_Ana"><div id="ctl00_RPane_m_29_5753_ctnr_m_29_5753_TFF_Ana_DropDown" style="overflow:auto;height:100px;white-space:normal;" onmouseover="rcbDispatcher('ctl00_RPane_m_29_5753_ctnr_m_29_5753_TFF_Ana','mouseover',event)" onmouseout="rcbDispatcher('ctl00_RPane_m_29_5753_ctnr_m_29_5753_TFF_Ana','mouseout',event)" onclick="rcbDispatcher('ctl00_RPane_m_29_5753_ctnr_m_29_5753_TFF_Ana','click',event)"><div id="ctl00_RPane_m_29_5753_ctnr_m_29_5753_TFF_Ana_c0" class="ComboBoxItem_TFF_Ana">
+	Lig Se&#231;iniz...
+</div><div id="ctl00_RPane_m_29_5753_ctnr_m_29_5753_TFF_Ana_c1" class="ComboBoxItem_TFF_Ana">
+	ST S&#252;per Lig
+</div><div id="ctl00_RPane_m_29_5753_ctnr_m_29_5753_TFF_Ana_c2" class="ComboBoxItem_TFF_Ana">
+	ST 1. Lig
+</div><div id="ctl00_RPane_m_29_5753_ctnr_m_29_5753_TFF_Ana_c3" class="ComboBoxItem_TFF_Ana">
+	TFF 2. Lig
+</div><div id="ctl00_RPane_m_29_5753_ctnr_m_29_5753_TFF_Ana_c4" class="ComboBoxItem_TFF_Ana">
+	TFF 3. Lig
+</div><div id="ctl00_RPane_m_29_5753_ctnr_m_29_5753_TFF_Ana_c5" class="ComboBoxItem_TFF_Ana">
+	Ziraat T&#252;rkiye Kupası
+</div><div id="ctl00_RPane_m_29_5753_ctnr_m_29_5753_TFF_Ana_c6" class="ComboBoxItem_TFF_Ana">
+	U21 Ligi
+</div><div id="ctl00_RPane_m_29_5753_ctnr_m_29_5753_TFF_Ana_c7" class="ComboBoxItem_TFF_Ana">
+	B&#246;lgesel Amat&#246;r Lig
+</div><div id="ctl00_RPane_m_29_5753_ctnr_m_29_5753_TFF_Ana_c8" class="ComboBoxItem_TFF_Ana">
+	Engelli Futbolu
+</div><div id="ctl00_RPane_m_29_5753_ctnr_m_29_5753_TFF_Ana_c9" class="ComboBoxItem_TFF_Ana">
+	Sezon Planlaması
+</div></div></div><span id="ctl00_RPane_m_29_5753_ctnr_m_29_5753_TFF_AnaStyleSheetHolder" style="display:none;"></span></div><input type="hidden" name="ctl00$RPane$m_29_5753_ctnr$m_29_5753$TFF_Ana_text" id="ctl00_RPane_m_29_5753_ctnr_m_29_5753_TFF_Ana_text" value="Lig Seçiniz..." /><input type="hidden" name="ctl00$RPane$m_29_5753_ctnr$m_29_5753$TFF_Ana_value" id="ctl00_RPane_m_29_5753_ctnr_m_29_5753_TFF_Ana_value" value="" /><input type="hidden" name="ctl00$RPane$m_29_5753_ctnr$m_29_5753$TFF_Ana_index" id="ctl00_RPane_m_29_5753_ctnr_m_29_5753_TFF_Ana_index" value="-1" /><script type="text/javascript">window["ctl00_RPane_m_29_5753_ctnr_m_29_5753_TFF_Ana"] = new RadComboBox("TFF_Ana","ctl00_RPane_m_29_5753_ctnr_m_29_5753_TFF_Ana");window["ctl00_RPane_m_29_5753_ctnr_m_29_5753_TFF_Ana"].Initialize({"LoadOnDemandUrl":"/Default.aspx?pageID=29&macId=153034%26rcbID=ctl00_RPane_m_29_5753_ctnr_m_29_5753_TFF_Ana%26rcbServerID=TFF_Ana","OnClientSelectedIndexChanged":"ctl00_RPane_m_29_5753_ctnr_m_29_5753selectedIndexChanged","PostBackReference":"__doPostBack('ctl00$RPane$m_29_5753_ctnr$m_29_5753$TFF_Ana','TextChange')","MarkFirstMatch":true,"Skin":"TFF_Ana","Enabled":true,"ScrollDownImage":"/RadControls/ComboBox/Skins/TFF_Ana/ScrollDown.gif","ScrollDownImageDisabled":"/RadControls/ComboBox/Skins/TFF_Ana/ScrollDownDisabled.gif"},[{"Text":"Lig Seçiniz...","ClientID":"ctl00_RPane_m_29_5753_ctnr_m_29_5753_TFF_Ana_c0"},{"Text":"ST Süper Lig","Value":"http://www.tff.org/default.aspx?pageID=198|true","ClientID":"ctl00_RPane_m_29_5753_ctnr_m_29_5753_TFF_Ana_c1"},{"Text":"ST 1. Lig","Value":"http://www.tff.org/default.aspx?pageID=142|true","ClientID":"ctl00_RPane_m_29_5753_ctnr_m_29_5753_TFF_Ana_c2"},{"Text":"TFF 2. Lig","Value":"default.aspx?pageID=976|true","ClientID":"ctl00_RPane_m_29_5753_ctnr_m_29_5753_TFF_Ana_c3"},{"Text":"TFF 3. Lig","Value":"default.aspx?pageID=971|true","ClientID":"ctl00_RPane_m_29_5753_ctnr_m_29_5753_TFF_Ana_c4"},{"Text":"Ziraat Türkiye Kupası","Value":"default.aspx?pageID=598","ClientID":"ctl00_RPane_m_29_5753_ctnr_m_29_5753_TFF_Ana_c5"},{"Text":"U21 Ligi","Value":"default.aspx?pageID=456|true","ClientID":"ctl00_RPane_m_29_5753_ctnr_m_29_5753_TFF_Ana_c6"},{"Text":"Bölgesel Amatör Lig","Value":"default.aspx?pageID=1289|true","ClientID":"ctl00_RPane_m_29_5753_ctnr_m_29_5753_TFF_Ana_c7"},{"Text":"Engelli Futbolu","Value":"default.aspx?pageID=1296","ClientID":"ctl00_RPane_m_29_5753_ctnr_m_29_5753_TFF_Ana_c8"},{"Text":"Sezon Planlaması","Value":"http://www.tff.org/default.aspx?pageID=201&ftxtID=27484|true","ClientID":"ctl00_RPane_m_29_5753_ctnr_m_29_5753_TFF_Ana_c9"}]);</script>
+</div>
+
+</td></tr></table></div><div id="ctl00_RPane_m_29_2084_ctnr_div" style="vertical-align:top;text-align:left;"><table width="100%" border="0" cellpadding="0" cellspacing="0" class="alanlar2 marginB"><tr><td class="alanProfesyonel" style="height:23px"><div class="moduleTitle">Puan Cetvelleri</div></td></tr><tr><td class="alanlarContent"><div id="ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_wrapper" style="display:inline">
+	<!-- 2.5.3 --><div class="ComboBox_TFF_Ana" id="ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo" style="display:inline; white-space: nowrap;"><input onmouseout="rcbDispatcher(&#39;ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo&#39;,&#39;inputimageout&#39;,event)" value="Lig Seçiniz.." class="ComboBoxInput_TFF_Ana" onmouseover="rcbDispatcher(&#39;ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo&#39;,&#39;inputimagehover&#39;,event)" id="ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_Input" style="width:160px;" name="ctl00$RPane$m_29_2084_ctnr$m_29_2084$mo_Input" onkeydown="rcbDispatcher(&#39;ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo&#39;,&#39;keypress&#39;,event)" type="text" onkeypress="rcbDispatcher(&#39;ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo&#39;,&#39;keydown&#39;,event)" onclick="rcbDispatcher(&#39;ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo&#39;,&#39;inputclick&#39;,event)"></input><img alt="" id="ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_Image" src="/RadControls/ComboBox/Skins/TFF_Ana/DropArrow.gif" class="ComboBoxImage_TFF_Ana" onclick="rcbDispatcher(&#39;ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo&#39;,&#39;toggledropdown&#39;,event);" onmouseover="rcbDispatcher(&#39;ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo&#39;,&#39;inputimagehover&#39;,event);" onmouseout="rcbDispatcher(&#39;ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo&#39;,&#39;inputimageout&#39;,event);"></img><div id="ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_DropDownPlaceholder" style="position:absolute; display: none; z-index: 300;" class="ComboBoxDropDown_TFF_Ana"><div id="ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_DropDown" style="overflow:auto;height:100px;white-space:nowrap;" onmouseover="rcbDispatcher('ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo','mouseover',event)" onmouseout="rcbDispatcher('ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo','mouseout',event)" onclick="rcbDispatcher('ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo','click',event)"><div id="ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c0" class="ComboBoxItem_TFF_Ana">
+	Lig Se&#231;iniz..
+</div><div id="ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c1" class="ComboBoxItem_TFF_Ana">
+	Spor Toto S&#252;per Lig Lefter K&#252;&#231;&#252;kandonyadis Sezonu
+</div><div id="ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c2" class="ComboBoxItem_TFF_Ana">
+	Spor Toto 1. Lig
+</div><div id="ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c3" class="ComboBoxItem_TFF_Ana">
+	TFF 2. Lig Beyaz
+</div><div id="ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c4" class="ComboBoxItem_TFF_Ana">
+	TFF 2. Lig Kırmızı
+</div><div id="ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c5" class="ComboBoxItem_TFF_Ana">
+	TFF 3. Lig 1. Grup
+</div><div id="ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c6" class="ComboBoxItem_TFF_Ana">
+	TFF 3. Lig 2. Grup
+</div><div id="ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c7" class="ComboBoxItem_TFF_Ana">
+	TFF 3. Lig 3. Grup
+</div><div id="ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c8" class="ComboBoxItem_TFF_Ana">
+	U21 Ligi 1. Lig
+</div><div id="ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c9" class="ComboBoxItem_TFF_Ana">
+	U21 Ligi S&#252;per Lig
+</div><div id="ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c10" class="ComboBoxItem_TFF_Ana">
+	Ziraat T&#252;rkiye Kupası
+</div><div id="ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c11" class="ComboBoxItem_TFF_Ana">
+	Kadınlar 1.Ligi
+</div><div id="ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c12" class="ComboBoxItem_TFF_Ana">
+	Kadınlar 2.Ligi
+</div><div id="ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c13" class="ComboBoxItem_TFF_Ana">
+	Kadınlar 3.Ligi 01
+</div><div id="ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c14" class="ComboBoxItem_TFF_Ana">
+	Kadınlar 3.Ligi 02
+</div><div id="ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c15" class="ComboBoxItem_TFF_Ana">
+	Kadınlar 3.Ligi 03
+</div><div id="ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c16" class="ComboBoxItem_TFF_Ana">
+	Kadınlar 3.Ligi 04
+</div><div id="ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c17" class="ComboBoxItem_TFF_Ana">
+	Kadınlar 3.Ligi 05
+</div><div id="ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c18" class="ComboBoxItem_TFF_Ana">
+	Kadınlar 3.Ligi 06
+</div><div id="ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c19" class="ComboBoxItem_TFF_Ana">
+	Kadınlar 3.Ligi 07
+</div><div id="ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c20" class="ComboBoxItem_TFF_Ana">
+	Kadınlar 3.Ligi 08
+</div><div id="ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c21" class="ComboBoxItem_TFF_Ana">
+	Kadınlar 3.Ligi 09
+</div><div id="ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c22" class="ComboBoxItem_TFF_Ana">
+	Kadınlar 3.Ligi 10
+</div><div id="ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c23" class="ComboBoxItem_TFF_Ana">
+	Kadınlar 3.Ligi 11
+</div><div id="ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c24" class="ComboBoxItem_TFF_Ana">
+	Kadınlar 3.Ligi 12
+</div><div id="ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c25" class="ComboBoxItem_TFF_Ana">
+	Kadınlar 3.Ligi 13
+</div><div id="ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c26" class="ComboBoxItem_TFF_Ana">
+	Kadınlar 3.Ligi 14
+</div><div id="ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c27" class="ComboBoxItem_TFF_Ana">
+	Kadınlar 3.Ligi 15
+</div><div id="ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c28" class="ComboBoxItem_TFF_Ana">
+	SporToto B&#246;lgesel Amat&#246;r Lig 1. GRUP
+</div><div id="ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c29" class="ComboBoxItem_TFF_Ana">
+	SporToto B&#246;lgesel Amat&#246;r Lig 10. GRUP
+</div><div id="ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c30" class="ComboBoxItem_TFF_Ana">
+	SporToto B&#246;lgesel Amat&#246;r Lig 11. GRUP
+</div><div id="ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c31" class="ComboBoxItem_TFF_Ana">
+	SporToto B&#246;lgesel Amat&#246;r Lig 2. GRUP
+</div><div id="ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c32" class="ComboBoxItem_TFF_Ana">
+	SporToto B&#246;lgesel Amat&#246;r Lig 3. GRUP
+</div><div id="ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c33" class="ComboBoxItem_TFF_Ana">
+	SporToto B&#246;lgesel Amat&#246;r Lig 4. GRUP
+</div><div id="ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c34" class="ComboBoxItem_TFF_Ana">
+	SporToto B&#246;lgesel Amat&#246;r Lig 5. GRUP
+</div><div id="ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c35" class="ComboBoxItem_TFF_Ana">
+	SporToto B&#246;lgesel Amat&#246;r Lig 6. GRUP
+</div><div id="ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c36" class="ComboBoxItem_TFF_Ana">
+	SporToto B&#246;lgesel Amat&#246;r Lig 7. GRUP
+</div><div id="ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c37" class="ComboBoxItem_TFF_Ana">
+	SporToto B&#246;lgesel Amat&#246;r Lig 8. GRUP
+</div><div id="ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c38" class="ComboBoxItem_TFF_Ana">
+	SporToto B&#246;lgesel Amat&#246;r Lig 9. GRUP
+</div><div id="ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c39" class="ComboBoxItem_TFF_Ana">
+	Spor-Toto B&#246;lgesel Gelişim U15 Ligi 1.Grup
+</div><div id="ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c40" class="ComboBoxItem_TFF_Ana">
+	Spor-Toto B&#246;lgesel Gelişim U15 Ligi 2.Grup
+</div><div id="ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c41" class="ComboBoxItem_TFF_Ana">
+	Spor-Toto B&#246;lgesel Gelişim U15 Ligi 3.Grup
+</div><div id="ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c42" class="ComboBoxItem_TFF_Ana">
+	Spor-Toto B&#246;lgesel Gelişim U15 Ligi 4.Grup
+</div><div id="ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c43" class="ComboBoxItem_TFF_Ana">
+	Spor-Toto B&#246;lgesel Gelişim U15 Ligi 5.Grup
+</div><div id="ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c44" class="ComboBoxItem_TFF_Ana">
+	Spor-Toto B&#246;lgesel Gelişim U16 Ligi 1.Grup
+</div><div id="ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c45" class="ComboBoxItem_TFF_Ana">
+	Spor-Toto B&#246;lgesel Gelişim U16 Ligi 2.Grup
+</div><div id="ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c46" class="ComboBoxItem_TFF_Ana">
+	Spor-Toto B&#246;lgesel Gelişim U16 Ligi 3.Grup
+</div><div id="ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c47" class="ComboBoxItem_TFF_Ana">
+	Spor-Toto B&#246;lgesel Gelişim U16 Ligi 4.Grup
+</div><div id="ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c48" class="ComboBoxItem_TFF_Ana">
+	Spor-Toto B&#246;lgesel Gelişim U16 Ligi 5.Grup
+</div><div id="ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c49" class="ComboBoxItem_TFF_Ana">
+	Spor-Toto B&#246;lgesel Gelişim U17 Ligi 1.Grup
+</div><div id="ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c50" class="ComboBoxItem_TFF_Ana">
+	Spor-Toto B&#246;lgesel Gelişim U17 Ligi 2.Grup
+</div><div id="ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c51" class="ComboBoxItem_TFF_Ana">
+	Spor-Toto B&#246;lgesel Gelişim U17 Ligi 3.Grup
+</div><div id="ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c52" class="ComboBoxItem_TFF_Ana">
+	Spor-Toto B&#246;lgesel Gelişim U17 Ligi 4.Grup
+</div><div id="ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c53" class="ComboBoxItem_TFF_Ana">
+	Spor-Toto B&#246;lgesel Gelişim U17 Ligi 5.Grup
+</div><div id="ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c54" class="ComboBoxItem_TFF_Ana">
+	Spor-Toto B&#246;lgesel Gelişim U19 Ligi 1.Grup
+</div><div id="ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c55" class="ComboBoxItem_TFF_Ana">
+	Spor-Toto B&#246;lgesel Gelişim U19 Ligi 2.Grup
+</div><div id="ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c56" class="ComboBoxItem_TFF_Ana">
+	Spor-Toto B&#246;lgesel Gelişim U19 Ligi 3.Grup
+</div><div id="ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c57" class="ComboBoxItem_TFF_Ana">
+	Spor-Toto B&#246;lgesel Gelişim U19 Ligi 4.Grup
+</div><div id="ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c58" class="ComboBoxItem_TFF_Ana">
+	Spor-Toto B&#246;lgesel Gelişim U19 Ligi 5.Grup
+</div><div id="ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c59" class="ComboBoxItem_TFF_Ana">
+	Spor-Toto Gelişim Elit U14 Ligi 1.Grup
+</div><div id="ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c60" class="ComboBoxItem_TFF_Ana">
+	Spor-Toto Gelişim Elit U14 Ligi 2.Grup
+</div><div id="ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c61" class="ComboBoxItem_TFF_Ana">
+	Spor-Toto Gelişim Elit U14 Ligi 3.Grup
+</div><div id="ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c62" class="ComboBoxItem_TFF_Ana">
+	Spor-Toto Gelişim Elit U14 Ligi 4.Grup
+</div><div id="ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c63" class="ComboBoxItem_TFF_Ana">
+	Spor-Toto Gelişim Elit U15 Ligi 1.Grup
+</div><div id="ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c64" class="ComboBoxItem_TFF_Ana">
+	Spor-Toto Gelişim Elit U15 Ligi 2.Grup
+</div><div id="ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c65" class="ComboBoxItem_TFF_Ana">
+	Spor-Toto Gelişim Elit U15 Ligi 3.Grup
+</div><div id="ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c66" class="ComboBoxItem_TFF_Ana">
+	Spor-Toto Gelişim Elit U15 Ligi 4.Grup
+</div><div id="ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c67" class="ComboBoxItem_TFF_Ana">
+	Spor-Toto Gelişim Elit U16 Ligi 1.Grup
+</div><div id="ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c68" class="ComboBoxItem_TFF_Ana">
+	Spor-Toto Gelişim Elit U16 Ligi 2.Grup
+</div><div id="ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c69" class="ComboBoxItem_TFF_Ana">
+	Spor-Toto Gelişim Elit U16 Ligi 3.Grup
+</div><div id="ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c70" class="ComboBoxItem_TFF_Ana">
+	Spor-Toto Gelişim Elit U16 Ligi 4.Grup
+</div><div id="ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c71" class="ComboBoxItem_TFF_Ana">
+	Spor-Toto Gelişim Elit U17 Ligi Elit A
+</div><div id="ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c72" class="ComboBoxItem_TFF_Ana">
+	Spor-Toto Gelişim Elit U17 Ligi Elit B
+</div><div id="ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c73" class="ComboBoxItem_TFF_Ana">
+	Spor-Toto Gelişim Elit U19 Ligi Elit A
+</div><div id="ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c74" class="ComboBoxItem_TFF_Ana">
+	Spor-Toto Gelişim Elit U19 Ligi Elit B
+</div></div></div><span id="ctl00_RPane_m_29_2084_ctnr_m_29_2084_moStyleSheetHolder" style="display:none;"></span></div><input type="hidden" name="ctl00$RPane$m_29_2084_ctnr$m_29_2084$mo_text" id="ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_text" value="Lig Seçiniz.." /><input type="hidden" name="ctl00$RPane$m_29_2084_ctnr$m_29_2084$mo_value" id="ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_value" value="" /><input type="hidden" name="ctl00$RPane$m_29_2084_ctnr$m_29_2084$mo_index" id="ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_index" value="0" /><script type="text/javascript">window["ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo"] = new RadComboBox("mo","ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo");window["ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo"].Initialize({"LoadOnDemandUrl":"/Default.aspx?pageID=29&macId=153034%26rcbID=ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo%26rcbServerID=mo","OnClientSelectedIndexChanging":"handleDateChange","AutoPostBack":true,"PostBackReference":"__doPostBack('ctl00$RPane$m_29_2084_ctnr$m_29_2084$mo','TextChange')","MarkFirstMatch":true,"Skin":"TFF_Ana","SelectedIndex":0,"Enabled":true,"ScrollDownImage":"/RadControls/ComboBox/Skins/TFF_Ana/ScrollDown.gif","ScrollDownImageDisabled":"/RadControls/ComboBox/Skins/TFF_Ana/ScrollDownDisabled.gif"},[{"Text":"Lig Seçiniz..","Selected":true,"ClientID":"ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c0"},{"Text":"Spor Toto Süper Lig Lefter Küçükandonyadis Sezonu","Value":"900_-1","ClientID":"ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c1"},{"Text":"Spor Toto 1. Lig","Value":"901_-1","ClientID":"ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c2"},{"Text":"TFF 2. Lig Beyaz","Value":"902_1622","ClientID":"ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c3"},{"Text":"TFF 2. Lig Kırmızı","Value":"902_1621","ClientID":"ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c4"},{"Text":"TFF 3. Lig 1. Grup","Value":"903_1623","ClientID":"ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c5"},{"Text":"TFF 3. Lig 2. Grup","Value":"903_1624","ClientID":"ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c6"},{"Text":"TFF 3. Lig 3. Grup","Value":"903_1625","ClientID":"ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c7"},{"Text":"U21 Ligi 1. Lig","Value":"904_1627","ClientID":"ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c8"},{"Text":"U21 Ligi Süper Lig","Value":"904_1626","ClientID":"ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c9"},{"Text":"Ziraat Türkiye Kupası","Value":"912_-1","ClientID":"ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c10"},{"Text":"Kadınlar 1.Ligi","Value":"930_-1","ClientID":"ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c11"},{"Text":"Kadınlar 2.Ligi","Value":"931_-1","ClientID":"ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c12"},{"Text":"Kadınlar 3.Ligi 01","Value":"935_1727","ClientID":"ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c13"},{"Text":"Kadınlar 3.Ligi 02","Value":"935_1728","ClientID":"ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c14"},{"Text":"Kadınlar 3.Ligi 03","Value":"935_1729","ClientID":"ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c15"},{"Text":"Kadınlar 3.Ligi 04","Value":"935_1730","ClientID":"ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c16"},{"Text":"Kadınlar 3.Ligi 05","Value":"935_1731","ClientID":"ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c17"},{"Text":"Kadınlar 3.Ligi 06","Value":"935_1732","ClientID":"ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c18"},{"Text":"Kadınlar 3.Ligi 07","Value":"935_1733","ClientID":"ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c19"},{"Text":"Kadınlar 3.Ligi 08","Value":"935_1734","ClientID":"ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c20"},{"Text":"Kadınlar 3.Ligi 09","Value":"935_1735","ClientID":"ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c21"},{"Text":"Kadınlar 3.Ligi 10","Value":"935_1736","ClientID":"ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c22"},{"Text":"Kadınlar 3.Ligi 11","Value":"935_1737","ClientID":"ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c23"},{"Text":"Kadınlar 3.Ligi 12","Value":"935_1738","ClientID":"ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c24"},{"Text":"Kadınlar 3.Ligi 13","Value":"935_1739","ClientID":"ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c25"},{"Text":"Kadınlar 3.Ligi 14","Value":"935_1740","ClientID":"ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c26"},{"Text":"Kadınlar 3.Ligi 15","Value":"935_1741","ClientID":"ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c27"},{"Text":"SporToto Bölgesel Amatör Lig 1. GRUP","Value":"928_1716","ClientID":"ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c28"},{"Text":"SporToto Bölgesel Amatör Lig 10. GRUP","Value":"928_1725","ClientID":"ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c29"},{"Text":"SporToto Bölgesel Amatör Lig 11. GRUP","Value":"928_1726","ClientID":"ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c30"},{"Text":"SporToto Bölgesel Amatör Lig 2. GRUP","Value":"928_1717","ClientID":"ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c31"},{"Text":"SporToto Bölgesel Amatör Lig 3. GRUP","Value":"928_1718","ClientID":"ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c32"},{"Text":"SporToto Bölgesel Amatör Lig 4. GRUP","Value":"928_1719","ClientID":"ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c33"},{"Text":"SporToto Bölgesel Amatör Lig 5. GRUP","Value":"928_1720","ClientID":"ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c34"},{"Text":"SporToto Bölgesel Amatör Lig 6. GRUP","Value":"928_1721","ClientID":"ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c35"},{"Text":"SporToto Bölgesel Amatör Lig 7. GRUP","Value":"928_1722","ClientID":"ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c36"},{"Text":"SporToto Bölgesel Amatör Lig 8. GRUP","Value":"928_1723","ClientID":"ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c37"},{"Text":"SporToto Bölgesel Amatör Lig 9. GRUP","Value":"928_1724","ClientID":"ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c38"},{"Text":"Spor-Toto Bölgesel Gelişim U15 Ligi 1.Grup","Value":"913_1644","ClientID":"ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c39"},{"Text":"Spor-Toto Bölgesel Gelişim U15 Ligi 2.Grup","Value":"913_1645","ClientID":"ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c40"},{"Text":"Spor-Toto Bölgesel Gelişim U15 Ligi 3.Grup","Value":"913_1646","ClientID":"ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c41"},{"Text":"Spor-Toto Bölgesel Gelişim U15 Ligi 4.Grup","Value":"913_1647","ClientID":"ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c42"},{"Text":"Spor-Toto Bölgesel Gelişim U15 Ligi 5.Grup","Value":"913_1648","ClientID":"ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c43"},{"Text":"Spor-Toto Bölgesel Gelişim U16 Ligi 1.Grup","Value":"914_1649","ClientID":"ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c44"},{"Text":"Spor-Toto Bölgesel Gelişim U16 Ligi 2.Grup","Value":"914_1650","ClientID":"ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c45"},{"Text":"Spor-Toto Bölgesel Gelişim U16 Ligi 3.Grup","Value":"914_1651","ClientID":"ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c46"},{"Text":"Spor-Toto Bölgesel Gelişim U16 Ligi 4.Grup","Value":"914_1652","ClientID":"ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c47"},{"Text":"Spor-Toto Bölgesel Gelişim U16 Ligi 5.Grup","Value":"914_1653","ClientID":"ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c48"},{"Text":"Spor-Toto Bölgesel Gelişim U17 Ligi 1.Grup","Value":"915_1654","ClientID":"ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c49"},{"Text":"Spor-Toto Bölgesel Gelişim U17 Ligi 2.Grup","Value":"915_1655","ClientID":"ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c50"},{"Text":"Spor-Toto Bölgesel Gelişim U17 Ligi 3.Grup","Value":"915_1656","ClientID":"ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c51"},{"Text":"Spor-Toto Bölgesel Gelişim U17 Ligi 4.Grup","Value":"915_1657","ClientID":"ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c52"},{"Text":"Spor-Toto Bölgesel Gelişim U17 Ligi 5.Grup","Value":"915_1658","ClientID":"ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c53"},{"Text":"Spor-Toto Bölgesel Gelişim U19 Ligi 1.Grup","Value":"916_1659","ClientID":"ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c54"},{"Text":"Spor-Toto Bölgesel Gelişim U19 Ligi 2.Grup","Value":"916_1660","ClientID":"ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c55"},{"Text":"Spor-Toto Bölgesel Gelişim U19 Ligi 3.Grup","Value":"916_1661","ClientID":"ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c56"},{"Text":"Spor-Toto Bölgesel Gelişim U19 Ligi 4.Grup","Value":"916_1662","ClientID":"ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c57"},{"Text":"Spor-Toto Bölgesel Gelişim U19 Ligi 5.Grup","Value":"916_1663","ClientID":"ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c58"},{"Text":"Spor-Toto Gelişim Elit U14 Ligi 1.Grup","Value":"907_1632","ClientID":"ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c59"},{"Text":"Spor-Toto Gelişim Elit U14 Ligi 2.Grup","Value":"907_1633","ClientID":"ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c60"},{"Text":"Spor-Toto Gelişim Elit U14 Ligi 3.Grup","Value":"907_1634","ClientID":"ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c61"},{"Text":"Spor-Toto Gelişim Elit U14 Ligi 4.Grup","Value":"907_1635","ClientID":"ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c62"},{"Text":"Spor-Toto Gelişim Elit U15 Ligi 1.Grup","Value":"908_1636","ClientID":"ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c63"},{"Text":"Spor-Toto Gelişim Elit U15 Ligi 2.Grup","Value":"908_1637","ClientID":"ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c64"},{"Text":"Spor-Toto Gelişim Elit U15 Ligi 3.Grup","Value":"908_1638","ClientID":"ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c65"},{"Text":"Spor-Toto Gelişim Elit U15 Ligi 4.Grup","Value":"908_1639","ClientID":"ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c66"},{"Text":"Spor-Toto Gelişim Elit U16 Ligi 1.Grup","Value":"909_1640","ClientID":"ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c67"},{"Text":"Spor-Toto Gelişim Elit U16 Ligi 2.Grup","Value":"909_1641","ClientID":"ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c68"},{"Text":"Spor-Toto Gelişim Elit U16 Ligi 3.Grup","Value":"909_1642","ClientID":"ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c69"},{"Text":"Spor-Toto Gelişim Elit U16 Ligi 4.Grup","Value":"909_1643","ClientID":"ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c70"},{"Text":"Spor-Toto Gelişim Elit U17 Ligi Elit A","Value":"905_1628","ClientID":"ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c71"},{"Text":"Spor-Toto Gelişim Elit U17 Ligi Elit B","Value":"905_1629","ClientID":"ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c72"},{"Text":"Spor-Toto Gelişim Elit U19 Ligi Elit A","Value":"906_1630","ClientID":"ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c73"},{"Text":"Spor-Toto Gelişim Elit U19 Ligi Elit B","Value":"906_1631","ClientID":"ctl00_RPane_m_29_2084_ctnr_m_29_2084_mo_c74"}]);</script>
+</div>
+<div id="ctl00_RPane_m_29_2084_ctnr_m_29_2084_Panel1">
+	
+    
+    
+
+</div>
+
+<script type="text/javascript">
+function handleDateChange(item) {
+   if (item.Index == item.ComboBox.SelectedItem.Index) {
+        return false;
+   }
+}
+
+</script>
+
+<div id="ctl00_RPane_m_29_2084_ctnr_m_29_2084_RadAjaxManager1" ToolTip="">
+	<!-- 1.5.3 -->
+</div>
+<div id="ctl00_RPane_m_29_2084_ctnr_m_29_2084_lp" style="display:none;height:75px;width:75px;">
+	
+    <img id="ctl00_RPane_m_29_2084_ctnr_m_29_2084_Image1" src="RadControls/Ajax/Skins/Default/loadingBall.gif" alt="Yükleniyor..." />
+<script type="text/javascript" src="/WebResource.axd?d=3fbP7V7-QvH2yiVbaEoCmIQzDyJygVbEtsPVAt5hU6BQmzb3B-jvqBNEDj_PE6KAkdWl8biOapVM6r34htaYh0svDyb_1lAaaiKk9XwmHgz7e9DM6gIiMx6CTEOh0PYDVmeteNoj_qt16grcQXWWD6RefYvZxTOvnXXBxKkCZK-9cWRy0&amp;t=636559471900000000"></script><script type='text/javascript'>RadAjaxNamespace.AddPanel( { ClientID : 'ctl00_RPane_m_29_2084_ctnr_m_29_2084_lp', IsSticky : false, InitialDelayTime: 0, MinDisplayTime: 0 } );</script>
+</div>
+</td></tr></table></div><div id="ctl00_RPane_m_29_5764_ctnr_div" style="vertical-align:top;text-align:left;"><table width="100%" border="0" cellpadding="0" cellspacing="0" class="alanlar2 marginB"><tr><td class="alanProfesyonel" style="height:23px"><div class="moduleTitle">Haftalık Maç Görevlileri </div></td></tr><tr><td class="alanlarContent"><p align=left><a href="default.aspx?pageID=433" target=_blank><strong><font size=2>Hakem, Gözlemci ve Temsilciler</font></strong></a></p></td></tr></table></div><div id="ctl00_RPane_m_29_8433_ctnr_div" style="vertical-align:top;text-align:left;"><div id="ctl00_RPane_m_29_8433_ctnr_title" class="moduleTitle"></div><a href="https://eshop.tff.org/forma" target=_blank></a><a href="https://eshop.tff.org/" target=_blank><img border=0 alt="" src="Resources/TFF/Images/0000000015/TFF/e-shop/TFF-E-Shop180.jpg"></a><a href="https://eshop.tff.org/forma" target=_blank></a></div>
+</td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                        <td>&nbsp;</td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td height="62" valign="bottom" class="footerBG" width="992">
+                    
+                    <table style="height: 62px" cellspacing="0" cellpadding="0" width="100%" border="0">
+                        <tbody>
+                            <tr>
+                                <td class="footerTopBG" height="9">&nbsp;</td>
+                            </tr>
+                            <tr>
+                                <td class="footerLinkBG" height="54">
+                                    <table cellspacing="0" cellpadding="0" align="right" border="0"><tbody><tr><td></td></tr></tbody></table>
+                                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                        <tr>
+                                            <td width="97"><img src="App_Themes/TFF_Default/Images/design/bosluk.gif" width="97" height="54" border="0"></td>
+                                            <td><p><a href="Default.aspx?pageID=176"><b>İletişim</b></a><b> |<a href="Default.aspx?pageId=378&letter=A"> Site Haritası</a> | <a href="Copyright.htm" onclick="return Popup(this.href,'Arşiv',800,380,0,0,0);">Kopya Hakları</a> |<a href="Default.aspx?pageID=179"> Kullanım Şartları</a> | <a href="Default.aspx?pageID=175">Sponsorlar</a></b><br>Tüm hakları Türkiye Futbol Federasyonu'na aittir.</p></td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+                <td class="footerBG">&nbsp;</td>
+            </tr>
+        </table>
+    
+
+<script type="text/javascript">
+//<![CDATA[
+
+theForm.oldSubmit = theForm.submit;
+theForm.submit = WebForm_SaveScrollPositionSubmit;
+
+theForm.oldOnSubmit = theForm.onsubmit;
+theForm.onsubmit = WebForm_SaveScrollPositionOnSubmit;
+//]]>
+</script>
+</form>
+    <script src="http://www.google-analytics.com/urchin.js" type="text/javascript"></script>
+    <script type="text/javascript">_uacct = "UA-1435738-1";urchinTracker();</script>
+</body>
+</html>
