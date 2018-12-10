@@ -32,12 +32,24 @@ def single_TFF_match_url_crawler(url, silent=False, use_selenium=False):
         return this_match.all_info_in_one_line()
 
 def crawl_url(url, use_selenium=False, SELENIUM_WAIT_TIMEOUT = 20):
+    try_faster_approach = True
+    short_wait = 2
     if use_selenium:
         driver_path = '/usr/lib/chromium-browser/chromedriver'
         browser = webdriver.Chrome(driver_path)
         browser.get(url)
-        time.sleep(SELENIUM_WAIT_TIMEOUT)
-        inner_HTML = browser.execute_script("return document.body.innerHTML")
+        if try_faster_approach:
+            k = 0
+            while True:
+                k = k + 1
+                time.sleep(short_wait)
+                inner_HTML = browser.execute_script("return document.body.innerHTML")
+                if this_is_a_good_html(inner_HTML) or \
+                                    k == SELENIUM_WAIT_TIMEOUT/short_wait:
+                    break
+        else:
+            time.sleep(SELENIUM_WAIT_TIMEOUT)
+            inner_HTML = browser.execute_script("return document.body.innerHTML")
         browser.close()
         return inner_HTML
 
