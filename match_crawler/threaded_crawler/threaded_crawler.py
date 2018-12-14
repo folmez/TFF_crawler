@@ -77,14 +77,19 @@ def crawler_worker(match_id_queue, match_output_filename, silent, use_selenium=F
             time.sleep(short_wait)
             inner_HTML = browser.execute_script("return document.body.innerHTML")
             if this_is_a_good_html(inner_HTML) or \
+                                this_is_an_error_page(inner_HTML) or \
                                 k == SELENIUM_WAIT_TIMEOUT/short_wait:
                 break
         match_site_str = inner_HTML
 
-        if not this_is_a_good_html(match_site_str):
+        if this_is_an_error_page(match_site_str):
             if not silent:
-                print('This URL does not correspond to a match: ', match_url)
-            match_output = None #'Invalid URL'
+                print('This URL goes to error page: ', match_url)
+            match_output = None # invalid URL
+        elif not this_is_a_good_html(match_site_str):
+            if not silent:
+                print('This page is not recognized: ', match_url)
+            match_output = None # unrecognized content
         else:
             this_match = TFF_match.match(match_site_str)
             this_match.print_summary(silent)
@@ -115,3 +120,7 @@ def this_is_a_good_html(html_output_str):
             and mie.DATETIME_SEARCH_STR in html_output_str \
             and mie.HOME_TEAM_SKOR_SEARCH_STR in html_output_str \
             and mie.AWAY_TEAM_SKOR_SEARCH_STR in html_output_str
+
+def this_is_an_error_page(html_output_str):
+    error_indicator = 'Images/TFF/Error/tff.hatalogosu.gif'
+    return error_indicator in html_output_str
