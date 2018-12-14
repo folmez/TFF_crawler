@@ -1,0 +1,5 @@
+setup.py
+hakem_crawler.egg-info/PKG-INFO
+hakem_crawler.egg-info/SOURCES.txt
+hakem_crawler.egg-info/dependency_links.txt
+hakem_crawler.egg-info/top_level.txt

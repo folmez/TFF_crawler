@@ -1,4 +1,0 @@
-{
-  "tests/test_crawling.py": true, 
-  "tests/test_match_info_extractor.py": true
-}
